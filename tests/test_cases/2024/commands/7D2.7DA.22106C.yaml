@@ -2,6 +2,46 @@ command_id: 7D2.7DA.22106C
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7DA0662106C51514B
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 40.5
+    TOYOTA_HVBAT_SOC_MIN: 37.5
+- response: 7DA0662106C51594B
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 44.5
+    TOYOTA_HVBAT_SOC_MIN: 37.5
+- response: 7DA0662106C51604B
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 48
+    TOYOTA_HVBAT_SOC_MIN: 37.5
+- response: 7DA0662106C51644B
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 50
+    TOYOTA_HVBAT_SOC_MIN: 37.5
+- response: 7DA0662106C51684B
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 52
+    TOYOTA_HVBAT_SOC_MIN: 37.5
+- response: 7DA0662106C516B4B
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 53.5
+    TOYOTA_HVBAT_SOC_MIN: 37.5
+- response: 7DA0662106C516C4B
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 54
+    TOYOTA_HVBAT_SOC_MIN: 37.5
+- response: 7DA0662106C51704B
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 56
+    TOYOTA_HVBAT_SOC_MIN: 37.5
+- response: 7DA0662106C51734B
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 57.5
+    TOYOTA_HVBAT_SOC_MIN: 37.5
+- response: 7DA0662106C517A4B
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 61
+    TOYOTA_HVBAT_SOC_MIN: 37.5
 - response: 7DA0662106C525252
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 41
@@ -18,6 +58,42 @@ test_cases:
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 54
     TOYOTA_HVBAT_SOC_MIN: 39
+- response: 7DA0662106C555550
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 42.5
+    TOYOTA_HVBAT_SOC_MIN: 40
+- response: 7DA0662106C555551
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 42.5
+    TOYOTA_HVBAT_SOC_MIN: 40.5
+- response: 7DA0662106C555552
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 42.5
+    TOYOTA_HVBAT_SOC_MIN: 41
+- response: 7DA0662106C555554
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 42.5
+    TOYOTA_HVBAT_SOC_MIN: 42
+- response: 7DA0662106C555650
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 43
+    TOYOTA_HVBAT_SOC_MIN: 40
+- response: 7DA0662106C555C50
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 46
+    TOYOTA_HVBAT_SOC_MIN: 40
+- response: 7DA0662106C555E50
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 47
+    TOYOTA_HVBAT_SOC_MIN: 40
+- response: 7DA0662106C556050
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 48
+    TOYOTA_HVBAT_SOC_MIN: 40
+- response: 7DA0662106C556750
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 51.5
+    TOYOTA_HVBAT_SOC_MIN: 40
 - response: 7DA0662106C5B5D5A
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 46.5
@@ -122,14 +198,30 @@ test_cases:
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 55
     TOYOTA_HVBAT_SOC_MIN: 49.5
+- response: 7DA0662106C646E64
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 55
+    TOYOTA_HVBAT_SOC_MIN: 50
 - response: 7DA0662106C647263
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 57
     TOYOTA_HVBAT_SOC_MIN: 49.5
+- response: 7DA0662106C647264
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 57
+    TOYOTA_HVBAT_SOC_MIN: 50
+- response: 7DA0662106C647764
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 59.5
+    TOYOTA_HVBAT_SOC_MIN: 50
 - response: 7DA0662106C647B63
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 61.5
     TOYOTA_HVBAT_SOC_MIN: 49.5
+- response: 7DA0662106C647B64
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 61.5
+    TOYOTA_HVBAT_SOC_MIN: 50
 - response: 7DA0662106C647D63
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 62.5
@@ -138,6 +230,10 @@ test_cases:
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 64.5
     TOYOTA_HVBAT_SOC_MIN: 49.5
+- response: 7DA0662106C648164
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 64.5
+    TOYOTA_HVBAT_SOC_MIN: 50
 - response: 7DA0662106C648258
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 65
@@ -154,6 +250,66 @@ test_cases:
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 65
     TOYOTA_HVBAT_SOC_MIN: 49.5
+- response: 7DA0662106C648264
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 65
+    TOYOTA_HVBAT_SOC_MIN: 50
+- response: 7DA0662106C648464
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 66
+    TOYOTA_HVBAT_SOC_MIN: 50
+- response: 7DA0662106C648664
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 67
+    TOYOTA_HVBAT_SOC_MIN: 50
+- response: 7DA0662106C65654D
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 50.5
+    TOYOTA_HVBAT_SOC_MIN: 38.5
+- response: 7DA0662106C656551
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 50.5
+    TOYOTA_HVBAT_SOC_MIN: 40.5
+- response: 7DA0662106C65655A
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 50.5
+    TOYOTA_HVBAT_SOC_MIN: 45
+- response: 7DA0662106C65655C
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 50.5
+    TOYOTA_HVBAT_SOC_MIN: 46
+- response: 7DA0662106C656560
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 50.5
+    TOYOTA_HVBAT_SOC_MIN: 48
+- response: 7DA0662106C656561
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 50.5
+    TOYOTA_HVBAT_SOC_MIN: 48.5
+- response: 7DA0662106C65674D
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 51.5
+    TOYOTA_HVBAT_SOC_MIN: 38.5
+- response: 7DA0662106C65684D
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 52
+    TOYOTA_HVBAT_SOC_MIN: 38.5
+- response: 7DA0662106C656A4D
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 53
+    TOYOTA_HVBAT_SOC_MIN: 38.5
+- response: 7DA0662106C656B4D
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 53.5
+    TOYOTA_HVBAT_SOC_MIN: 38.5
+- response: 7DA0662106C656F4D
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 55.5
+    TOYOTA_HVBAT_SOC_MIN: 38.5
+- response: 7DA0662106C65754D
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 58.5
+    TOYOTA_HVBAT_SOC_MIN: 38.5
 - response: 7DA0662106C6A6A4D
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 53
@@ -206,6 +362,46 @@ test_cases:
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 53
     TOYOTA_HVBAT_SOC_MIN: 52.5
+- response: 7DA0662106C6C6C4E
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 54
+    TOYOTA_HVBAT_SOC_MIN: 39
+- response: 7DA0662106C6C6C51
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 54
+    TOYOTA_HVBAT_SOC_MIN: 40.5
+- response: 7DA0662106C6C6C53
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 54
+    TOYOTA_HVBAT_SOC_MIN: 41.5
+- response: 7DA0662106C6C6C55
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 54
+    TOYOTA_HVBAT_SOC_MIN: 42.5
+- response: 7DA0662106C6C6C57
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 54
+    TOYOTA_HVBAT_SOC_MIN: 43.5
+- response: 7DA0662106C6C6C59
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 54
+    TOYOTA_HVBAT_SOC_MIN: 44.5
+- response: 7DA0662106C6C6C5A
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 54
+    TOYOTA_HVBAT_SOC_MIN: 45
+- response: 7DA0662106C6C6C5C
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 54
+    TOYOTA_HVBAT_SOC_MIN: 46
+- response: 7DA0662106C6C6C5D
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 54
+    TOYOTA_HVBAT_SOC_MIN: 46.5
+- response: 7DA0662106C6C6C5F
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 54
+    TOYOTA_HVBAT_SOC_MIN: 47.5
 - response: 7DA0662106C717267
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 57
@@ -250,6 +446,42 @@ test_cases:
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 60
     TOYOTA_HVBAT_SOC_MIN: 51.5
+- response: 7DA0662106C73736A
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 57.5
+    TOYOTA_HVBAT_SOC_MIN: 53
+- response: 7DA0662106C73736E
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 57.5
+    TOYOTA_HVBAT_SOC_MIN: 55
+- response: 7DA0662106C737372
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 57.5
+    TOYOTA_HVBAT_SOC_MIN: 57
+- response: 7DA0662106C737373
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 57.5
+    TOYOTA_HVBAT_SOC_MIN: 57.5
+- response: 7DA0662106C73766A
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 59
+    TOYOTA_HVBAT_SOC_MIN: 53
+- response: 7DA0662106C737B6A
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 61.5
+    TOYOTA_HVBAT_SOC_MIN: 53
+- response: 7DA0662106C737D66
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 62.5
+    TOYOTA_HVBAT_SOC_MIN: 51
+- response: 7DA0662106C737D67
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 62.5
+    TOYOTA_HVBAT_SOC_MIN: 51.5
+- response: 7DA0662106C737D6A
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 62.5
+    TOYOTA_HVBAT_SOC_MIN: 53
 - response: 7DA0662106C75756E
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 58.5
@@ -270,6 +502,10 @@ test_cases:
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 59
     TOYOTA_HVBAT_SOC_MIN: 55
+- response: 7DA0662106C787840
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 60
+    TOYOTA_HVBAT_SOC_MIN: 32
 - response: 7DA0662106C7B7B72
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 61.5
@@ -334,3 +570,19 @@ test_cases:
   expected_values:
     TOYOTA_HVBAT_SOC_MAX: 66.5
     TOYOTA_HVBAT_SOC_MIN: 57
+- response: 7DA0662106C858575
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 66.5
+    TOYOTA_HVBAT_SOC_MIN: 58.5
+- response: 7DA0662106C858578
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 66.5
+    TOYOTA_HVBAT_SOC_MIN: 60
+- response: 7DA0662106C858579
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 66.5
+    TOYOTA_HVBAT_SOC_MIN: 60.5
+- response: 7DA0662106C85857A
+  expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 66.5
+    TOYOTA_HVBAT_SOC_MIN: 61
