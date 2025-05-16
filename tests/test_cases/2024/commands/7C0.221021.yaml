@@ -2,9 +2,9 @@ command_id: 7C0.221021
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7C8046210217F
+- response: 7C8046210217E
   expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 12.7
+    TOYOTA_BATTERY_VOLTAGE: 12.6
 - response: 7C80462102192
   expected_values:
     TOYOTA_BATTERY_VOLTAGE: 14.6

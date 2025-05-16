@@ -4,7 +4,7 @@ extended_addressing_enabled: false
 test_cases:
 - response: 7DA04621F0D00
   expected_values:
-    TOYOTA_VSS: 0
-- response: 7DA04621F0D4A
+    TOYOTA_VSS_V2: 0
+- response: 7DA04621F0D69
   expected_values:
-    TOYOTA_VSS: 74
+    TOYOTA_VSS_V2: 105
