@@ -8,6 +8,6 @@ test_cases:
 - response: 7080562107404FF
   expected_values:
     TOYOTA_ENG_OIL_PRESS: 99.92188
-- response: 7080562107415A2
+- response: 708056210741B98
   expected_values:
-    TOYOTA_ENG_OIL_PRESS: 432.65625
+    TOYOTA_ENG_OIL_PRESS: 551.875
