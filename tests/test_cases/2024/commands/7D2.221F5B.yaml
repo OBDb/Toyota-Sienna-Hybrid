@@ -4,9 +4,7 @@ extended_addressing_enabled: false
 test_cases:
 - response: 7DA04621F5B57
   expected_values:
-    TOYOTA_HVBAT_SOC: 34.11765
     TOYOTA_SOC: 34.11765
 - response: 7DA04621F5BAC
   expected_values:
-    TOYOTA_HVBAT_SOC: 67.45098
     TOYOTA_SOC: 67.45098
