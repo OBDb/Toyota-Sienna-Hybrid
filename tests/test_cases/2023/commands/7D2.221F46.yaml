@@ -67,6 +67,20 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
+    TOYOTA_AAT: 16
+  response: |-
+    7DA04621F4638
+    7DF02010D
+    7ED03410D00
+    7E803410D00
+    7EA03410D00
+    7EE03410D00
+    7DF02011F
+    7ED04411F0024
+    7E804411F0023
+    7EA04411F0023
+    7EE04411F0024
+- expected_values:
     TOYOTA_AAT: 18
   response: |-
     7DA04621F463A
