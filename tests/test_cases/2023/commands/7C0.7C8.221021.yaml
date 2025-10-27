@@ -306,8 +306,8 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.5
-  response: 7C80462102191
+    TOYOTA_BATTERY_VOLTAGE: 14.6
+  response: 7C80462102192
 - expected_values:
     TOYOTA_BATTERY_VOLTAGE: 14.2
   response: |-
