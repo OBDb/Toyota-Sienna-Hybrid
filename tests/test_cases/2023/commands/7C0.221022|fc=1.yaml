@@ -87,6 +87,15 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
+    TOYOTA_FLV: 22.69
+  response: |-
+    7C80562102208DD
+    7DF02010C
+    7ED04410C1400
+    7E804410C142A
+    7EE04410C1400
+    7EA04410C1400
+- expected_values:
     TOYOTA_FLV: 22.93
   response: |-
     7C80562102208F5
