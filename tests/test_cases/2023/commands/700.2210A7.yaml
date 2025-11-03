@@ -16,6 +16,12 @@ test_cases:
     TOYOTA_MIS_1: 0
     TOYOTA_MIS_2: 0
     TOYOTA_MIS_3: 1
+    TOYOTA_MIS_4: 0
+  response: 708076210A700000100
+- expected_values:
+    TOYOTA_MIS_1: 0
+    TOYOTA_MIS_2: 0
+    TOYOTA_MIS_3: 1
     TOYOTA_MIS_4: 1
   response: 708076210A700000101
 - expected_values:
