@@ -4,6 +4,9 @@ test_cases:
     TOYOTA_FLV: 4.49
   response: 7C80562102201C1
 - expected_values:
+    TOYOTA_FLV: 5.12
+  response: 7C8056210220200
+- expected_values:
     TOYOTA_FLV: 13.25
   response: |-
     7C805621022052D
@@ -408,9 +411,6 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_FLV: 40.96
-  response: 7C8056210221000
-- expected_values:
     TOYOTA_FLV: 41.86
   response: |-
     7C805621022105A
@@ -763,6 +763,22 @@ test_cases:
     7E803410D00
     7EA03410D00
     7EE03410D00
+- expected_values:
+    TOYOTA_FLV: 18.49
+  response: |-
+    7DF02010D
+    7C8056210220739
+    7ED03410D00
+    7E803410D00
+    7EA03410D00
+    7EE03410D00
+    7DF02011F
+    7E804411F0022
+    7ED04411F0023
+    7EA04411F0022
+    7EE04411F0022
+    7DF020149
+    7EA03414928
 - expected_values:
     TOYOTA_FLV: 41.55
   response: |-
