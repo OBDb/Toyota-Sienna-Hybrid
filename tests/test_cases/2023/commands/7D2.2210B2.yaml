@@ -1,6 +1,9 @@
 command_id: 7D2.2210B2
 test_cases:
 - expected_values:
+    TOYOTA_INVRT_COOLANT_T: 12
+  response: 7DA046210B234
+- expected_values:
     TOYOTA_INVRT_COOLANT_T: 13
   response: |-
     7DA046210B235
@@ -21,9 +24,6 @@ test_cases:
     7EE04411F002D
     7DF020149
     7EA03414928
-- expected_values:
-    TOYOTA_INVRT_COOLANT_T: 14
-  response: 7DA046210B236
 - expected_values:
     TOYOTA_INVRT_COOLANT_T: 14
   response: |-

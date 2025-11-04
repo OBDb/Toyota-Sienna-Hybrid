@@ -456,6 +456,15 @@ test_cases:
 - expected_values:
     TOYOTA_PARKING_BRAKE: 'On'
   response: |-
+    7E804411F0024
+    7EA04411F0024
+    7EE04411F0025
+    7D8056162030000
+    7DF020149
+    7EA03414928
+- expected_values:
+    TOYOTA_PARKING_BRAKE: 'On'
+  response: |-
     7E804411F002F
     7EA04411F002F
     7EE04411F0030
