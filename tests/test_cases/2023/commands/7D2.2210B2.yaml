@@ -1,8 +1,8 @@
 command_id: 7D2.2210B2
 test_cases:
 - expected_values:
-    TOYOTA_INVRT_COOLANT_T: 12
-  response: 7DA046210B234
+    TOYOTA_INVRT_COOLANT_T: 7
+  response: 7DA046210B22F
 - expected_values:
     TOYOTA_INVRT_COOLANT_T: 13
   response: |-
@@ -105,6 +105,27 @@ test_cases:
     7E803410D00
     7EA03410D00
     7EE03410D00
+- expected_values:
+    TOYOTA_INVRT_COOLANT_T: 19
+  response: |-
+    7DA046210B23B
+    7DF02010C
+    7ED04410C1400
+    7EA04410C1400
+    7E804410C1472
+    7EE04410C1400
+    7DF02010D
+    7EA03410D00
+    7ED03410D03
+    7E803410D00
+    7EE03410D00
+    7DF02011F
+    7ED04411F002D
+    7E804411F002C
+    7EA04411F002C
+    7EE04411F002D
+    7DF020149
+    7EA03414928
 - expected_values:
     TOYOTA_INVRT_COOLANT_T: 20
   response: |-
