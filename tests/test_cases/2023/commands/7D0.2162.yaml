@@ -249,6 +249,20 @@ test_cases:
     TOYOTA_PARKING_BRAKE: 'On'
   response: |-
     7DF02010C
+    7E804410C144C
+    7EA04410C1400
+    7ED04410C1400
+    7EE04410C1400
+    7D8056162030000
+    7DF02010D
+    7EA03410D00
+    7E803410D00
+    7ED03410D00
+    7EE03410D00
+- expected_values:
+    TOYOTA_PARKING_BRAKE: 'On'
+  response: |-
+    7DF02010C
     7ED04410C1400
     7E804410C1482
     7EA04410C1400
@@ -429,17 +443,17 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_PARKING_BRAKE: 'On'
+    TOYOTA_PARKING_BRAKE: 'Off'
   response: |-
     7DF020149
+    7D8056162010000
     7EA03414928
-    7D8056162030000
 - expected_values:
     TOYOTA_PARKING_BRAKE: 'On'
   response: |-
     7DF020149
     7EA03414928
-    7D80561620B0000
+    7D8056162030000
 - expected_values:
     TOYOTA_PARKING_BRAKE: 'On'
   response: |-
