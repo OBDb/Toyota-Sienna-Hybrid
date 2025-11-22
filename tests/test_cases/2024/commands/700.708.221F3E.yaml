@@ -1,14 +1,14 @@
 command_id: 700.708.221F3E
 test_cases:
 - expected_values:
-    TOYOTA_CAT_T_BANK_1_SENSOR_2: 26.3
+    TOYOTA_CAT_T_12: 26.3
   response: 70805621F3E0297
 - expected_values:
-    TOYOTA_CAT_T_BANK_1_SENSOR_2: 164.7
+    TOYOTA_CAT_T_12: 164.7
   response: 70805621F3E07FF
 - expected_values:
-    TOYOTA_CAT_T_BANK_1_SENSOR_2: 216
+    TOYOTA_CAT_T_12: 216
   response: 70805621F3E0A00
 - expected_values:
-    TOYOTA_CAT_T_BANK_1_SENSOR_2: 691.5
+    TOYOTA_CAT_T_12: 691.5
   response: 70805621F3E1C93
