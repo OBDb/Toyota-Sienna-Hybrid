@@ -1,47 +1,47 @@
 command_id: 7B3.7BB.221004
 test_cases:
 - expected_values:
-    TOYOTA_STEERING_ANGLE: -201
+    TOYOTA_STEERING_ANGLE_V2: -201
   response: |-
     7B002215A
     7BB06621004FF7AF9
 - expected_values:
-    TOYOTA_STEERING_ANGLE: -133.5
+    TOYOTA_STEERING_ANGLE_V2: -133.5
   response: |-
     7B002215A
     7BB06621004FFA702
 - expected_values:
-    TOYOTA_STEERING_ANGLE: 0
+    TOYOTA_STEERING_ANGLE_V2: 0
   response: 7BB06621004000000
 - expected_values:
-    TOYOTA_STEERING_ANGLE: 0
+    TOYOTA_STEERING_ANGLE_V2: 0
   response: |-
     7BB066210040000FC
     7B002215A
 - expected_values:
-    TOYOTA_STEERING_ANGLE: 0
+    TOYOTA_STEERING_ANGLE_V2: 0
   response: 7BB066210040000FD
 - expected_values:
-    TOYOTA_STEERING_ANGLE: 0
+    TOYOTA_STEERING_ANGLE_V2: 0
   response: 7BB066210040000FF
 - expected_values:
-    TOYOTA_STEERING_ANGLE: 6
+    TOYOTA_STEERING_ANGLE_V2: 6
   response: |-
     7BB06621004000400
     7B002215A
 - expected_values:
-    TOYOTA_STEERING_ANGLE: -70.5
+    TOYOTA_STEERING_ANGLE_V2: -70.5
   response: 7BB06621004FFD1FA
 - expected_values:
-    TOYOTA_STEERING_ANGLE: -15
+    TOYOTA_STEERING_ANGLE_V2: -15
   response: |-
     7BB06621004FFF6FF
     7B002215A
 - expected_values:
-    TOYOTA_STEERING_ANGLE: -3
+    TOYOTA_STEERING_ANGLE_V2: -3
   response: |-
     7BB06621004FFFE02
     7B002215A
 - expected_values:
-    TOYOTA_STEERING_ANGLE: -1.5
+    TOYOTA_STEERING_ANGLE_V2: -1.5
   response: 7BB06621004FFFF00
