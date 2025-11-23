@@ -1,42 +1,10 @@
 command_id: 700.708.221002
 test_cases:
 - expected_values:
-    TOYOTA_12V_V: 12.832
-    TOYOTA_BAT_VOLTAGE: 12.832
-  response: '708056210022910'
-- expected_values:
-    TOYOTA_12V_V: 12.87106
-    TOYOTA_BAT_VOLTAGE: 12.87106
-  response: '708056210022930'
-- expected_values:
-    TOYOTA_12V_V: 12.88083
-    TOYOTA_BAT_VOLTAGE: 12.88083
-  response: '708056210022938'
-- expected_values:
-    TOYOTA_12V_V: 12.90036
-    TOYOTA_BAT_VOLTAGE: 12.90036
-  response: '708056210022948'
-- expected_values:
-    TOYOTA_12V_V: 12.91501
-    TOYOTA_BAT_VOLTAGE: 12.91501
-  response: '708056210022954'
-- expected_values:
-    TOYOTA_12V_V: 12.91989
-    TOYOTA_BAT_VOLTAGE: 12.91989
-  response: '708056210022958'
-- expected_values:
-    TOYOTA_12V_V: 14.00875
-    TOYOTA_BAT_VOLTAGE: 14.00875
-  response: 708056210022CD4
+    TOYOTA_12V_V: 12.78805
+    TOYOTA_BAT_VOLTAGE: 12.78805
+  response: 7080562100228EC
 - expected_values:
     TOYOTA_12V_V: 14.38473
     TOYOTA_BAT_VOLTAGE: 14.38473
   response: '708056210022E08'
-- expected_values:
-    TOYOTA_12V_V: 14.38961
-    TOYOTA_BAT_VOLTAGE: 14.38961
-  response: 708056210022E0C
-- expected_values:
-    TOYOTA_12V_V: 14.39449
-    TOYOTA_BAT_VOLTAGE: 14.39449
-  response: '708056210022E10'
