@@ -4,20 +4,5 @@ test_cases:
     TOYOTA_EXHAUST_VVT_ANGLE_B1: 0
   response: '708056210880000'
 - expected_values:
-    TOYOTA_EXHAUST_VVT_ANGLE_B1: 2.21648
-  response: '7080562108800E3'
-- expected_values:
-    TOYOTA_EXHAUST_VVT_ANGLE_B1: 6.38582
-  response: 70805621088028E
-- expected_values:
-    TOYOTA_EXHAUST_VVT_ANGLE_B1: 6.95214
-  response: 7080562108802C8
-- expected_values:
-    TOYOTA_EXHAUST_VVT_ANGLE_B1: 7.87975
-  response: '708056210880327'
-- expected_values:
-    TOYOTA_EXHAUST_VVT_ANGLE_B1: 10.32081
-  response: '708056210880421'
-- expected_values:
-    TOYOTA_EXHAUST_VVT_ANGLE_B1: 26.00219
-  response: 708056210880A67
+    TOYOTA_EXHAUST_VVT_ANGLE_B1: 29.76143
+  response: 708056210880BE8

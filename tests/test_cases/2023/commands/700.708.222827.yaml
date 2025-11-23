@@ -1,6 +1,18 @@
 command_id: 700.708.222827
 test_cases:
 - expected_values:
+    TOYOTA_ELECTRIC_WATER_PUMP: 4440
+  response: 708046228276F
+- expected_values:
+    TOYOTA_ELECTRIC_WATER_PUMP: 4480
+  response: '7080462282770'
+- expected_values:
+    TOYOTA_ELECTRIC_WATER_PUMP: 4520
+  response: '7080462282771'
+- expected_values:
+    TOYOTA_ELECTRIC_WATER_PUMP: 4560
+  response: '7080462282772'
+- expected_values:
     TOYOTA_ELECTRIC_WATER_PUMP: 5120
   response: '7080462282780'
 - expected_values:
