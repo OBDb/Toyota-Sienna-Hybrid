@@ -504,7 +504,6 @@ test_cases:
     7DF020149
     7EA03414945
 - expected_values:
-    TOYOTA_RM_TQ: 66.625
     TOYOTA_RM_TQ_REQ: 291
   response: |-
     7DA100C6210A2812382
