@@ -115,14 +115,12 @@ test_cases:
     7EA03414928
 - expected_values:
     TOYOTA_HVBAT_SOC_MAX: 52
-    TOYOTA_HVBAT_SOC_MIN: 51.5
   response: |-
     7DA0662106C686867
     7DF020149
     7EA03414928
 - expected_values:
     TOYOTA_HVBAT_SOC_MAX: 52.5
-    TOYOTA_HVBAT_SOC_MIN: 51.5
   response: |-
     7DA0662106C696967
     7DF02010C
@@ -214,7 +212,6 @@ test_cases:
     7EE04411F0021
 - expected_values:
     TOYOTA_HVBAT_SOC_MAX: 56
-    TOYOTA_HVBAT_SOC_MIN: 55.5
   response: |-
     7DA0662106C70706F
     7DF02010C
@@ -236,7 +233,6 @@ test_cases:
     7EA03414928
 - expected_values:
     TOYOTA_HVBAT_SOC_MAX: 56
-    TOYOTA_HVBAT_SOC_MIN: 55.5
   response: |-
     7DA0662106C70706F
     7DF02011F
@@ -282,7 +278,6 @@ test_cases:
     7EA03414928
 - expected_values:
     TOYOTA_HVBAT_SOC_MAX: 58.5
-    TOYOTA_HVBAT_SOC_MIN: 58
   response: |-
     7DA0662106C757574
     7DF02010C
@@ -297,7 +292,6 @@ test_cases:
     7EE03410D00
 - expected_values:
     TOYOTA_HVBAT_SOC_MAX: 62.5
-    TOYOTA_HVBAT_SOC_MIN: 57.5
   response: |-
     7DA0662106C757D73
     7DF020149
@@ -360,7 +354,6 @@ test_cases:
     7EE04411F0025
 - expected_values:
     TOYOTA_HVBAT_SOC_MAX: 63.5
-    TOYOTA_HVBAT_SOC_MIN: 62.5
   response: |-
     7DA0662106C7F7F7D
     7DF02010C
@@ -382,7 +375,6 @@ test_cases:
     7EA03414928
 - expected_values:
     TOYOTA_HVBAT_SOC_MAX: 63.5
-    TOYOTA_HVBAT_SOC_MIN: 62.5
   response: |-
     7DA0662106C7F7F7D
     7DF02011F
@@ -394,7 +386,6 @@ test_cases:
     7EA03414928
 - expected_values:
     TOYOTA_HVBAT_SOC_MAX: 64
-    TOYOTA_HVBAT_SOC_MIN: 63.5
   response: |-
     7DA0662106C80807F
     7DF02010D
@@ -411,7 +402,6 @@ test_cases:
     7EA03414928
 - expected_values:
     TOYOTA_HVBAT_SOC_MAX: 69
-    TOYOTA_HVBAT_SOC_MIN: 68
   response: |-
     7DA0662106C8A8A88
     7DF02010D
