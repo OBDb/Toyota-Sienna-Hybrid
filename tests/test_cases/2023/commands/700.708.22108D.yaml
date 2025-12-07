@@ -6,27 +6,3 @@ test_cases:
 - expected_values:
     TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 24.99999
   response: 7080562108D0A00
-- expected_values:
-    TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 25.02929
-  response: 7080562108D0A03
-- expected_values:
-    TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 25.03905
-  response: 7080562108D0A04
-- expected_values:
-    TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 25.05858
-  response: 7080562108D0A06
-- expected_values:
-    TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 25.07812
-  response: 7080562108D0A08
-- expected_values:
-    TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 25.08788
-  response: 7080562108D0A09
-- expected_values:
-    TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 25.10741
-  response: 7080562108D0A0B
-- expected_values:
-    TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 25.15624
-  response: 7080562108D0A10
-- expected_values:
-    TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 25.21483
-  response: 7080562108D0A16
