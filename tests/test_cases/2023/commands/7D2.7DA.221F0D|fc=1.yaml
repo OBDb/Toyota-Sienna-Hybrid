@@ -619,8 +619,8 @@ test_cases:
     7DF020149
     7EA0341493C
 - expected_values:
-    TOYOTA_VSS_V2: 120
-  response: 7DA04621F0D78
+    TOYOTA_VSS_V2: 141
+  response: 7DA04621F0D8D
 - expected_values:
     TOYOTA_VSS_V2: 0
   response: |-
