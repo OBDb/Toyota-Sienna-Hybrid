@@ -1,16 +1,16 @@
 command_id: 7C0.7C8.221021
 test_cases:
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 12.5
+    TOYOTA_BATTERY_VOLTAGE_V2: 12.5
   response: 7C8046210217D
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 12.7
+    TOYOTA_BATTERY_VOLTAGE_V2: 12.7
   response: |-
     7C8046210217F
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 13.2
+    TOYOTA_BATTERY_VOLTAGE_V2: 13.2
   response: |-
     7C80462102184
     7DF02011F
@@ -21,7 +21,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.1
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.1
   response: |-
     7C8046210218D
     7DF02010C
@@ -42,7 +42,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.1
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.1
   response: |-
     7C8046210218D
     7DF02010C
@@ -63,7 +63,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.1
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.1
   response: |-
     7C8046210218D
     7DF02011F
@@ -74,7 +74,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.1
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.1
   response: |-
     7C8046210218D
     7DF02011F
@@ -85,7 +85,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.2
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.2
   response: |-
     7C8046210218E
     7DF02010C
@@ -106,7 +106,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.2
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.2
   response: |-
     7C8046210218E
     7DF02010C
@@ -120,7 +120,7 @@ test_cases:
     7E803410D00
     7EE03410D00
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.2
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.2
   response: |-
     7C8046210218E
     7DF02011F
@@ -131,7 +131,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7C8046210218F
     7DF02010C
@@ -152,7 +152,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7C8046210218F
     7DF02010C
@@ -173,7 +173,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7C8046210218F
     7DF02010C
@@ -182,7 +182,7 @@ test_cases:
     7EA04410C0000
     7EE04410C0000
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7C8046210218F
     7DF02010C
@@ -201,7 +201,7 @@ test_cases:
     7EE04411F0021
     7EA04411F0021
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7C8046210218F
     7DF02010C
@@ -222,7 +222,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7C8046210218F
     7DF02010D
@@ -238,7 +238,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7C8046210218F
     7DF02010D
@@ -254,7 +254,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7C8046210218F
     7DF02010D
@@ -270,7 +270,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7C8046210218F
     7DF02010D
@@ -286,7 +286,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7C8046210218F
     7DF02011F
@@ -295,7 +295,7 @@ test_cases:
     7EA04411F0020
     7EE04411F0021
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7C8046210218F
     7DF02011F
@@ -306,10 +306,10 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.6
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.6
   response: 7C80462102192
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.2
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.2
   response: |-
     7DF02010C
     7C8046210218E
@@ -318,19 +318,19 @@ test_cases:
     7EA04410C0C80
     7EE04410C0C80
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7DF020149
     7C8046210218F
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7DF020149
     7EA03414928
     7C8046210218F
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7E803410D00
     7EE03410D00
@@ -343,12 +343,12 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.4
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.4
   response: |-
     7EA03414928
     7C80462102190
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7ED03410D00
     7C8046210218F
@@ -363,7 +363,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.2
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.2
   response: |-
     7ED03410D00
     7E803410D00
@@ -371,7 +371,7 @@ test_cases:
     7EE03410D00
     7C8046210218E
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: |-
     7EE03410D00
     7C8046210218F
