@@ -109,8 +109,8 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_12V_T: 11
-  response: 7DA056215F801FE
+    TOYOTA_12V_T: 11.1
+  response: 7DA056215F801FF
 - expected_values:
     TOYOTA_12V_T: 11.2
   response: 7DA056215F80200
