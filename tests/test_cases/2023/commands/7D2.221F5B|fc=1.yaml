@@ -1679,15 +1679,6 @@ test_cases:
     7EA03410D1F
     7EE03410D1F
 - expected_values:
-    TOYOTA_SOC: 67.45098
-  response: |-
-    7DA04621F5BAC
-    7DF02010D
-    7ED03410D00
-    7E803410D00
-    7EA03410D00
-    7EE03410D00
-- expected_values:
     TOYOTA_SOC: 67.84314
   response: |-
     7DA04621F5BAD
@@ -1729,6 +1720,15 @@ test_cases:
     7EE04411F0632
     7DF020149
     7EA03414936
+- expected_values:
+    TOYOTA_SOC: 67.84314
+  response: |-
+    7DA04621F5BAD
+    7DF02010D
+    7ED03410D34
+    7EA03410D33
+    7E803410D33
+    7EE03410D33
 - expected_values:
     TOYOTA_SOC: 68.23529
   response: |-
@@ -2193,6 +2193,24 @@ test_cases:
     7DF020149
     7EA03414936
 - expected_values:
+    TOYOTA_SOC: 64.31373
+  response: |-
+    7E804410C131D
+    7EE04410C1300
+    7DA04621F5BA4
+    7DF02010D
+    7ED03410D58
+    7EA03410D57
+    7E803410D57
+    7EE03410D57
+    7DF02011F
+    7E804411F0133
+    7ED04411F0137
+    7EA04411F0133
+    7EE04411F0135
+    7DF020149
+    7EA03414935
+- expected_values:
     TOYOTA_SOC: 53.72549
   response: |-
     7E804410C14A1
@@ -2284,6 +2302,16 @@ test_cases:
     7EE04411F3AD3
     7DF020149
     7EA0341495E
+- expected_values:
+    TOYOTA_SOC: 51.37255
+  response: |-
+    7E804411F030C
+    7EA04411F030C
+    7ED04411F0317
+    7EE04411F0312
+    7DA04621F5B83
+    7DF020149
+    7EA03414956
 - expected_values:
     TOYOTA_SOC: 60
   response: |-
