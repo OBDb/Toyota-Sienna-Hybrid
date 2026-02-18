@@ -270,5 +270,5 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_COOL_T: 93
-  response: 7DA04621F0585
+    TOYOTA_COOL_T: 94
+  response: 7DA04621F0586
