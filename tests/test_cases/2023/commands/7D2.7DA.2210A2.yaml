@@ -210,11 +210,11 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_RM_TQ: -0.75
+    TOYOTA_RM_TQ: -12.875
     TOYOTA_RM_TQ_REQ: -1
   response: |-
     7DA100C6210A27FFF7F
-    7DA21F504007FFA0400
+    7DA219404007F990400
 - expected_values:
     TOYOTA_RM_TQ: 0
     TOYOTA_RM_TQ_REQ: -1
