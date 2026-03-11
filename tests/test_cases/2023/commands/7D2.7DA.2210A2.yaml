@@ -615,6 +615,12 @@ test_cases:
     7DF020149
     7EA0341492E
 - expected_values:
+    TOYOTA_RM_TQ: -39.25
+    TOYOTA_RM_TQ_REQ: 679
+  response: |-
+    7DA100C6210A282A77E
+    7DA21C404007EC60400
+- expected_values:
     TOYOTA_RM_TQ: 0.375
     TOYOTA_RM_TQ_REQ: 680
   response: |-
@@ -645,12 +651,6 @@ test_cases:
     7DA214F040082540400
     7DF020149
     7EA0341494E
-- expected_values:
-    TOYOTA_RM_TQ: -32.875
-    TOYOTA_RM_TQ_REQ: 693
-  response: |-
-    7DA100C6210A282B57E
-    7DA21F404007EF90400
 - expected_values:
     TOYOTA_RM_TQ: 12.75
     TOYOTA_RM_TQ_REQ: 714
