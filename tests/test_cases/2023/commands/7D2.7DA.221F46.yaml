@@ -248,5 +248,5 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    TOYOTA_AAT_V2: 35
-  response: 7DA04621F464B
+    TOYOTA_AAT_V2: 38
+  response: 7DA04621F464E
