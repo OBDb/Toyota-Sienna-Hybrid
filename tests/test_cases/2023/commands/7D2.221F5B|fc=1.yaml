@@ -5851,6 +5851,15 @@ test_cases:
     7DF020149
     7EA03414929
 - expected_values:
+    TOYOTA_SOC: 59.60784
+  response: |-
+    7EE04411F00EC
+    7EA04411F00EA
+    7E804411F00EA
+    7DA04621F5B98
+    7DF020149
+    7EA03414928
+- expected_values:
     TOYOTA_SOC: 66.66667
   response: |-
     7EE04411F01A2
