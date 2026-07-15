@@ -154,13 +154,13 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
+    TOYOTA_M_INVRT_MAX_T: 55
+    TOYOTA_RM_INVRT_COOL_T: 36
+  response: 7DA066210A64C4F5F
+- expected_values:
     TOYOTA_M_INVRT_MAX_T: 48
     TOYOTA_RM_INVRT_COOL_T: 36
   response: 7DA066210A64C5858
-- expected_values:
-    TOYOTA_M_INVRT_MAX_T: 52
-    TOYOTA_RM_INVRT_COOL_T: 37
-  response: 7DA066210A64D555C
 - expected_values:
     TOYOTA_M_INVRT_MAX_T: 49
     TOYOTA_RM_INVRT_COOL_T: 47
