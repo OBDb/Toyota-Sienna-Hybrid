@@ -1,0 +1,23 @@
+command_id: 7D2.7DA.220103|fc=1
+test_cases:
+- expected_values:
+    TOYOTA_ODO_V2_V2: 101226
+  response: 7DA0762010302018B6A
+- expected_values:
+    TOYOTA_ODO_V2_V2: 101227
+  response: 7DA0762010302018B6B
+- expected_values:
+    TOYOTA_ODO_V2_V2: 101228
+  response: 7DA0762010302018B6C
+- expected_values:
+    TOYOTA_ODO_V2_V2: 101229
+  response: 7DA0762010302018B6D
+- expected_values:
+    TOYOTA_ODO_V2_V2: 101230
+  response: 7DA0762010302018B6E
+- expected_values:
+    TOYOTA_ODO_V2_V2: 101231
+  response: 7DA0762010302018B6F
+- expected_values:
+    TOYOTA_ODO_V2_V2: 101232
+  response: 7DA0762010302018B70

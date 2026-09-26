@@ -1,0 +1,11 @@
+command_id: 700.708.22106F
+test_cases:
+- expected_values:
+    TOYOTA_INTAKE_VVT_TARGET_ANGLE_B1: 0
+  response: 7080562106F0000
+- expected_values:
+    TOYOTA_INTAKE_VVT_TARGET_ANGLE_B1: 45.08153
+  response: 7080562106F1209
+- expected_values:
+    TOYOTA_INTAKE_VVT_TARGET_ANGLE_B1: 46.38018
+  response: 7080562106F128E
