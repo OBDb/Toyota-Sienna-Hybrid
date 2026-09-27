@@ -1,11 +1,29 @@
 command_id: 7D2.7DA.2210A1
 test_cases:
 - expected_values:
+    TOYOTA_RPM: -654
+    TOYOTA_TQ: -126.375
+  response: |-
+    7DA100C6210A17D727C
+    7DA212303007C0D0400
+- expected_values:
+    TOYOTA_RPM: -183
+    TOYOTA_TQ: -37
+  response: |-
+    7DA100C6210A17F497E
+    7DA21E003007ED80400
+- expected_values:
     TOYOTA_RPM: -136
     TOYOTA_TQ: -40.625
   response: |-
     7DA100C6210A17F787E
     7DA21BF03007EBB0400
+- expected_values:
+    TOYOTA_RPM: -3
+    TOYOTA_TQ: 0
+  response: |-
+    7DA100C6210A17FFD80
+    7DA2100030080000400
 - expected_values:
     TOYOTA_RPM: -2
     TOYOTA_TQ: 25.875
@@ -20,10 +38,10 @@ test_cases:
     7DA21C603007FCB0400
 - expected_values:
     TOYOTA_RPM: -1
-    TOYOTA_TQ: 0
+    TOYOTA_TQ: -0.125
   response: |-
     7DA100C6210A17FFF80
-    7DA2100030080000400
+    7DA210003007FFF0400
 - expected_values:
     TOYOTA_RPM: 0
     TOYOTA_TQ: -6
@@ -31,17 +49,17 @@ test_cases:
     7DA100C6210A180007F
     7DA21CC03007FD00400
 - expected_values:
-    TOYOTA_RPM: 0
-    TOYOTA_TQ: -0.125
-  response: |-
-    7DA100C6210A1800080
-    7DA210003007FFF0400
-- expected_values:
     TOYOTA_RPM: 341
     TOYOTA_TQ: 83.5
   response: |-
     7DA100C6210A1815582
     7DA21B80300829C0400
+- expected_values:
+    TOYOTA_RPM: 618
+    TOYOTA_TQ: -6.375
+  response: |-
+    7DA100C6210A1826A7F
+    7DA21FE03007FCD0400
 - expected_values:
     TOYOTA_RPM: 1904
     TOYOTA_TQ: -110.375
@@ -49,14 +67,20 @@ test_cases:
     7DA100C6210A187707C
     7DA214804007C8D0400
 - expected_values:
-    TOYOTA_RPM: 3018
-    TOYOTA_TQ: -125.875
+    TOYOTA_RPM: 2517
+    TOYOTA_TQ: -126.75
   response: |-
-    7DA100C6210A18BCA7B
-    7DA21F404007C110400
+    7DA100C6210A189D57B
+    7DA21F904007C0A0400
 - expected_values:
-    TOYOTA_RPM: 5165
-    TOYOTA_TQ: 20.375
+    TOYOTA_RPM: 5156
+    TOYOTA_TQ: 7.75
   response: |-
-    7DA100C6210A1942D80
-    7DA21A4040080A30400
+    7DA100C6210A1942480
+    7DA213F0400803E0400
+- expected_values:
+    TOYOTA_RPM: 5178
+    TOYOTA_TQ: 24.125
+  response: |-
+    7DA100C6210A1943A80
+    7DA21C7040180C10400
