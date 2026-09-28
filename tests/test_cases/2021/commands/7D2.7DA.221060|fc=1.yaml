@@ -1,0 +1,17 @@
+command_id: 7D2.7DA.221060|fc=1
+test_cases:
+- expected_values:
+    TOYOTA_APP_V2: 0
+  response: 7DA0462106000
+- expected_values:
+    TOYOTA_APP_V2: 19
+  response: 7DA0462106026
+- expected_values:
+    TOYOTA_APP_V2: 20
+  response: 7DA0462106028
+- expected_values:
+    TOYOTA_APP_V2: 26
+  response: 7DA0462106034
+- expected_values:
+    TOYOTA_APP_V2: 29.5
+  response: 7DA046210603B
