@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     TOYOTA_ENG_ODO: 33655712
   response: 7080762010302018BA0
+- expected_values:
+    TOYOTA_ENG_ODO: 33655713
+  response: 7080762010302018BA1

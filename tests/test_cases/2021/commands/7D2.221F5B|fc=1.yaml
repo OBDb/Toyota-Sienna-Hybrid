@@ -4,5 +4,5 @@ test_cases:
     TOYOTA_SOC: 38.43137
   response: 7DA04621F5B62
 - expected_values:
-    TOYOTA_SOC: 68.23529
-  response: 7DA04621F5BAE
+    TOYOTA_SOC: 70.58824
+  response: 7DA04621F5BB4
