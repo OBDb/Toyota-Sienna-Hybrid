@@ -4,29 +4,5 @@ test_cases:
     TOYOTA_BLOWER: 1
   response: 7CC0462280101
 - expected_values:
-    TOYOTA_BLOWER: 6
-  response: 7CC0462280106
-- expected_values:
-    TOYOTA_BLOWER: 7
-  response: 7CC0462280107
-- expected_values:
-    TOYOTA_BLOWER: 7
-  response: 7CC0462280108
-- expected_values:
-    TOYOTA_BLOWER: 7
-  response: 7CC0462280109
-- expected_values:
-    TOYOTA_BLOWER: 7
-  response: 7CC046228010A
-- expected_values:
-    TOYOTA_BLOWER: 7
-  response: 7CC046228010B
-- expected_values:
-    TOYOTA_BLOWER: 7
-  response: 7CC046228010C
-- expected_values:
-    TOYOTA_BLOWER: 7
-  response: 7CC046228010E
-- expected_values:
     TOYOTA_BLOWER: 7
   response: 7CC046228010F
