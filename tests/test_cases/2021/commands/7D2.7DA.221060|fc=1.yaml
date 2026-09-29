@@ -4,5 +4,5 @@ test_cases:
     TOYOTA_APP_V2: 0
   response: 7DA0462106000
 - expected_values:
-    TOYOTA_APP_V2: 33
-  response: 7DA0462106042
+    TOYOTA_APP_V2: 100
+  response: 7DA04621060C8
