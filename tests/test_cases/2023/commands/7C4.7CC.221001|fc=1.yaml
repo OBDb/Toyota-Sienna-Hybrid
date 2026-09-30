@@ -4,8 +4,5 @@ test_cases:
     SIENNA_HYBRID_CABIN_T_V2: 22.3
   response: 7CC0562100108B6
 - expected_values:
-    SIENNA_HYBRID_CABIN_T_V2: 23.49
-  response: 7CC05621001092D
-- expected_values:
-    SIENNA_HYBRID_CABIN_T_V2: 24.22
-  response: 7CC056210010976
+    SIENNA_HYBRID_CABIN_T_V2: 25.69
+  response: 7CC056210010A09
