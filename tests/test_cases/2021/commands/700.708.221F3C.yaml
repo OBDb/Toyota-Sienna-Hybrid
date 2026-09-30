@@ -1,8 +1,8 @@
 command_id: 700.708.221F3C
 test_cases:
 - expected_values:
-    SIENNAH_CAT_T_11: 244.3
-  response: 70805621F3C0B1B
+    SIENNAH_CAT_T_11: 218
+  response: 70805621F3C0A14
 - expected_values:
     SIENNAH_CAT_T_11: 369.5
   response: 70805621F3C0FFF
