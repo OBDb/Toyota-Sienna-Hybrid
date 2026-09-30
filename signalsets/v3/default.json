@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "700", "rax": "708", "cmd": {"22": "0103"}, "freq": 30, "dbgfilter": { "from": 2022 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "0103"}, "freq": 30, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_ENG_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -605,14 +605,14 @@
   "signals": [
     {"id": "SIENNA_HYBRID_MASTER_CYL_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 100, "min": -20, "add": -80, "unit": "celsius" }, "name": "Master cylinder sensor temperature"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "fcm1": true, "cmd": {"22": "1045"}, "freq": 5, "dbgfilter": { "from": 2022 },
+{ "hdr": "7B0", "rax": "7B8", "fcm1": true, "cmd": {"22": "1045"}, "freq": 5, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_EPB", "path": "Brakes", "name": "Parking brake actuator status", "fmt": {"len": 8, "map": {
           "0": { "description": "Applied", "value": "APPLIED" }
         }}
     }
   ]},
-{ "hdr": "7B0", "rax": "7B8", "fcm1": true, "cmd": {"22": "104C"}, "freq": 1, "dbgfilter": { "from": 2022 },
+{ "hdr": "7B0", "rax": "7B8", "fcm1": true, "cmd": {"22": "104C"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_BRAKE_STROKE", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "millimeters" }, "name": "Brake pedal stroke"}
   ]},
@@ -744,19 +744,19 @@
   "signals": [
     {"id": "SIENNA_HYBRID_GLASS_HUMIDITY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 20, "div": 13107, "unit": "percent" }, "name": "Glass humidity"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "1001"}, "freq": 10, "dbgfilter": { "from": 2022 },
+{ "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "1001"}, "freq": 10, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_CABIN_T_V2", "path": "Climate", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "1002"}, "freq": 10, "dbgfilter": { "from": 2022 },
+{ "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "1002"}, "freq": 10, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_AAT_7C4_V2", "path": "Climate", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "celsius" }, "name": "Ambient temperature, climate"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "1036"}, "freq": 10, "dbgfilter": { "from": 2022 },
+{ "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "1036"}, "freq": 10, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_HVAC_SET_RAW", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Climate set point code"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "2801"}, "freq": 10, "dbgfilter": { "from": 2022 },
+{ "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "2801"}, "freq": 10, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_BLOWER", "path": "Climate", "fmt": { "len": 8, "max": 7, "unit": "scalar" }, "name": "Blower level"}
   ]},
@@ -800,11 +800,11 @@
   "signals": [
     {"id": "SIENNA_HYBRID_TRANSAXLE_OIL_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transaxle oil temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1060"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1060"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_APP_V2", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1061"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1061"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_SHIFT", "path": "Transmission", "name": "Shift position", "fmt": {"len": 8, "map": {
           "0": { "description": "Park",    "value": "P" },
@@ -829,7 +829,7 @@
     {"id": "SIENNA_HYBRID_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, maximum"},
     {"id": "SIENNA_HYBRID_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, minimum"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "106E"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "106E"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_AC_POWER_CONS", "path": "Engine", "fmt": { "len": 8, "max": 12.75, "div": 20, "unit": "kilowatts" }, "name": "Air conditioning power consumption"}
   ]},
@@ -840,7 +840,7 @@
     {"id": "SIENNA_HYBRID_RR_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "SIENNA_HYBRID_RL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1076"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1076"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_READY", "path": "Drivetrain", "fmt": {"bix": 15, "len": 1, "max": 1, "unit": "noyes" }, "name": "Ready to drive"}
   ]},
@@ -913,11 +913,11 @@
   "signals": [
     {"id": "SIENNA_HYBRID_DC_DC_CONV_TGT_V", "path": "Battery", "fmt": { "len": 16, "max": 7999, "mul": 1220703, "div": 10000000, "unit": "volts" }, "name": "DC-DC converter, target voltage before charging"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "15E5"}, "freq": 60, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "15E5"}, "freq": 60, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_12V_CAP", "path": "Electrical", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "ampereHours" }, "name": "12V battery full charge capacity"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "15E8"}, "freq": 60, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "15E8"}, "freq": 60, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_12V_AH_IN",   "path": "Electrical", "fmt": {           "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "12V battery charge, total"},
     {"id": "SIENNA_HYBRID_12V_AH_OUT",  "path": "Electrical", "fmt": {"bix": 32, "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "12V battery discharge, total"},
@@ -991,7 +991,7 @@
     {"id": "SIENNA_HYBRID_HVBAT_V", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 1023,                   "mul": 156.25, "div": 10000,               "unit": "volts" }, "name": "HV battery voltage", "suggestedMetric": "tractionBatteryVoltage"},
     {"id": "SIENNA_HYBRID_HVBAT_C", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 3276.7, "min": -3276.8,                "div": 10,    "sign": true, "unit": "amps"  }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1FA6"}, "freq": 10, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1FA6"}, "freq": 10, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
     {"id": "SIENNA_HYBRID_ODO_1FA6", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]}
