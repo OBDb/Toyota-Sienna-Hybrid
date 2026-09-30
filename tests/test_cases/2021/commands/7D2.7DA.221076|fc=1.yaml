@@ -2,6 +2,9 @@ command_id: 7D2.7DA.221076|fc=1
 test_cases:
 - expected_values:
     TOYOTA_READY: 0
+  response: 7DA056210760F00
+- expected_values:
+    TOYOTA_READY: 0
   response: 7DA056210760F02
 - expected_values:
     TOYOTA_READY: 1
