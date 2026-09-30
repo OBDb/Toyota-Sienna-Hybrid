@@ -1,8 +1,8 @@
 command_id: 700.708.221F46
 test_cases:
 - expected_values:
-    TOYOTA_AMBIENT_T: -11
+    SIENNA_HYBRID_AMBIENT_T: -11
   response: 70804621F461D
 - expected_values:
-    TOYOTA_AMBIENT_T: 52
+    SIENNA_HYBRID_AMBIENT_T: 52
   response: 70804621F465C

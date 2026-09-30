@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.222801|fc=1
 test_cases:
 - expected_values:
-    TOYOTA_BLOWER: 1
+    SIENNA_BLOWER: 1
   response: 7CC0462280101
 - expected_values:
-    TOYOTA_BLOWER: 7
+    SIENNA_BLOWER: 7
   response: 7CC046228010F

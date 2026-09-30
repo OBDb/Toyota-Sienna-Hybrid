@@ -1,18 +1,14 @@
 command_id: 700.708.2210CD
 test_cases:
 - expected_values:
-    TOYOTA_LFP: 354.6
-    TOYOTA_LFPS: -2922.2
+    SIENNA_HYBRID_LFP: 354.6
   response: 708056210CD8DDA
 - expected_values:
-    TOYOTA_LFP: 384.1
-    TOYOTA_LFPS: -2892.7
+    SIENNA_HYBRID_LFP: 384.1
   response: 708056210CD8F01
 - expected_values:
-    TOYOTA_LFP: 460.7
-    TOYOTA_LFPS: -2816.1
+    SIENNA_HYBRID_LFP: 460.7
   response: 708056210CD91FF
 - expected_values:
-    TOYOTA_LFP: 614.6
-    TOYOTA_LFPS: -2662.2
+    SIENNA_HYBRID_LFP: 614.6
   response: 708056210CD9802
