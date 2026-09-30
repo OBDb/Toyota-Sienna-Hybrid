@@ -1,10 +1,10 @@
 command_id: 7D0.7D8.2162
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'OFF'
+    SIENNAH_PARKING_BRAKE: 0
   response: 7D8056162010000
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'OFF'
+    SIENNAH_PARKING_BRAKE: 0
   response: |-
     7D8056162010000
     7DF02011F
@@ -15,7 +15,7 @@ test_cases:
     7DF020149
     7EA03414935
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02010C
@@ -24,7 +24,7 @@ test_cases:
     7ED04410C1400
     7EE04410C1400
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02010C
@@ -33,7 +33,7 @@ test_cases:
     7EA04410C1400
     7ED04410C1400
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02010C
@@ -54,7 +54,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02010C
@@ -68,7 +68,7 @@ test_cases:
     7EA03410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02010C
@@ -89,7 +89,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02010C
@@ -110,7 +110,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02010C
@@ -131,7 +131,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02010D
@@ -147,7 +147,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02010D
@@ -163,7 +163,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02011F
@@ -174,7 +174,7 @@ test_cases:
     7DF020149
     7EA03414968
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02011F
@@ -185,7 +185,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02011F
@@ -196,7 +196,7 @@ test_cases:
     7DF020149
     7EA0341495C
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02011F
@@ -207,7 +207,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D8056162030000
     7DF02011F
@@ -218,19 +218,16 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'OFF'
+    SIENNAH_PARKING_BRAKE: 0
   response: |-
     7D8056162190101
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'OFF'
+    SIENNAH_PARKING_BRAKE: 0
   response: 7D8056162199595
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
-  response: 7D80561621B0000
-- expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7D80561621B0000
     7DF02010C
@@ -251,18 +248,21 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 0
+  response: 7D80561621D0000
+- expected_values:
+    SIENNAH_PARKING_BRAKE: 0
   response: |-
-    7D80561621B0000
+    7D80561621D0000
     7DF02011F
-    7ED04411F001D
-    7E804411F001D
-    7EA04411F001D
-    7EE04411F001D
+    7ED04411F0043
+    7EE04411F0042
+    7E804411F0042
+    7EA04411F0042
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02010C
     7E804410C144C
@@ -276,7 +276,7 @@ test_cases:
     7ED03410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02010C
     7ED04410C1400
@@ -297,7 +297,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02010C
     7ED04410C1480
@@ -306,7 +306,7 @@ test_cases:
     7EE04410C1480
     7D8056162030000
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'OFF'
+    SIENNAH_PARKING_BRAKE: 0
   response: |-
     7DF02010D
     7ED03410D00
@@ -322,7 +322,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02010D
     7ED03410D00
@@ -331,7 +331,7 @@ test_cases:
     7D8056162030000
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02010D
     7ED03410D00
@@ -347,7 +347,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02010D
     7ED03410D00
@@ -363,7 +363,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02010D
     7ED03410D00
@@ -377,7 +377,7 @@ test_cases:
     7EA04411F0020
     7EE04411F0021
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02010D
     7ED03410D00
@@ -393,7 +393,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02010D
     7ED03410D00
@@ -409,7 +409,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02011F
     7D8056162030000
@@ -420,7 +420,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'OFF'
+    SIENNAH_PARKING_BRAKE: 0
   response: |-
     7DF02011F
     7D805616209100F
@@ -431,7 +431,7 @@ test_cases:
     7DF020149
     7EA03414951
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02011F
     7D80561621B0000
@@ -442,7 +442,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02011F
     7E804411F0023
@@ -453,7 +453,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02011F
     7E804411F0024
@@ -464,7 +464,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02011F
     7EA04411F0025
@@ -475,7 +475,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02011F
     7ED04411F0020
@@ -484,7 +484,7 @@ test_cases:
     7EE04411F0020
     7EA04411F0020
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02011F
     7ED04411F0021
@@ -495,7 +495,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02011F
     7ED04411F0022
@@ -506,7 +506,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'OFF'
+    SIENNAH_PARKING_BRAKE: 0
   response: |-
     7DF02011F
     7ED04411F002A
@@ -517,7 +517,7 @@ test_cases:
     7DF020149
     7EA0341492B
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF02011F
     7ED04411F004F
@@ -528,19 +528,19 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'OFF'
+    SIENNAH_PARKING_BRAKE: 0
   response: |-
     7DF020149
     7D8056162010000
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7DF020149
     7EA03414928
     7D8056162030000
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7E803410D00
     7EA03410D00
@@ -553,7 +553,7 @@ test_cases:
     7EA04411F0020
     7EE04411F0021
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7E804411F0024
     7EA04411F0024
@@ -562,7 +562,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7E804411F002F
     7EA04411F002F
@@ -571,12 +571,12 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7EA03414928
     7D8056162030000
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7ED03410D00
     7EE03410D00
@@ -589,7 +589,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_PARKING_BRAKE: 'ON'
+    SIENNAH_PARKING_BRAKE: 1
   response: |-
     7ED04410C1400
     7E804410C143A

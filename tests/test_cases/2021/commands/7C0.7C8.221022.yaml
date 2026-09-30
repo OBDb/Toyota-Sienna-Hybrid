@@ -1,14 +1,14 @@
 command_id: 7C0.7C8.221022
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_FUEL_LEVEL: 17.04
+    SIENNAH_FUEL_LEVEL: 17.04
   response: 7C80562102206A8
 - expected_values:
-    SIENNA_HYBRID_FUEL_LEVEL: 28.16
+    SIENNAH_FUEL_LEVEL: 28.16
   response: 7C8056210220B00
 - expected_values:
-    SIENNA_HYBRID_FUEL_LEVEL: 40.95
+    SIENNAH_FUEL_LEVEL: 40.95
   response: 7C8056210220FFF
 - expected_values:
-    SIENNA_HYBRID_FUEL_LEVEL: 66.67
+    SIENNAH_FUEL_LEVEL: 66.67
   response: 7C8056210221A0B

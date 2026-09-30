@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.2210B2|f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 13
+    SIENNAH_INVRT_COOLANT_T: 13
   response: 7DA046210B235
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 59
+    SIENNAH_INVRT_COOLANT_T: 59
   response: 7DA046210B263

@@ -1,11 +1,11 @@
 command_id: 7D2.7DA.221060|fc=1,f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_APP_V2: 0
+    SIENNAH_APP_V2: 0
   response: 7DA0462106000
 - expected_values:
-    SIENNA_HYBRID_APP_V2: 4
+    SIENNAH_APP_V2: 4
   response: 7DA0462106008
 - expected_values:
-    SIENNA_HYBRID_APP_V2: 15.5
+    SIENNAH_APP_V2: 15.5
   response: 7DA046210601F

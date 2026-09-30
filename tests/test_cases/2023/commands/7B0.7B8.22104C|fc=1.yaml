@@ -1,20 +1,20 @@
 command_id: 7B0.7B8.22104C|fc=1
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_BRAKE_STROKE: 0
+    SIENNAH_BRAKE_STROKE: 0
   response: 7B80462104C00
 - expected_values:
-    SIENNA_HYBRID_BRAKE_STROKE: 14
+    SIENNAH_BRAKE_STROKE: 14
   response: 7B80462104C0E
 - expected_values:
-    SIENNA_HYBRID_BRAKE_STROKE: 22
+    SIENNAH_BRAKE_STROKE: 22
   response: 7B80462104C16
 - expected_values:
-    SIENNA_HYBRID_BRAKE_STROKE: 24
+    SIENNAH_BRAKE_STROKE: 24
   response: 7B80462104C18
 - expected_values:
-    SIENNA_HYBRID_BRAKE_STROKE: 26
+    SIENNAH_BRAKE_STROKE: 26
   response: 7B80462104C1A
 - expected_values:
-    SIENNA_HYBRID_BRAKE_STROKE: 28
+    SIENNAH_BRAKE_STROKE: 28
   response: 7B80462104C1C

@@ -1,11 +1,11 @@
 command_id: 700.708.221074
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_EOP: 0
+    SIENNAH_EOP: 0
   response: '708056210740000'
 - expected_values:
-    SIENNA_HYBRID_EOP: 99.92188
+    SIENNAH_EOP: 99.92188
   response: 7080562107404FF
 - expected_values:
-    SIENNA_HYBRID_EOP: 563.4375
+    SIENNAH_EOP: 563.4375
   response: 708056210741C2C

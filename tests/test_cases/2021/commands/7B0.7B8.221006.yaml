@@ -1,8 +1,8 @@
 command_id: 7B0.7B8.221006
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_MASTER_CYL_TEMP: 16
+    SIENNAH_MASTER_CYL_TEMP: 16
   response: 7B8056210066000
 - expected_values:
-    SIENNA_HYBRID_MASTER_CYL_TEMP: 56
+    SIENNAH_MASTER_CYL_TEMP: 56
   response: 7B8056210068800

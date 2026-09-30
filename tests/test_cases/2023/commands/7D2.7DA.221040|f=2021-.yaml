@@ -1,16 +1,16 @@
 command_id: 7D2.7DA.221040|f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 71
+    SIENNAH_TRANSAXLE_OIL_T: 71
   response: 7DA0662104091B06F
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 71
+    SIENNAH_TRANSAXLE_OIL_T: 71
   response: 7DA0662104091F06F
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 71
+    SIENNAH_TRANSAXLE_OIL_T: 71
   response: 7DA0662104092006F
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 30
+    SIENNAH_TRANSAXLE_OIL_T: 30
   response: |-
     7DA06621040C32046
     7DF02010C
@@ -31,7 +31,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 29
+    SIENNAH_TRANSAXLE_OIL_T: 29
   response: |-
     7DA06621040C42045
     7DF02010C
@@ -52,7 +52,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 21
+    SIENNAH_TRANSAXLE_OIL_T: 21
   response: |-
     7DA06621040CC103D
     7DF02010C
@@ -73,7 +73,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 17
+    SIENNAH_TRANSAXLE_OIL_T: 17
   response: |-
     7DA06621040CFE039
     7DF02010C
@@ -94,7 +94,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 14
+    SIENNAH_TRANSAXLE_OIL_T: 14
   response: |-
     7DA06621040D28036
     7DF02010C
@@ -115,7 +115,7 @@ test_cases:
     7DF020149
     7EA0341493D
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 13
+    SIENNAH_TRANSAXLE_OIL_T: 13
   response: |-
     7DA06621040D41035
     7DF02010C
@@ -136,7 +136,7 @@ test_cases:
     7DF020149
     7EA03414941
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 12
+    SIENNAH_TRANSAXLE_OIL_T: 12
   response: |-
     7DA06621040D4E034
     7DF02010C
@@ -157,7 +157,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 11
+    SIENNAH_TRANSAXLE_OIL_T: 11
   response: |-
     7DA06621040D5B033
     7DF02010C
@@ -178,10 +178,10 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: -1
+    SIENNAH_TRANSAXLE_OIL_T: -1
   response: 7DA06621040E04027
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 36
+    SIENNAH_TRANSAXLE_OIL_T: 36
   response: |-
     7ED04410C0000
     7EE04410C0000
@@ -192,7 +192,7 @@ test_cases:
     7E803410D05
     7EE03410D05
 - expected_values:
-    SIENNA_HYBRID_TRANSAXLE_OIL_T: 30
+    SIENNAH_TRANSAXLE_OIL_T: 30
   response: |-
     7EE04410C1400
     7DA06621040C2B046
