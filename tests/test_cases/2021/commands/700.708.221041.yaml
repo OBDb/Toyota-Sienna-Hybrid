@@ -5,9 +5,9 @@ test_cases:
     SIENNAH_ECT_INIT: 17.5
   response: 708056210415C5C
 - expected_values:
-    SIENNAH_ECT_IGN: 74.375
+    SIENNAH_ECT_IGN: 28.125
     SIENNAH_ECT_INIT: 92.5
-  response: 70805621041B7D4
+  response: 708056210416DD4
 - expected_values:
     SIENNAH_ECT_IGN: 84.375
     SIENNAH_ECT_INIT: 86.875

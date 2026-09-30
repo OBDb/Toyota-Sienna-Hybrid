@@ -4,5 +4,5 @@ test_cases:
     SIENNAH_VSS_V2: 0
   response: 7DA04621F0D00
 - expected_values:
-    SIENNAH_VSS_V2: 105
-  response: 7DA04621F0D69
+    SIENNAH_VSS_V2: 107
+  response: 7DA04621F0D6B
