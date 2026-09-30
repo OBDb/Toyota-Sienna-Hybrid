@@ -18,5 +18,5 @@ test_cases:
   response: 7DA0662106C888879
 - expected_values:
     SIENNAH_HVBAT_SOC_MAX: 68
-    SIENNAH_HVBAT_SOC_MIN: 62.5
-  response: 7DA0662106C88887D
+    SIENNAH_HVBAT_SOC_MIN: 64
+  response: 7DA0662106C888880

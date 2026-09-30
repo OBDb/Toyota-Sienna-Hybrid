@@ -10,5 +10,5 @@ test_cases:
     SIENNAH_EOP: 219.84375
   response: 708056210740AFE
 - expected_values:
-    SIENNAH_EOP: 280.23438
-  response: '708056210740E03'
+    SIENNAH_EOP: 516.64062
+  response: 7080562107419D5

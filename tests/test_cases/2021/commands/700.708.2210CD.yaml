@@ -4,11 +4,11 @@ test_cases:
     SIENNAH_LFP: 354.6
   response: 708056210CD8DDA
 - expected_values:
+    SIENNAH_LFP: 383.9
+  response: 708056210CD8EFF
+- expected_values:
     SIENNAH_LFP: 384.1
   response: 708056210CD8F01
-- expected_values:
-    SIENNAH_LFP: 460.7
-  response: 708056210CD91FF
 - expected_values:
     SIENNAH_LFP: 614.6
   response: 708056210CD9802
