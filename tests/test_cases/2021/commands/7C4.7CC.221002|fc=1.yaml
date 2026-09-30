@@ -1,14 +1,14 @@
 command_id: 7C4.7CC.221002|fc=1
 test_cases:
 - expected_values:
-    TOYOTA_AAT_7C4_V2: 13.11
+    SIENNA_HYBRID_AAT_7C4_V2: 13.11
   response: 7CC05621002051F
 - expected_values:
-    TOYOTA_AAT_7C4_V2: 15.33
+    SIENNA_HYBRID_AAT_7C4_V2: 15.33
   response: 7CC0562100205FD
 - expected_values:
-    TOYOTA_AAT_7C4_V2: 17.94
+    SIENNA_HYBRID_AAT_7C4_V2: 17.94
   response: 7CC056210020702
 - expected_values:
-    TOYOTA_AAT_7C4_V2: 38.44
+    SIENNA_HYBRID_AAT_7C4_V2: 38.44
   response: 7CC056210020F04

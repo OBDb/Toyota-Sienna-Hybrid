@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.2215E5|fc=1,f=2021-
+test_cases:
+- expected_values:
+    SIENNA_HYBRID_12V_CAP: 39.5
+  response: 7DA046215E54F
