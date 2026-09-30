@@ -1,10 +1,10 @@
 command_id: 7D2.7DA.221F5B|fc=1,f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_SOC: 32.94118
+    SIENNAH_SOC: 32.94118
   response: 7DA04621F5B54
 - expected_values:
-    SIENNA_HYBRID_SOC: 36.47059
+    SIENNAH_SOC: 36.47059
   response: |-
     7DA04621F5B5D
     7DF02010D
@@ -13,7 +13,7 @@ test_cases:
     7E803410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_SOC: 36.86275
+    SIENNAH_SOC: 36.86275
   response: |-
     7DA04621F5B5E
     7DF02010D
@@ -29,7 +29,7 @@ test_cases:
     7DF020149
     7EA03414933
 - expected_values:
-    SIENNA_HYBRID_SOC: 38.03922
+    SIENNAH_SOC: 38.03922
   response: |-
     7DA04621F5B61
     7DF02010C
@@ -48,7 +48,7 @@ test_cases:
     7E804411F0111
     7EE04411F0113
 - expected_values:
-    SIENNA_HYBRID_SOC: 38.03922
+    SIENNAH_SOC: 38.03922
   response: |-
     7DA04621F5B61
     7DF02010C
@@ -69,7 +69,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 38.03922
+    SIENNAH_SOC: 38.03922
   response: |-
     7DA04621F5B61
     7DF02010D
@@ -85,7 +85,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 38.43137
+    SIENNAH_SOC: 38.43137
   response: |-
     7DA04621F5B62
     7DF02010C
@@ -106,7 +106,7 @@ test_cases:
     7DF020149
     7EA03414937
 - expected_values:
-    SIENNA_HYBRID_SOC: 38.43137
+    SIENNAH_SOC: 38.43137
   response: |-
     7DA04621F5B62
     7DF02010D
@@ -122,7 +122,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 38.43137
+    SIENNAH_SOC: 38.43137
   response: |-
     7DA04621F5B62
     7DF02010D
@@ -138,13 +138,13 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 38.43137
+    SIENNAH_SOC: 38.43137
   response: |-
     7DA04621F5B62
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 38.82353
+    SIENNAH_SOC: 38.82353
   response: |-
     7DA04621F5B63
     7DF02010C
@@ -163,7 +163,7 @@ test_cases:
     7ED04411F034F
     7E804411F0344
 - expected_values:
-    SIENNA_HYBRID_SOC: 38.82353
+    SIENNAH_SOC: 38.82353
   response: |-
     7DA04621F5B63
     7DF02011F
@@ -174,7 +174,7 @@ test_cases:
     7DF020149
     7EA03414939
 - expected_values:
-    SIENNA_HYBRID_SOC: 38.82353
+    SIENNAH_SOC: 38.82353
   response: |-
     7DA04621F5B63
     7DF02011F
@@ -183,7 +183,7 @@ test_cases:
     7EA04411F0050
     7EE04411F0051
 - expected_values:
-    SIENNA_HYBRID_SOC: 39.21569
+    SIENNAH_SOC: 39.21569
   response: |-
     7DA04621F5B64
     7DF02010C
@@ -204,7 +204,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 39.21569
+    SIENNAH_SOC: 39.21569
   response: |-
     7DA04621F5B64
     7DF02010D
@@ -220,7 +220,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 39.21569
+    SIENNAH_SOC: 39.21569
   response: |-
     7DA04621F5B64
     7DF02011F
@@ -231,7 +231,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 39.21569
+    SIENNAH_SOC: 39.21569
   response: |-
     7DA04621F5B64
     7DF02011F
@@ -242,7 +242,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 39.60784
+    SIENNAH_SOC: 39.60784
   response: |-
     7DA04621F5B65
     7DF02010C
@@ -263,7 +263,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 39.60784
+    SIENNAH_SOC: 39.60784
   response: |-
     7DA04621F5B65
     7DF02010C
@@ -284,7 +284,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 39.60784
+    SIENNAH_SOC: 39.60784
   response: |-
     7DA04621F5B65
     7DF02011F
@@ -293,7 +293,7 @@ test_cases:
     7E804411F0411
     7EE04411F0419
 - expected_values:
-    SIENNA_HYBRID_SOC: 39.60784
+    SIENNAH_SOC: 39.60784
   response: |-
     7DA04621F5B65
     7DF02011F
@@ -304,7 +304,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40
+    SIENNAH_SOC: 40
   response: |-
     7DA04621F5B66
     7DF02010C
@@ -325,7 +325,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40
+    SIENNAH_SOC: 40
   response: |-
     7DA04621F5B66
     7DF02010C
@@ -346,7 +346,7 @@ test_cases:
     7DF020149
     7EA03414934
 - expected_values:
-    SIENNA_HYBRID_SOC: 40
+    SIENNAH_SOC: 40
   response: |-
     7DA04621F5B66
     7DF02010C
@@ -367,7 +367,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40
+    SIENNAH_SOC: 40
   response: |-
     7DA04621F5B66
     7DF02010D
@@ -383,7 +383,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40
+    SIENNAH_SOC: 40
   response: |-
     7DA04621F5B66
     7DF02010D
@@ -392,7 +392,7 @@ test_cases:
     7EA03410D2A
     7EE03410D2A
 - expected_values:
-    SIENNA_HYBRID_SOC: 40
+    SIENNAH_SOC: 40
   response: |-
     7DA04621F5B66
     7DF02010D
@@ -408,7 +408,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40
+    SIENNAH_SOC: 40
   response: |-
     7DA04621F5B66
     7DF02011F
@@ -419,7 +419,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40
+    SIENNAH_SOC: 40
   response: |-
     7DA04621F5B66
     7DF02011F
@@ -430,7 +430,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40
+    SIENNAH_SOC: 40
   response: |-
     7DA04621F5B66
     7DF02011F
@@ -441,7 +441,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40.39216
+    SIENNAH_SOC: 40.39216
   response: |-
     7DA04621F5B67
     7DF02010C
@@ -462,7 +462,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40.39216
+    SIENNAH_SOC: 40.39216
   response: |-
     7DA04621F5B67
     7DF02010C
@@ -483,7 +483,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40.39216
+    SIENNAH_SOC: 40.39216
   response: |-
     7DA04621F5B67
     7DF02010C
@@ -492,7 +492,7 @@ test_cases:
     7EA04410C1380
     7EE04410C1380
 - expected_values:
-    SIENNA_HYBRID_SOC: 40.39216
+    SIENNAH_SOC: 40.39216
   response: |-
     7DA04621F5B67
     7DF02011F
@@ -501,7 +501,7 @@ test_cases:
     7EA04411F01AB
     7EE04411F01AF
 - expected_values:
-    SIENNA_HYBRID_SOC: 40.78431
+    SIENNAH_SOC: 40.78431
   response: |-
     7DA04621F5B68
     7DF02010C
@@ -522,7 +522,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40.78431
+    SIENNAH_SOC: 40.78431
   response: |-
     7DA04621F5B68
     7DF02010C
@@ -541,7 +541,7 @@ test_cases:
     7EA04411F05BA
     7EE04411F05C5
 - expected_values:
-    SIENNA_HYBRID_SOC: 40.78431
+    SIENNAH_SOC: 40.78431
   response: |-
     7DA04621F5B68
     7DF02010C
@@ -562,7 +562,7 @@ test_cases:
     7DF020149
     7EA0341493F
 - expected_values:
-    SIENNA_HYBRID_SOC: 40.78431
+    SIENNAH_SOC: 40.78431
   response: |-
     7DA04621F5B68
     7DF02010D
@@ -578,7 +578,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 40.78431
+    SIENNAH_SOC: 40.78431
   response: |-
     7DA04621F5B68
     7DF02011F
@@ -587,7 +587,7 @@ test_cases:
     7E804411F0077
     7EA04411F0077
 - expected_values:
-    SIENNA_HYBRID_SOC: 40.78431
+    SIENNAH_SOC: 40.78431
   response: |-
     7DA04621F5B68
     7DF02011F
@@ -598,7 +598,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 41.17647
+    SIENNAH_SOC: 41.17647
   response: |-
     7DA04621F5B69
     7DF02010C
@@ -619,7 +619,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 41.17647
+    SIENNAH_SOC: 41.17647
   response: |-
     7DA04621F5B69
     7DF02010C
@@ -640,7 +640,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 41.17647
+    SIENNAH_SOC: 41.17647
   response: |-
     7DA04621F5B69
     7DF02010D
@@ -656,7 +656,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 41.56863
+    SIENNAH_SOC: 41.56863
   response: |-
     7DA04621F5B6A
     7DF02010C
@@ -675,7 +675,7 @@ test_cases:
     7EE04411F04B7
     7EA04411F04AD
 - expected_values:
-    SIENNA_HYBRID_SOC: 41.56863
+    SIENNAH_SOC: 41.56863
   response: |-
     7DA04621F5B6A
     7DF02010C
@@ -696,7 +696,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 41.56863
+    SIENNAH_SOC: 41.56863
   response: |-
     7DA04621F5B6A
     7DF02010D
@@ -712,7 +712,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 41.96078
+    SIENNAH_SOC: 41.96078
   response: |-
     7DA04621F5B6B
     7DF02010C
@@ -731,7 +731,7 @@ test_cases:
     7E804411F05D3
     7EE04411F05DF
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.35294
+    SIENNAH_SOC: 42.35294
   response: |-
     7DA04621F5B6C
     7DF02010C
@@ -740,7 +740,7 @@ test_cases:
     7EA04410C0000
     7EE04410C0000
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.35294
+    SIENNAH_SOC: 42.35294
   response: |-
     7DA04621F5B6C
     7DF02010C
@@ -759,7 +759,7 @@ test_cases:
     7EE04411F123B
     7E804411F1217
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.35294
+    SIENNAH_SOC: 42.35294
   response: |-
     7DA04621F5B6C
     7DF02010D
@@ -768,7 +768,7 @@ test_cases:
     7E803410D1F
     7EE03410D1F
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.35294
+    SIENNAH_SOC: 42.35294
   response: |-
     7DA04621F5B6C
     7DF02011F
@@ -779,7 +779,7 @@ test_cases:
     7DF020149
     7EA0341493F
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.7451
+    SIENNAH_SOC: 42.7451
   response: |-
     7DA04621F5B6D
     7DF02010C
@@ -798,7 +798,7 @@ test_cases:
     7EA04411F03E3
     7EE04411F03EB
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.7451
+    SIENNAH_SOC: 42.7451
   response: |-
     7DA04621F5B6D
     7DF02010D
@@ -814,7 +814,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.7451
+    SIENNAH_SOC: 42.7451
   response: |-
     7DA04621F5B6D
     7DF02010D
@@ -830,7 +830,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.7451
+    SIENNAH_SOC: 42.7451
   response: |-
     7DA04621F5B6D
     7DF02011F
@@ -841,7 +841,7 @@ test_cases:
     7DF020149
     7EA03414932
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.13725
+    SIENNAH_SOC: 43.13725
   response: |-
     7DA04621F5B6E
     7DF02010C
@@ -850,7 +850,7 @@ test_cases:
     7EE04410C0000
     7E804410C0000
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.13725
+    SIENNAH_SOC: 43.13725
   response: |-
     7DA04621F5B6E
     7DF02010C
@@ -871,7 +871,7 @@ test_cases:
     7DF020149
     7EA0341492B
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.13725
+    SIENNAH_SOC: 43.13725
   response: |-
     7DA04621F5B6E
     7DF02010C
@@ -885,7 +885,7 @@ test_cases:
     7E803410D00
     7EA03410D00
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.13725
+    SIENNAH_SOC: 43.13725
   response: |-
     7DA04621F5B6E
     7DF02010C
@@ -906,7 +906,7 @@ test_cases:
     7DF020149
     7EA03414940
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.52941
+    SIENNAH_SOC: 43.52941
   response: |-
     7DA04621F5B6F
     7DF02010C
@@ -920,7 +920,7 @@ test_cases:
     7E803410D62
     7EA03410D62
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.52941
+    SIENNAH_SOC: 43.52941
   response: |-
     7DA04621F5B6F
     7DF02010C
@@ -939,7 +939,7 @@ test_cases:
     7EE04411F15DF
     7EA04411F15B4
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.52941
+    SIENNAH_SOC: 43.52941
   response: |-
     7DA04621F5B6F
     7DF02010D
@@ -948,7 +948,7 @@ test_cases:
     7EA03410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.52941
+    SIENNAH_SOC: 43.52941
   response: |-
     7DA04621F5B6F
     7DF02011F
@@ -959,7 +959,7 @@ test_cases:
     7DF020149
     7EA0341496F
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7DA04621F5B70
     7DF02010C
@@ -980,7 +980,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7DA04621F5B70
     7DF02010C
@@ -999,7 +999,7 @@ test_cases:
     7EE04411F031C
     7EA04411F0316
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7DA04621F5B70
     7DF02010C
@@ -1020,7 +1020,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7DA04621F5B70
     7DF02010C
@@ -1041,7 +1041,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7DA04621F5B70
     7DF02010C
@@ -1062,7 +1062,7 @@ test_cases:
     7DF020149
     7EA0341495A
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7DA04621F5B70
     7DF02010C
@@ -1083,7 +1083,7 @@ test_cases:
     7DF020149
     7EA03414959
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7DA04621F5B70
     7DF02010C
@@ -1104,7 +1104,7 @@ test_cases:
     7DF020149
     7EA0341494B
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7DA04621F5B70
     7DF02010D
@@ -1118,7 +1118,7 @@ test_cases:
     7EA04411F0539
     7EE04411F0543
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7DA04621F5B70
     7DF02010D
@@ -1132,7 +1132,7 @@ test_cases:
     7EA04411F0077
     7EE04411F0078
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7DA04621F5B70
     7DF02011F
@@ -1143,7 +1143,7 @@ test_cases:
     7DF020149
     7EA03414950
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.31373
+    SIENNAH_SOC: 44.31373
   response: |-
     7DA04621F5B71
     7DF02010C
@@ -1162,7 +1162,7 @@ test_cases:
     7E804411F0803
     7EE04411F0813
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.31373
+    SIENNAH_SOC: 44.31373
   response: |-
     7DA04621F5B71
     7DF02010C
@@ -1176,7 +1176,7 @@ test_cases:
     7EA03410D7B
     7EE03410D7B
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.31373
+    SIENNAH_SOC: 44.31373
   response: |-
     7DA04621F5B71
     7DF02010C
@@ -1185,7 +1185,7 @@ test_cases:
     7EA04410C3580
     7EE04410C3580
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.31373
+    SIENNAH_SOC: 44.31373
   response: |-
     7DA04621F5B71
     7DF02010D
@@ -1201,7 +1201,7 @@ test_cases:
     7DF020149
     7EA0341494F
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.31373
+    SIENNAH_SOC: 44.31373
   response: |-
     7DA04621F5B71
     7DF02011F
@@ -1212,7 +1212,7 @@ test_cases:
     7DF020149
     7EA03414953
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010C
@@ -1231,7 +1231,7 @@ test_cases:
     7EA04411F014B
     7EE04411F014E
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010C
@@ -1245,7 +1245,7 @@ test_cases:
     7E803410D1D
     7EE03410D1D
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010C
@@ -1266,7 +1266,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010C
@@ -1280,7 +1280,7 @@ test_cases:
     7E803410D81
     7EE03410D81
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010C
@@ -1301,7 +1301,7 @@ test_cases:
     7DF020149
     7EA0341493D
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010C
@@ -1322,7 +1322,7 @@ test_cases:
     7DF020149
     7EA03414945
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010C
@@ -1343,7 +1343,7 @@ test_cases:
     7DF020149
     7EA03414947
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010C
@@ -1357,7 +1357,7 @@ test_cases:
     7EE03410D76
     7EA03410D76
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010C
@@ -1376,7 +1376,7 @@ test_cases:
     7E804411F0719
     7EE04411F0727
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010C
@@ -1395,7 +1395,7 @@ test_cases:
     7EA04411F0F29
     7ED04411F0F5E
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010C
@@ -1414,7 +1414,7 @@ test_cases:
     7E804411F0E84
     7EE04411F0EA1
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010D
@@ -1430,7 +1430,7 @@ test_cases:
     7DF020149
     7EA03414936
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010D
@@ -1446,7 +1446,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010D
@@ -1462,7 +1462,7 @@ test_cases:
     7DF020149
     7EA03414953
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010D
@@ -1476,7 +1476,7 @@ test_cases:
     7EE04411F07BA
     7E804411F07AA
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02010D
@@ -1485,7 +1485,7 @@ test_cases:
     7EA03410D86
     7EE03410D86
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02011F
@@ -1494,7 +1494,7 @@ test_cases:
     7EA04411F0F78
     7EE04411F0F97
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02011F
@@ -1505,7 +1505,7 @@ test_cases:
     7DF020149
     7EA0341493D
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DA04621F5B72
     7DF02011F
@@ -1514,7 +1514,7 @@ test_cases:
     7ED04411F190E
     7E804411F18B8
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7DA04621F5B73
     7DF02010C
@@ -1528,7 +1528,7 @@ test_cases:
     7E803410D7E
     7EE03410D7E
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7DA04621F5B73
     7DF02010C
@@ -1542,7 +1542,7 @@ test_cases:
     7EE03410D6F
     7E803410D6F
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7DA04621F5B73
     7DF02010C
@@ -1563,7 +1563,7 @@ test_cases:
     7DF020149
     7EA03414950
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7DA04621F5B73
     7DF02010D
@@ -1572,7 +1572,7 @@ test_cases:
     7E803410D1A
     7EA03410D1A
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7DA04621F5B73
     7DF02010D
@@ -1581,7 +1581,7 @@ test_cases:
     7EE03410D71
     7EA03410D71
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7DA04621F5B73
     7DF02010D
@@ -1595,7 +1595,7 @@ test_cases:
     7EA04411F1151
     7E804411F1151
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7DA04621F5B73
     7DF02010D
@@ -1609,7 +1609,7 @@ test_cases:
     7EE04411F14A1
     7E804411F1479
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7DA04621F5B73
     7DF02011F
@@ -1618,7 +1618,7 @@ test_cases:
     7E804411F0000
     7DF020149
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7DA04621F5B73
     7DF02011F
@@ -1629,7 +1629,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.4902
+    SIENNAH_SOC: 45.4902
   response: |-
     7DA04621F5B74
     7DF02010C
@@ -1648,7 +1648,7 @@ test_cases:
     7ED04411F07DC
     7EE04411F07D0
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.4902
+    SIENNAH_SOC: 45.4902
   response: |-
     7DA04621F5B74
     7DF02010C
@@ -1662,7 +1662,7 @@ test_cases:
     7EA03410D69
     7EE03410D69
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.4902
+    SIENNAH_SOC: 45.4902
   response: |-
     7DA04621F5B74
     7DF02010D
@@ -1676,7 +1676,7 @@ test_cases:
     7EA04411F1192
     7EE04411F11B5
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.88235
+    SIENNAH_SOC: 45.88235
   response: |-
     7DA04621F5B75
     7DF02010C
@@ -1695,7 +1695,7 @@ test_cases:
     7EA04411F1A6F
     7EE04411F1AA3
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.88235
+    SIENNAH_SOC: 45.88235
   response: |-
     7DA04621F5B75
     7DF02010C
@@ -1716,7 +1716,7 @@ test_cases:
     7DF020149
     7EA03414951
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.88235
+    SIENNAH_SOC: 45.88235
   response: |-
     7DA04621F5B75
     7DF02010C
@@ -1737,7 +1737,7 @@ test_cases:
     7DF020149
     7EA0341494D
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.88235
+    SIENNAH_SOC: 45.88235
   response: |-
     7DA04621F5B75
     7DF02010D
@@ -1751,7 +1751,7 @@ test_cases:
     7ED04411F2B4E
     7EE04411F2B0D
 - expected_values:
-    SIENNA_HYBRID_SOC: 46.66667
+    SIENNAH_SOC: 46.66667
   response: |-
     7DA04621F5B77
     7DF02010D
@@ -1767,7 +1767,7 @@ test_cases:
     7DF020149
     7EA03414932
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.05882
+    SIENNAH_SOC: 47.05882
   response: |-
     7DA04621F5B78
     7DF02010C
@@ -1786,7 +1786,7 @@ test_cases:
     7E804411F01FF
     7EE04411F0203
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.05882
+    SIENNAH_SOC: 47.05882
   response: |-
     7DA04621F5B78
     7DF02011F
@@ -1795,7 +1795,7 @@ test_cases:
     7EA04411F32F3
     7EE04411F3358
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.84314
+    SIENNAH_SOC: 47.84314
   response: |-
     7DA04621F5B7A
     7DF02010C
@@ -1814,7 +1814,7 @@ test_cases:
     7EA04411F009F
     7EE04411F00A0
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.84314
+    SIENNAH_SOC: 47.84314
   response: |-
     7DA04621F5B7A
     7DF02011F
@@ -1825,7 +1825,7 @@ test_cases:
     7DF020149
     7EA03414960
 - expected_values:
-    SIENNA_HYBRID_SOC: 48.23529
+    SIENNAH_SOC: 48.23529
   response: |-
     7DA04621F5B7B
     7DF02010D
@@ -1839,7 +1839,7 @@ test_cases:
     7E804411F0F55
     7ED04411F0F8A
 - expected_values:
-    SIENNA_HYBRID_SOC: 48.62745
+    SIENNAH_SOC: 48.62745
   response: |-
     7DA04621F5B7C
     7DF02011F
@@ -1850,7 +1850,7 @@ test_cases:
     7DF020149
     7EA03414945
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.01961
+    SIENNAH_SOC: 49.01961
   response: |-
     7DA04621F5B7D
     7DF02011F
@@ -1861,7 +1861,7 @@ test_cases:
     7DF020149
     7EA03414931
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.41176
+    SIENNAH_SOC: 49.41176
   response: |-
     7DA04621F5B7E
     7DF02010C
@@ -1880,7 +1880,7 @@ test_cases:
     7ED04411F0027
     7EA04411F0027
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.41176
+    SIENNAH_SOC: 49.41176
   response: |-
     7DA04621F5B7E
     7DF02010D
@@ -1894,7 +1894,7 @@ test_cases:
     7E804411F0036
     7EE04411F0037
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.41176
+    SIENNAH_SOC: 49.41176
   response: |-
     7DA04621F5B7E
     7DF02011F
@@ -1905,7 +1905,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.80392
+    SIENNAH_SOC: 49.80392
   response: |-
     7DA04621F5B7F
     7DF02010D
@@ -1919,7 +1919,7 @@ test_cases:
     7EA04411F03FE
     7EE04411F0406
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.19608
+    SIENNAH_SOC: 50.19608
   response: |-
     7DA04621F5B80
     7DF02010D
@@ -1928,7 +1928,7 @@ test_cases:
     7ED03410D20
     7E803410D20
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.58824
+    SIENNAH_SOC: 50.58824
   response: |-
     7DA04621F5B81
     7DF02011F
@@ -1937,7 +1937,7 @@ test_cases:
     7ED04411F04FF
     7EE04411F04F8
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.58824
+    SIENNAH_SOC: 50.58824
   response: |-
     7DA04621F5B81
     7DF02011F
@@ -1946,7 +1946,7 @@ test_cases:
     7ED04411F0304
     7E804411F02F9
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.76471
+    SIENNAH_SOC: 51.76471
   response: |-
     7DA04621F5B84
     7DF02010C
@@ -1960,7 +1960,7 @@ test_cases:
     7EE03410D34
     7E803410D34
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.76471
+    SIENNAH_SOC: 51.76471
   response: |-
     7DA04621F5B84
     7DF02010D
@@ -1974,7 +1974,7 @@ test_cases:
     7EA04411F024F
     7EE04411F0254
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.15686
+    SIENNAH_SOC: 52.15686
   response: |-
     7DA04621F5B85
     7DF02010D
@@ -1990,7 +1990,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.54902
+    SIENNAH_SOC: 52.54902
   response: |-
     7DA04621F5B86
     7DF02010C
@@ -2009,7 +2009,7 @@ test_cases:
     7EE04411F03F7
     7EA04411F03EF
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.94118
+    SIENNAH_SOC: 52.94118
   response: |-
     7DA04621F5B87
     7DF02010C
@@ -2028,7 +2028,7 @@ test_cases:
     7EA04411F0F60
     7EE04411F0F7E
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.94118
+    SIENNAH_SOC: 52.94118
   response: |-
     7DA04621F5B87
     7DF02010D
@@ -2037,7 +2037,7 @@ test_cases:
     7E803410D00
     7EA03410D00
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.94118
+    SIENNAH_SOC: 52.94118
   response: |-
     7DA04621F5B87
     7DF02011F
@@ -2048,7 +2048,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7DA04621F5B89
     7DF02010C
@@ -2069,7 +2069,7 @@ test_cases:
     7DF020149
     7EA0341494F
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7DA04621F5B89
     7DF02010D
@@ -2085,7 +2085,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.11765
+    SIENNAH_SOC: 54.11765
   response: |-
     7DA04621F5B8A
     7DF02010C
@@ -2106,7 +2106,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.11765
+    SIENNAH_SOC: 54.11765
   response: |-
     7DA04621F5B8A
     7DF02010C
@@ -2127,7 +2127,7 @@ test_cases:
     7DF020149
     7EA0341494F
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.11765
+    SIENNAH_SOC: 54.11765
   response: |-
     7DA04621F5B8A
     7DF02010D
@@ -2141,7 +2141,7 @@ test_cases:
     7EA04411F0040
     7EE04411F0041
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.5098
+    SIENNAH_SOC: 54.5098
   response: |-
     7DA04621F5B8B
     7DF02010D
@@ -2157,7 +2157,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.90196
+    SIENNAH_SOC: 54.90196
   response: |-
     7DA04621F5B8C
     7DF02010C
@@ -2171,7 +2171,7 @@ test_cases:
     7EA03410D74
     7EE03410D74
 - expected_values:
-    SIENNA_HYBRID_SOC: 55.68627
+    SIENNAH_SOC: 55.68627
   response: |-
     7DA04621F5B8E
     7DF02010C
@@ -2190,7 +2190,7 @@ test_cases:
     7ED04411F03F6
     7EE04411F03F0
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.07843
+    SIENNAH_SOC: 56.07843
   response: |-
     7DA04621F5B8F
     7DF02010C
@@ -2211,7 +2211,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.47059
+    SIENNAH_SOC: 56.47059
   response: |-
     7DA04621F5B90
     7DF02010C
@@ -2230,7 +2230,7 @@ test_cases:
     7E804411F00CB
     7EE04411F00CD
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.86275
+    SIENNAH_SOC: 56.86275
   response: |-
     7DA04621F5B91
     7DF02010D
@@ -2244,7 +2244,7 @@ test_cases:
     7E804411F05EC
     7EE04411F05F7
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.82353
+    SIENNAH_SOC: 58.82353
   response: |-
     7DA04621F5B96
     7DF02010C
@@ -2253,7 +2253,7 @@ test_cases:
     7EA04410C1180
     7EE04410C1180
 - expected_values:
-    SIENNA_HYBRID_SOC: 59.21569
+    SIENNAH_SOC: 59.21569
   response: |-
     7DA04621F5B97
     7DF02010C
@@ -2267,7 +2267,7 @@ test_cases:
     7EA03410D3C
     7EE03410D3C
 - expected_values:
-    SIENNA_HYBRID_SOC: 59.21569
+    SIENNAH_SOC: 59.21569
   response: |-
     7DA04621F5B97
     7DF02010D
@@ -2281,7 +2281,7 @@ test_cases:
     7E804411F2CD8
     7EE04411F2D30
 - expected_values:
-    SIENNA_HYBRID_SOC: 60.78431
+    SIENNAH_SOC: 60.78431
   response: |-
     7DA04621F5B9B
     7DF02010C
@@ -2300,7 +2300,7 @@ test_cases:
     7EA04411F004E
     7EE04411F004F
 - expected_values:
-    SIENNA_HYBRID_SOC: 60.78431
+    SIENNAH_SOC: 60.78431
   response: |-
     7DA04621F5B9B
     7DF02010C
@@ -2319,7 +2319,7 @@ test_cases:
     7EA04411F0C92
     7EE04411F0CAB
 - expected_values:
-    SIENNA_HYBRID_SOC: 61.17647
+    SIENNAH_SOC: 61.17647
   response: |-
     7DA04621F5B9C
     7DF02010C
@@ -2333,7 +2333,7 @@ test_cases:
     7E803410D2E
     7EE03410D2E
 - expected_values:
-    SIENNA_HYBRID_SOC: 61.96078
+    SIENNAH_SOC: 61.96078
   response: |-
     7DA04621F5B9E
     7DF02010D
@@ -2347,7 +2347,7 @@ test_cases:
     7EA04411F020E
     7EE04411F0212
 - expected_values:
-    SIENNA_HYBRID_SOC: 62.7451
+    SIENNAH_SOC: 62.7451
   response: |-
     7DA04621F5BA0
     7DF02010D
@@ -2363,7 +2363,7 @@ test_cases:
     7DF020149
     7EA03414979
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.13725
+    SIENNAH_SOC: 63.13725
   response: |-
     7DA04621F5BA1
     7DF02010C
@@ -2382,7 +2382,7 @@ test_cases:
     7E804411F1F0E
     7EE04411F1F4B
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.13725
+    SIENNAH_SOC: 63.13725
   response: |-
     7DA04621F5BA1
     7DF02010D
@@ -2396,7 +2396,7 @@ test_cases:
     7EE04411F001E
     7EA04411F001E
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.52941
+    SIENNAH_SOC: 63.52941
   response: |-
     7DA04621F5BA2
     7DF02010C
@@ -2417,7 +2417,7 @@ test_cases:
     7DF020149
     7EA03414971
 - expected_values:
-    SIENNA_HYBRID_SOC: 64.31373
+    SIENNAH_SOC: 64.31373
   response: |-
     7DA04621F5BA4
     7DF02011F
@@ -2430,7 +2430,7 @@ test_cases:
     7D8056162000000
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 67.84314
+    SIENNAH_SOC: 67.84314
   response: |-
     7DA04621F5BAD
     7DF02010C
@@ -2449,7 +2449,7 @@ test_cases:
     7E804411F00D0
     7EE04411F00D2
 - expected_values:
-    SIENNA_HYBRID_SOC: 67.84314
+    SIENNAH_SOC: 67.84314
   response: |-
     7DA04621F5BAD
     7DF02010C
@@ -2463,7 +2463,7 @@ test_cases:
     7E803410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_SOC: 68.23529
+    SIENNAH_SOC: 68.23529
   response: |-
     7DA04621F5BAE
     7DF02010D
@@ -2472,7 +2472,7 @@ test_cases:
     7E803410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_SOC: 69.41176
+    SIENNAH_SOC: 69.41176
   response: |-
     7DA04621F5BB1
     7DF02010C
@@ -2491,16 +2491,16 @@ test_cases:
     7EE04411F0125
     7EA04411F0123
 - expected_values:
-    SIENNA_HYBRID_SOC: 73.33333
+    SIENNAH_SOC: 73.33333
   response: |-
     7DA04621F5BBB
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 80
+    SIENNAH_SOC: 80
   response: 7DA04621F5BCC
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.35294
+    SIENNAH_SOC: 42.35294
   response: |-
     7DF02010C
     7DA04621F5B6C
@@ -2521,7 +2521,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.52941
+    SIENNAH_SOC: 43.52941
   response: |-
     7DF02010C
     7DA04621F5B6F
@@ -2542,7 +2542,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7DF02010C
     7DA04621F5B70
@@ -2563,7 +2563,7 @@ test_cases:
     7DF020149
     7EA03414942
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DF02010C
     7DA04621F5B72
@@ -2577,7 +2577,7 @@ test_cases:
     7EA03410D76
     7EE03410D76
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DF02010C
     7DA04621F5B72
@@ -2586,7 +2586,7 @@ test_cases:
     7EE04410C2400
     7E804410C240C
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7DF02010C
     7DA04621F5B73
@@ -2605,7 +2605,7 @@ test_cases:
     7EA04411F1C03
     7EE04411F1C3B
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.88235
+    SIENNAH_SOC: 45.88235
   response: |-
     7DF02010C
     7DA04621F5B75
@@ -2624,7 +2624,7 @@ test_cases:
     7EA04411F09F1
     7EE04411F0A05
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.80392
+    SIENNAH_SOC: 49.80392
   response: |-
     7DF02010C
     7DA04621F5B7F
@@ -2643,7 +2643,7 @@ test_cases:
     7E804411F017E
     7EE04411F0181
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.19608
+    SIENNAH_SOC: 50.19608
   response: |-
     7DF02010C
     7DA04621F5B80
@@ -2652,7 +2652,7 @@ test_cases:
     7E804410C1443
     7EA04410C1400
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.90196
+    SIENNAH_SOC: 54.90196
   response: |-
     7DF02010C
     7DA04621F5B8C
@@ -2671,7 +2671,7 @@ test_cases:
     7EE04411F0300
     7EA04411F02FA
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.82353
+    SIENNAH_SOC: 58.82353
   response: |-
     7DF02010C
     7DA04621F5B96
@@ -2690,7 +2690,7 @@ test_cases:
     7E804411F01AA
     7EE04411F01AE
 - expected_values:
-    SIENNA_HYBRID_SOC: 48.23529
+    SIENNAH_SOC: 48.23529
   response: |-
     7DF02010C
     7ED04410C0000
@@ -2711,7 +2711,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.43137
+    SIENNAH_SOC: 58.43137
   response: |-
     7DF02010C
     7ED04410C0000
@@ -2725,7 +2725,7 @@ test_cases:
     7E803410D39
     7EE03410D39
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7DF02010C
     7ED04410C1E80
@@ -2746,7 +2746,7 @@ test_cases:
     7DF020149
     7EA03414948
 - expected_values:
-    SIENNA_HYBRID_SOC: 40.78431
+    SIENNAH_SOC: 40.78431
   response: |-
     7DF02010D
     7DA04621F5B68
@@ -2762,7 +2762,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.7451
+    SIENNAH_SOC: 42.7451
   response: |-
     7DF02010D
     7DA04621F5B6D
@@ -2771,7 +2771,7 @@ test_cases:
     7EA03410D03
     7EE03410D03
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.80392
+    SIENNAH_SOC: 49.80392
   response: |-
     7DF02010D
     7DA04621F5B7F
@@ -2787,7 +2787,7 @@ test_cases:
     7DF020149
     7EA03414950
 - expected_values:
-    SIENNA_HYBRID_SOC: 55.29412
+    SIENNAH_SOC: 55.29412
   response: |-
     7DF02010D
     7DA04621F5B8D
@@ -2796,7 +2796,7 @@ test_cases:
     7EA03410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.47059
+    SIENNAH_SOC: 56.47059
   response: |-
     7DF02010D
     7DA04621F5B90
@@ -2812,7 +2812,7 @@ test_cases:
     7DF020149
     7EA03414938
 - expected_values:
-    SIENNA_HYBRID_SOC: 62.35294
+    SIENNAH_SOC: 62.35294
   response: |-
     7DF02010D
     7DA04621F5B9F
@@ -2826,7 +2826,7 @@ test_cases:
     7EA04411F01E4
     7E804411F01E4
 - expected_values:
-    SIENNA_HYBRID_SOC: 46.27451
+    SIENNAH_SOC: 46.27451
   response: |-
     7DF02010D
     7ED03410D00
@@ -2840,7 +2840,7 @@ test_cases:
     7EE04411F02AE
     7EA04411F02A8
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.47059
+    SIENNAH_SOC: 56.47059
   response: |-
     7DF02010D
     7ED03410D00
@@ -2856,7 +2856,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 64.31373
+    SIENNAH_SOC: 64.31373
   response: |-
     7DF02010D
     7ED03410D26
@@ -2872,7 +2872,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 41.56863
+    SIENNAH_SOC: 41.56863
   response: |-
     7DF02010D
     7ED03410D2C
@@ -2888,7 +2888,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.52941
+    SIENNAH_SOC: 43.52941
   response: |-
     7DF02011F
     7DA04621F5B6F
@@ -2899,7 +2899,7 @@ test_cases:
     7DF020149
     7EA03414948
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.19608
+    SIENNAH_SOC: 50.19608
   response: |-
     7DF02011F
     7DA04621F5B80
@@ -2910,7 +2910,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 69.01961
+    SIENNAH_SOC: 69.01961
   response: |-
     7DF02011F
     7DA04621F5BB0
@@ -2919,7 +2919,7 @@ test_cases:
     7E804411F0025
     7EE04411F0025
 - expected_values:
-    SIENNA_HYBRID_SOC: 69.01961
+    SIENNAH_SOC: 69.01961
   response: |-
     7DF02011F
     7ED04411F0046
@@ -2930,7 +2930,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.15686
+    SIENNAH_SOC: 52.15686
   response: |-
     7DF02011F
     7ED04411F04B9
@@ -2939,7 +2939,7 @@ test_cases:
     7E804411F04A8
     7EE04411F04B1
 - expected_values:
-    SIENNA_HYBRID_SOC: 60.39216
+    SIENNAH_SOC: 60.39216
   response: |-
     7DF02011F
     7ED04411F0FB2
@@ -2950,37 +2950,37 @@ test_cases:
     7DF020149
     7EA03414950
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.7451
+    SIENNAH_SOC: 42.7451
   response: |-
     7DF020149
     7DA04621F5B6D
     7EA0341494F
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.31373
+    SIENNAH_SOC: 44.31373
   response: |-
     7DF020149
     7DA04621F5B71
     7EA0341496E
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.19608
+    SIENNAH_SOC: 50.19608
   response: |-
     7DF020149
     7DA04621F5B80
     7EA03414933
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.07843
+    SIENNAH_SOC: 56.07843
   response: |-
     7DF020149
     7DA04621F5B8F
     7EA0341492E
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.13725
+    SIENNAH_SOC: 63.13725
   response: |-
     7DF020149
     7DA04621F5BA1
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.58824
+    SIENNAH_SOC: 50.58824
   response: |-
     7E803410D00
     7DA04621F5B81
@@ -2992,14 +2992,14 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 46.66667
+    SIENNAH_SOC: 46.66667
   response: |-
     7E803410D00
     7EA03410D00
     7EE03410D00
     7DA04621F5B77
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.82353
+    SIENNAH_SOC: 58.82353
   response: |-
     7E803410D00
     7EA03410D00
@@ -3013,7 +3013,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.37255
+    SIENNAH_SOC: 51.37255
   response: |-
     7E803410D00
     7EE03410D00
@@ -3026,7 +3026,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7E803410D00
     7EE03410D00
@@ -3039,7 +3039,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.52941
+    SIENNAH_SOC: 63.52941
   response: |-
     7E803410D00
     7EE03410D00
@@ -3052,7 +3052,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.94118
+    SIENNAH_SOC: 52.94118
   response: |-
     7E803410D00
     7EE03410D00
@@ -3066,7 +3066,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.13725
+    SIENNAH_SOC: 43.13725
   response: |-
     7E803410D05
     7EA03410D05
@@ -3079,7 +3079,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.94118
+    SIENNAH_SOC: 52.94118
   response: |-
     7E803410D06
     7EE03410D06
@@ -3093,7 +3093,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7E803410D08
     7ED03410D08
@@ -3108,7 +3108,7 @@ test_cases:
     7DF020149
     7EA0341492F
 - expected_values:
-    SIENNA_HYBRID_SOC: 60.78431
+    SIENNAH_SOC: 60.78431
   response: |-
     7E803410D09
     7EE03410D09
@@ -3121,7 +3121,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 67.05882
+    SIENNAH_SOC: 67.05882
   response: |-
     7E803410D14
     7DA04621F5BAB
@@ -3133,7 +3133,7 @@ test_cases:
     7DF020149
     7EA03414949
 - expected_values:
-    SIENNA_HYBRID_SOC: 59.21569
+    SIENNAH_SOC: 59.21569
   response: |-
     7E803410D27
     7EE03410D27
@@ -3146,7 +3146,7 @@ test_cases:
     7DF020149
     7EA0341494B
 - expected_values:
-    SIENNA_HYBRID_SOC: 64.70588
+    SIENNAH_SOC: 64.70588
   response: |-
     7E803410D2C
     7EA03410D2C
@@ -3158,7 +3158,7 @@ test_cases:
     7EA04411F00F7
     7EE04411F00F9
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.76471
+    SIENNAH_SOC: 51.76471
   response: |-
     7E803410D65
     7EA03410D65
@@ -3173,7 +3173,7 @@ test_cases:
     7DF020149
     7EA0341493B
 - expected_values:
-    SIENNA_HYBRID_SOC: 61.56863
+    SIENNAH_SOC: 61.56863
   response: |-
     7E804410C0000
     7DA04621F5B9D
@@ -3190,7 +3190,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.76471
+    SIENNAH_SOC: 51.76471
   response: |-
     7E804410C0000
     7EA04410C0000
@@ -3208,7 +3208,7 @@ test_cases:
     7DF020149
     7EA0341492B
 - expected_values:
-    SIENNA_HYBRID_SOC: 59.21569
+    SIENNAH_SOC: 59.21569
   response: |-
     7E804410C0000
     7EA04410C0000
@@ -3226,7 +3226,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 64.70588
+    SIENNAH_SOC: 64.70588
   response: |-
     7E804410C0000
     7EA04410C0000
@@ -3244,7 +3244,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 42.35294
+    SIENNAH_SOC: 42.35294
   response: |-
     7E804410C0000
     7EA04410C0000
@@ -3263,7 +3263,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.31373
+    SIENNAH_SOC: 44.31373
   response: |-
     7E804410C0000
     7EA04410C0000
@@ -3282,7 +3282,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 60
+    SIENNAH_SOC: 60
   response: |-
     7E804410C0000
     7EA04410C0000
@@ -3301,7 +3301,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 66.27451
+    SIENNAH_SOC: 66.27451
   response: |-
     7E804410C0000
     7EA04410C0000
@@ -3320,7 +3320,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.47059
+    SIENNAH_SOC: 56.47059
   response: |-
     7E804410C0000
     7EA04410C0000
@@ -3340,7 +3340,7 @@ test_cases:
     7DF020149
     7EA03414936
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.47059
+    SIENNAH_SOC: 56.47059
   response: |-
     7E804410C0000
     7ED04410C0000
@@ -3359,7 +3359,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.52941
+    SIENNAH_SOC: 43.52941
   response: |-
     7E804410C0000
     7EE04410C0000
@@ -3377,7 +3377,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 60
+    SIENNAH_SOC: 60
   response: |-
     7E804410C0000
     7EE04410C0000
@@ -3393,7 +3393,7 @@ test_cases:
     7EA04411F0FDB
     7EE04411F0FFA
 - expected_values:
-    SIENNA_HYBRID_SOC: 65.4902
+    SIENNAH_SOC: 65.4902
   response: |-
     7E804410C0000
     7EE04410C0000
@@ -3411,7 +3411,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.90196
+    SIENNAH_SOC: 54.90196
   response: |-
     7E804410C036B
     7EA04410C0080
@@ -3431,7 +3431,7 @@ test_cases:
     7DF020149
     7EA0341492E
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.07843
+    SIENNAH_SOC: 56.07843
   response: |-
     7E804410C0F77
     7EA04410C0F00
@@ -3450,14 +3450,14 @@ test_cases:
     7DF020149
     7EA0341492E
 - expected_values:
-    SIENNA_HYBRID_SOC: 37.64706
+    SIENNAH_SOC: 37.64706
   response: |-
     7E804410C0F8D
     7EA04410C0F00
     7EE04410C0F00
     7DA04621F5B60
 - expected_values:
-    SIENNA_HYBRID_SOC: 64.31373
+    SIENNAH_SOC: 64.31373
   response: |-
     7E804410C0FAC
     7EE04410C0F80
@@ -3473,14 +3473,14 @@ test_cases:
     7EA04411F01EA
     7EE04411F01EE
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.13725
+    SIENNAH_SOC: 63.13725
   response: |-
     7E804410C1130
     7EA04410C1100
     7EE04410C1100
     7DA04621F5BA1
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.45098
+    SIENNAH_SOC: 47.45098
   response: |-
     7E804410C12CC
     7EA04410C1280
@@ -3499,7 +3499,7 @@ test_cases:
     7DF020149
     7EA03414937
 - expected_values:
-    SIENNA_HYBRID_SOC: 70.58824
+    SIENNAH_SOC: 70.58824
   response: |-
     7E804410C1482
     7EE04410C1400
@@ -3517,7 +3517,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7E804410C14A1
     7EA04410C1480
@@ -3536,7 +3536,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.88235
+    SIENNAH_SOC: 45.88235
   response: |-
     7E804410C1615
     7EE04410C1600
@@ -3547,7 +3547,7 @@ test_cases:
     7EA03410D67
     7EE03410D67
 - expected_values:
-    SIENNA_HYBRID_SOC: 69.01961
+    SIENNAH_SOC: 69.01961
   response: |-
     7E804410C16FC
     7DA04621F5BB0
@@ -3564,7 +3564,7 @@ test_cases:
     7DF020149
     7EA03414943
 - expected_values:
-    SIENNA_HYBRID_SOC: 48.23529
+    SIENNAH_SOC: 48.23529
   response: |-
     7E804410C1770
     7EE04410C1700
@@ -3582,7 +3582,7 @@ test_cases:
     7DF020149
     7EA0341493C
 - expected_values:
-    SIENNA_HYBRID_SOC: 55.29412
+    SIENNAH_SOC: 55.29412
   response: |-
     7E804410C17F6
     7EE04410C1800
@@ -3600,7 +3600,7 @@ test_cases:
     7DF020149
     7EA03414944
 - expected_values:
-    SIENNA_HYBRID_SOC: 57.64706
+    SIENNAH_SOC: 57.64706
   response: |-
     7E804410C1AF0
     7EE04410C1A80
@@ -3616,7 +3616,7 @@ test_cases:
     7EA04411F075F
     7EE04411F076E
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.5098
+    SIENNAH_SOC: 54.5098
   response: |-
     7E804410C1B19
     7EA04410C1B00
@@ -3635,7 +3635,7 @@ test_cases:
     7DF020149
     7EA03414947
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.41176
+    SIENNAH_SOC: 49.41176
   response: |-
     7E804410C1B2C
     7EE04410C1B00
@@ -3653,7 +3653,7 @@ test_cases:
     7DF020149
     7EA03414947
 - expected_values:
-    SIENNA_HYBRID_SOC: 46.66667
+    SIENNAH_SOC: 46.66667
   response: |-
     7E804410C1EB0
     7EE04410C1E80
@@ -3671,7 +3671,7 @@ test_cases:
     7DF020149
     7EA03414936
 - expected_values:
-    SIENNA_HYBRID_SOC: 60.78431
+    SIENNAH_SOC: 60.78431
   response: |-
     7E804410C20C9
     7DA04621F5B9B
@@ -3688,7 +3688,7 @@ test_cases:
     7DF020149
     7EA03414952
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.84314
+    SIENNAH_SOC: 47.84314
   response: |-
     7E804410C20DC
     7EA04410C2080
@@ -3707,7 +3707,7 @@ test_cases:
     7DF020149
     7EA0341494E
 - expected_values:
-    SIENNA_HYBRID_SOC: 55.29412
+    SIENNAH_SOC: 55.29412
   response: |-
     7E804410C220E
     7EA04410C2200
@@ -3726,7 +3726,7 @@ test_cases:
     7DF020149
     7EA03414950
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7E804410C28D2
     7EA04410C2880
@@ -3746,7 +3746,7 @@ test_cases:
     7DF020149
     7EA03414954
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.05882
+    SIENNAH_SOC: 47.05882
   response: |-
     7E804410C30A8
     7EA04410C3080
@@ -3765,7 +3765,7 @@ test_cases:
     7DF020149
     7EA0341495E
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.33333
+    SIENNAH_SOC: 53.33333
   response: |-
     7E804411F002A
     7EE04411F002A
@@ -3773,7 +3773,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 61.96078
+    SIENNAH_SOC: 61.96078
   response: |-
     7E804411F0094
     7EA04411F0094
@@ -3783,7 +3783,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7E804411F009B
     7EA04411F009B
@@ -3792,20 +3792,20 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 62.7451
+    SIENNAH_SOC: 62.7451
   response: |-
     7E804411F009F
     7EE04411F00A1
     7DA04621F5BA0
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.94118
+    SIENNAH_SOC: 52.94118
   response: |-
     7E804411F011A
     7DA04621F5B87
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 69.80392
+    SIENNAH_SOC: 69.80392
   response: |-
     7E804411F013F
     7EE04411F0142
@@ -3813,12 +3813,12 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.80392
+    SIENNAH_SOC: 49.80392
   response: |-
     7E804411F0293
     7DA04621F5B7F
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.01961
+    SIENNAH_SOC: 49.01961
   response: |-
     7E804411F0319
     7EA04411F0319
@@ -3828,7 +3828,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 41.56863
+    SIENNAH_SOC: 41.56863
   response: |-
     7E804411F0382
     7EE04411F0388
@@ -3836,7 +3836,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.98039
+    SIENNAH_SOC: 50.98039
   response: |-
     7E804411F03C3
     7EA04411F03C3
@@ -3844,13 +3844,13 @@ test_cases:
     7ED04411F03D0
     7DA04621F5B82
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.31373
+    SIENNAH_SOC: 44.31373
   response: |-
     7E804411F046F
     7EE04411F0478
     7DA04621F5B71
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.90196
+    SIENNAH_SOC: 54.90196
   response: |-
     7E804411F04ED
     7EA04411F04ED
@@ -3858,7 +3858,7 @@ test_cases:
     7DF020149
     7EA0341494F
 - expected_values:
-    SIENNA_HYBRID_SOC: 60.39216
+    SIENNAH_SOC: 60.39216
   response: |-
     7E804411F04F8
     7EA04411F04F8
@@ -3867,7 +3867,7 @@ test_cases:
     7DF020149
     7EA03414932
 - expected_values:
-    SIENNA_HYBRID_SOC: 59.60784
+    SIENNAH_SOC: 59.60784
   response: |-
     7E804411F0501
     7EE04411F050B
@@ -3875,20 +3875,20 @@ test_cases:
     7DF020149
     7EA0341493D
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.05882
+    SIENNAH_SOC: 47.05882
   response: |-
     7E804411F06BC
     7ED04411F06D4
     7EE04411F06C9
     7DA04621F5B78
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.13725
+    SIENNAH_SOC: 63.13725
   response: |-
     7E804411F074B
     7EE04411F075A
     7DA04621F5BA1
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.07843
+    SIENNAH_SOC: 56.07843
   response: |-
     7E804411F0775
     7EA04411F0775
@@ -3897,7 +3897,7 @@ test_cases:
     7DF020149
     7EA03414945
 - expected_values:
-    SIENNA_HYBRID_SOC: 61.56863
+    SIENNAH_SOC: 61.56863
   response: |-
     7E804411F09FE
     7EE04411F0A11
@@ -3905,7 +3905,7 @@ test_cases:
     7DF020149
     7EA0341493A
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.98039
+    SIENNAH_SOC: 50.98039
   response: |-
     7E804411F0DF9
     7ED04411F0E2A
@@ -3915,7 +3915,7 @@ test_cases:
     7DF020149
     7EA0341494A
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.88235
+    SIENNAH_SOC: 45.88235
   response: |-
     7E804411F0E6E
     7EA04411F0E6E
@@ -3924,7 +3924,7 @@ test_cases:
     7DF020149
     7EA0341495B
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.76471
+    SIENNAH_SOC: 51.76471
   response: |-
     7E804411F1021
     7EE04411F1040
@@ -3932,7 +3932,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7E804411F152D
     7EA04411F152D
@@ -3941,7 +3941,7 @@ test_cases:
     7DF020149
     7EA0341493F
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7E804411F19FB
     7EA04411F19FB
@@ -3951,7 +3951,7 @@ test_cases:
     7DF020149
     7EA0341494C
 - expected_values:
-    SIENNA_HYBRID_SOC: 65.88235
+    SIENNAH_SOC: 65.88235
   response: |-
     7E804411F2E1C
     7EA04411F2E1C
@@ -3960,7 +3960,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 48.23529
+    SIENNAH_SOC: 48.23529
   response: |-
     7E804411F329B
     7EA04411F329A
@@ -3969,7 +3969,7 @@ test_cases:
     7DF020149
     7EA0341494D
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.43137
+    SIENNAH_SOC: 58.43137
   response: |-
     7EA03410D00
     7E803410D00
@@ -3983,7 +3983,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 60.78431
+    SIENNAH_SOC: 60.78431
   response: |-
     7EA03410D00
     7E803410D00
@@ -3995,7 +3995,7 @@ test_cases:
     7EA04411F02A5
     7EE04411F02AA
 - expected_values:
-    SIENNA_HYBRID_SOC: 65.09804
+    SIENNAH_SOC: 65.09804
   response: |-
     7EA03410D00
     7ED03410D03
@@ -4010,7 +4010,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.76471
+    SIENNAH_SOC: 51.76471
   response: |-
     7EA03410D00
     7EE03410D00
@@ -4023,7 +4023,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7EA03410D00
     7EE03410D00
@@ -4036,7 +4036,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 69.41176
+    SIENNAH_SOC: 69.41176
   response: |-
     7EA03410D00
     7EE03410D00
@@ -4049,7 +4049,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 65.88235
+    SIENNAH_SOC: 65.88235
   response: |-
     7EA03410D04
     7EE03410D04
@@ -4063,7 +4063,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 59.60784
+    SIENNAH_SOC: 59.60784
   response: |-
     7EA03410D10
     7E803410D10
@@ -4076,7 +4076,7 @@ test_cases:
     7DF020149
     7EA0341492D
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.11765
+    SIENNAH_SOC: 54.11765
   response: |-
     7EA03410D1C
     7DA04621F5B8A
@@ -4089,7 +4089,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.33333
+    SIENNAH_SOC: 53.33333
   response: |-
     7EA03410D23
     7ED03410D24
@@ -4104,13 +4104,13 @@ test_cases:
     7DF020149
     7EA03414941
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.07843
+    SIENNAH_SOC: 56.07843
   response: |-
     7EA03410D25
     7EE03410D25
     7DA04621F5B8F
 - expected_values:
-    SIENNA_HYBRID_SOC: 60.39216
+    SIENNAH_SOC: 60.39216
   response: |-
     7EA03410D28
     7EE03410D28
@@ -4121,7 +4121,7 @@ test_cases:
     7E804411F1C00
     7EE04411F1C38
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.76471
+    SIENNAH_SOC: 51.76471
   response: |-
     7EA03410D50
     7E803410D50
@@ -4135,7 +4135,7 @@ test_cases:
     7DF020149
     7EA0341493C
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7EA03410D64
     7DA04621F5B72
@@ -4147,7 +4147,7 @@ test_cases:
     7DF020149
     7EA0341494D
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.54902
+    SIENNAH_SOC: 52.54902
   response: |-
     7EA03410D66
     7EE03410D66
@@ -4162,7 +4162,7 @@ test_cases:
     7DF020149
     7EA0341494A
 - expected_values:
-    SIENNA_HYBRID_SOC: 59.21569
+    SIENNAH_SOC: 59.21569
   response: |-
     7EA03410D67
     7DA04621F5B97
@@ -4173,7 +4173,7 @@ test_cases:
     7EE04411F031D
     7ED04411F0322
 - expected_values:
-    SIENNA_HYBRID_SOC: 46.27451
+    SIENNAH_SOC: 46.27451
   response: |-
     7EA03410D6A
     7E803410D6A
@@ -4186,7 +4186,7 @@ test_cases:
     7DF020149
     7EA0341494E
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.52941
+    SIENNAH_SOC: 43.52941
   response: |-
     7EA03410D6D
     7ED03410D6E
@@ -4201,7 +4201,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.94118
+    SIENNAH_SOC: 52.94118
   response: |-
     7EA03410D6D
     7EE03410D6D
@@ -4214,7 +4214,7 @@ test_cases:
     7DF020149
     7EA03414949
 - expected_values:
-    SIENNA_HYBRID_SOC: 48.62745
+    SIENNAH_SOC: 48.62745
   response: |-
     7EA03410D70
     7ED03410D72
@@ -4228,7 +4228,7 @@ test_cases:
     7DF020149
     7EA03414952
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.19608
+    SIENNAH_SOC: 50.19608
   response: |-
     7EA03410D75
     7DA04621F5B80
@@ -4240,7 +4240,7 @@ test_cases:
     7DF020149
     7EA03414950
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7EA03410D75
     7E803410D75
@@ -4255,7 +4255,7 @@ test_cases:
     7DF020149
     7EA03414959
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.31373
+    SIENNAH_SOC: 44.31373
   response: |-
     7EA03410D7D
     7ED03410D7F
@@ -4270,27 +4270,27 @@ test_cases:
     7DF020149
     7EA03414944
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.13725
+    SIENNAH_SOC: 43.13725
   response: |-
     7EA03414928
     7DA04621F5B6E
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.07843
+    SIENNAH_SOC: 56.07843
   response: |-
     7EA03414928
     7DA04621F5B8F
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.47059
+    SIENNAH_SOC: 56.47059
   response: |-
     7EA03414928
     7DA04621F5B90
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.52941
+    SIENNAH_SOC: 63.52941
   response: |-
     7EA03414928
     7DA04621F5BA2
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.05882
+    SIENNAH_SOC: 47.05882
   response: |-
     7EA04410C0000
     7DA04621F5B78
@@ -4307,7 +4307,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.54902
+    SIENNAH_SOC: 52.54902
   response: |-
     7EA04410C0000
     7DA04621F5B86
@@ -4325,7 +4325,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.76471
+    SIENNAH_SOC: 51.76471
   response: |-
     7EA04410C0000
     7E804410C0000
@@ -4345,7 +4345,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.80392
+    SIENNAH_SOC: 49.80392
   response: |-
     7EA04410C0000
     7E804410C0000
@@ -4364,7 +4364,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 55.29412
+    SIENNAH_SOC: 55.29412
   response: |-
     7EA04410C0000
     7E804410C0000
@@ -4383,7 +4383,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.43137
+    SIENNAH_SOC: 58.43137
   response: |-
     7EA04410C0000
     7E804410C0000
@@ -4402,7 +4402,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 62.7451
+    SIENNAH_SOC: 62.7451
   response: |-
     7EA04410C0000
     7E804410C0000
@@ -4421,7 +4421,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.92157
+    SIENNAH_SOC: 63.92157
   response: |-
     7EA04410C0000
     7E804410C0000
@@ -4438,7 +4438,7 @@ test_cases:
     7EE04411F066B
     7E804411F065E
 - expected_values:
-    SIENNA_HYBRID_SOC: 41.56863
+    SIENNAH_SOC: 41.56863
   response: |-
     7EA04410C0000
     7ED04410C0000
@@ -4455,7 +4455,7 @@ test_cases:
     7EA04411F03D2
     7EE04411F03D9
 - expected_values:
-    SIENNA_HYBRID_SOC: 55.29412
+    SIENNAH_SOC: 55.29412
   response: |-
     7EA04410C0000
     7ED04410C0000
@@ -4475,7 +4475,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 65.09804
+    SIENNAH_SOC: 65.09804
   response: |-
     7EA04410C0000
     7ED04410C0000
@@ -4495,7 +4495,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.4902
+    SIENNAH_SOC: 45.4902
   response: |-
     7EA04410C0000
     7EE04410C0000
@@ -4514,7 +4514,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.84314
+    SIENNAH_SOC: 47.84314
   response: |-
     7EA04410C0000
     7EE04410C0000
@@ -4532,7 +4532,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.43137
+    SIENNAH_SOC: 58.43137
   response: |-
     7EA04410C0000
     7EE04410C0000
@@ -4550,7 +4550,7 @@ test_cases:
     7DF020149
     7EA03414942
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.5098
+    SIENNAH_SOC: 54.5098
   response: |-
     7EA04410C0000
     7EE04410C0000
@@ -4569,7 +4569,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.92157
+    SIENNAH_SOC: 63.92157
   response: |-
     7EA04410C0000
     7EE04410C0000
@@ -4581,7 +4581,7 @@ test_cases:
     7EE03410D03
     7E803410D03
 - expected_values:
-    SIENNA_HYBRID_SOC: 61.96078
+    SIENNAH_SOC: 61.96078
   response: |-
     7EA04410C0080
     7EE04410C0080
@@ -4601,7 +4601,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.31373
+    SIENNAH_SOC: 44.31373
   response: |-
     7EA04410C1100
     7ED04410C1100
@@ -4621,14 +4621,14 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 48.23529
+    SIENNAH_SOC: 48.23529
   response: |-
     7EA04410C1180
     7E804410C11FB
     7EE04410C1180
     7DA04621F5B7B
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.52941
+    SIENNAH_SOC: 63.52941
   response: |-
     7EA04410C1200
     7E804410C125C
@@ -4647,7 +4647,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 68.62745
+    SIENNAH_SOC: 68.62745
   response: |-
     7EA04410C1200
     7ED04410C1200
@@ -4667,7 +4667,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 69.80392
+    SIENNAH_SOC: 69.80392
   response: |-
     7EA04410C1380
     7E804410C13B6
@@ -4686,7 +4686,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.98039
+    SIENNAH_SOC: 50.98039
   response: |-
     7EA04410C1780
     7E804410C1815
@@ -4706,7 +4706,7 @@ test_cases:
     7DF020149
     7EA03414945
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7EA04410C1A00
     7ED04410C1A00
@@ -4719,7 +4719,7 @@ test_cases:
     7E803410D7E
     7EE03410D7E
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.52941
+    SIENNAH_SOC: 63.52941
   response: |-
     7EA04410C1C00
     7DA04621F5BA2
@@ -4736,7 +4736,7 @@ test_cases:
     7DF020149
     7EA03414935
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.11765
+    SIENNAH_SOC: 54.11765
   response: |-
     7EA04410C1F80
     7E804410C1FB3
@@ -4755,7 +4755,7 @@ test_cases:
     7DF020149
     7EA03414944
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.5098
+    SIENNAH_SOC: 54.5098
   response: |-
     7EA04410C2380
     7DA04621F5B8B
@@ -4772,13 +4772,13 @@ test_cases:
     7DF020149
     7EA03414951
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.45098
+    SIENNAH_SOC: 47.45098
   response: |-
     7EA04410C2780
     7EE04410C2780
     7DA04621F5B79
 - expected_values:
-    SIENNA_HYBRID_SOC: 57.64706
+    SIENNAH_SOC: 57.64706
   response: |-
     7EA04410C2800
     7ED04410C2800
@@ -4798,7 +4798,7 @@ test_cases:
     7DF020149
     7EA03414955
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.41176
+    SIENNAH_SOC: 49.41176
   response: |-
     7EA04410C2B00
     7EE04410C2B00
@@ -4816,7 +4816,7 @@ test_cases:
     7DF020149
     7EA03414953
 - expected_values:
-    SIENNA_HYBRID_SOC: 66.27451
+    SIENNAH_SOC: 66.27451
   response: |-
     7EA04411F0069
     7E804411F0069
@@ -4825,7 +4825,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7EA04411F0118
     7E804411F0118
@@ -4833,7 +4833,7 @@ test_cases:
     7DF020149
     7EA03414939
 - expected_values:
-    SIENNA_HYBRID_SOC: 61.17647
+    SIENNAH_SOC: 61.17647
   response: |-
     7EA04411F02A0
     7ED04411F02A9
@@ -4843,14 +4843,14 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 62.35294
+    SIENNAH_SOC: 62.35294
   response: |-
     7EA04411F02E8
     7DA04621F5B9F
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.15686
+    SIENNAH_SOC: 52.15686
   response: |-
     7EA04411F02E8
     7EE04411F02EE
@@ -4860,7 +4860,7 @@ test_cases:
     7DF020149
     7EA03414945
 - expected_values:
-    SIENNA_HYBRID_SOC: 48.62745
+    SIENNAH_SOC: 48.62745
   response: |-
     7EA04411F0387
     7E804411F0387
@@ -4869,7 +4869,7 @@ test_cases:
     7DF020149
     7EA03414951
 - expected_values:
-    SIENNA_HYBRID_SOC: 48.62745
+    SIENNAH_SOC: 48.62745
   response: |-
     7EA04411F0390
     7ED04411F039C
@@ -4878,7 +4878,7 @@ test_cases:
     7DF020149
     7EA03414963
 - expected_values:
-    SIENNA_HYBRID_SOC: 60
+    SIENNAH_SOC: 60
   response: |-
     7EA04411F03F1
     7ED04411F03FF
@@ -4888,7 +4888,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.13725
+    SIENNAH_SOC: 63.13725
   response: |-
     7EA04411F04C1
     7EE04411F04CB
@@ -4897,7 +4897,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.88235
+    SIENNAH_SOC: 45.88235
   response: |-
     7EA04411F04F5
     7EE04411F04FF
@@ -4905,7 +4905,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 67.05882
+    SIENNAH_SOC: 67.05882
   response: |-
     7EA04411F0501
     7E804411F0501
@@ -4914,7 +4914,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7EA04411F0600
     7ED04411F0615
@@ -4924,7 +4924,7 @@ test_cases:
     7DF020149
     7EA0341492D
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.98039
+    SIENNAH_SOC: 50.98039
   response: |-
     7EA04411F0652
     7ED04411F0668
@@ -4934,14 +4934,14 @@ test_cases:
     7DF020149
     7EA0341493D
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.84314
+    SIENNAH_SOC: 47.84314
   response: |-
     7EA04411F0B3B
     7EE04411F0B51
     7E804411F0B3B
     7DA04621F5B7A
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7EA04411F0FCD
     7ED04411F1004
@@ -4951,7 +4951,7 @@ test_cases:
     7DF020149
     7EA03414942
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7EA04411F1041
     7ED04411F107A
@@ -4959,7 +4959,7 @@ test_cases:
     7EE04411F1061
     7DA04621F5B72
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.76471
+    SIENNAH_SOC: 51.76471
   response: |-
     7EA04411F1C78
     7EE04411F1CB0
@@ -4969,7 +4969,7 @@ test_cases:
     7DF020149
     7EA0341494D
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.4902
+    SIENNAH_SOC: 45.4902
   response: |-
     7EA04411F2287
     7EE04411F22CB
@@ -4979,7 +4979,7 @@ test_cases:
     7DF020149
     7EA03414937
 - expected_values:
-    SIENNA_HYBRID_SOC: 64.31373
+    SIENNAH_SOC: 64.31373
   response: |-
     7ED03410D00
     7E803410D00
@@ -4990,7 +4990,7 @@ test_cases:
     7ED04411F0176
     7EA04411F0171
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.86275
+    SIENNAH_SOC: 56.86275
   response: |-
     7ED03410D00
     7E803410D00
@@ -5005,7 +5005,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 46.66667
+    SIENNAH_SOC: 46.66667
   response: |-
     7ED03410D00
     7E803410D00
@@ -5020,7 +5020,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7ED03410D00
     7E803410D00
@@ -5028,7 +5028,7 @@ test_cases:
     7EE03410D00
     7DA04621F5B89
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.86275
+    SIENNAH_SOC: 56.86275
   response: |-
     7ED03410D00
     7EA03410D00
@@ -5043,7 +5043,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.98039
+    SIENNAH_SOC: 50.98039
   response: |-
     7ED03410D00
     7EA03410D00
@@ -5058,7 +5058,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.52941
+    SIENNAH_SOC: 63.52941
   response: |-
     7ED03410D08
     7EA03410D08
@@ -5073,7 +5073,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.52941
+    SIENNAH_SOC: 63.52941
   response: |-
     7ED03410D2A
     7EA03410D2A
@@ -5088,7 +5088,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.43137
+    SIENNAH_SOC: 58.43137
   response: |-
     7ED03410D3B
     7EA03410D3B
@@ -5103,7 +5103,7 @@ test_cases:
     7DF020149
     7EA03414941
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.4902
+    SIENNAH_SOC: 45.4902
   response: |-
     7ED03410D7B
     7EA03410D7A
@@ -5118,7 +5118,7 @@ test_cases:
     7DF020149
     7EA03414957
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7ED03410D85
     7EE03410D83
@@ -5131,7 +5131,7 @@ test_cases:
     7DF020149
     7EA03414943
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.33333
+    SIENNAH_SOC: 53.33333
   response: |-
     7ED04410C0000
     7DA04621F5B88
@@ -5148,7 +5148,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.82353
+    SIENNAH_SOC: 58.82353
   response: |-
     7ED04410C0000
     7E804410C0000
@@ -5168,7 +5168,7 @@ test_cases:
     7DF020149
     7EA0341492E
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.52941
+    SIENNAH_SOC: 43.52941
   response: |-
     7ED04410C0000
     7EA04410C0000
@@ -5187,7 +5187,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.98039
+    SIENNAH_SOC: 50.98039
   response: |-
     7ED04410C0000
     7EA04410C0000
@@ -5207,7 +5207,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.98039
+    SIENNAH_SOC: 50.98039
   response: |-
     7ED04410C0000
     7EA04410C0000
@@ -5227,7 +5227,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.15686
+    SIENNAH_SOC: 52.15686
   response: |-
     7ED04410C0000
     7EA04410C0000
@@ -5235,7 +5235,7 @@ test_cases:
     7EE04410C0000
     7DA04621F5B85
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.54902
+    SIENNAH_SOC: 52.54902
   response: |-
     7ED04410C0000
     7EA04410C0000
@@ -5255,7 +5255,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.07843
+    SIENNAH_SOC: 56.07843
   response: |-
     7ED04410C0F80
     7E804410C0F99
@@ -5275,7 +5275,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 65.09804
+    SIENNAH_SOC: 65.09804
   response: |-
     7ED04410C1280
     7EA04410C1280
@@ -5295,7 +5295,7 @@ test_cases:
     7DF020149
     7EA0341493B
 - expected_values:
-    SIENNA_HYBRID_SOC: 70.58824
+    SIENNAH_SOC: 70.58824
   response: |-
     7ED04410C1400
     7E804410C1443
@@ -5303,7 +5303,7 @@ test_cases:
     7EE04410C1400
     7DA04621F5BB4
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.33333
+    SIENNAH_SOC: 53.33333
   response: |-
     7ED04410C1400
     7E804410C1482
@@ -5315,7 +5315,7 @@ test_cases:
     7ED03410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_SOC: 65.4902
+    SIENNAH_SOC: 65.4902
   response: |-
     7ED04410C1400
     7EA04410C1400
@@ -5334,7 +5334,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 69.01961
+    SIENNAH_SOC: 69.01961
   response: |-
     7ED04410C1400
     7EE04410C1400
@@ -5352,7 +5352,7 @@ test_cases:
     7EE04411F0027
     7E804411F0026
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7ED04410C1680
     7DA04621F5B73
@@ -5369,7 +5369,7 @@ test_cases:
     7DF020149
     7EA03414944
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.94118
+    SIENNAH_SOC: 52.94118
   response: |-
     7ED04410C1800
     7EA04410C1880
@@ -5382,7 +5382,7 @@ test_cases:
     7E803410D5B
     7EE03410D5B
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.45098
+    SIENNAH_SOC: 47.45098
   response: |-
     7ED04410C1980
     7EE04410C1980
@@ -5401,7 +5401,7 @@ test_cases:
     7DF020149
     7EA0341493F
 - expected_values:
-    SIENNA_HYBRID_SOC: 60
+    SIENNAH_SOC: 60
   response: |-
     7ED04410C1A80
     7EA04410C1A80
@@ -5412,7 +5412,7 @@ test_cases:
     7E803410D60
     7EA03410D60
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.4902
+    SIENNAH_SOC: 45.4902
   response: |-
     7ED04410C1D80
     7EE04410C1D80
@@ -5430,7 +5430,7 @@ test_cases:
     7DF020149
     7EA03414940
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7ED04410C1E80
     7DA04621F5B73
@@ -5447,7 +5447,7 @@ test_cases:
     7DF020149
     7EA03414946
 - expected_values:
-    SIENNA_HYBRID_SOC: 62.35294
+    SIENNAH_SOC: 62.35294
   response: |-
     7ED04410C2200
     7EE04410C2200
@@ -5466,7 +5466,7 @@ test_cases:
     7DF020149
     7EA03414954
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7ED04410C2780
     7EA04410C2780
@@ -5486,7 +5486,7 @@ test_cases:
     7DF020149
     7EA03414953
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7ED04410C3880
     7E804410C38EF
@@ -5506,7 +5506,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 67.84314
+    SIENNAH_SOC: 67.84314
   response: |-
     7ED04411F002D
     7EA04411F002D
@@ -5516,7 +5516,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.47059
+    SIENNAH_SOC: 56.47059
   response: |-
     7ED04411F007F
     7EA04411F007E
@@ -5526,7 +5526,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.01961
+    SIENNAH_SOC: 49.01961
   response: |-
     7ED04411F01A5
     7EA04411F01A0
@@ -5535,7 +5535,7 @@ test_cases:
     7DF020149
     7EA03414931
 - expected_values:
-    SIENNA_HYBRID_SOC: 60.78431
+    SIENNAH_SOC: 60.78431
   response: |-
     7ED04411F0421
     7E804411F0413
@@ -5543,7 +5543,7 @@ test_cases:
     7EE04411F041B
     7DA04621F5B9B
 - expected_values:
-    SIENNA_HYBRID_SOC: 61.96078
+    SIENNAH_SOC: 61.96078
   response: |-
     7ED04411F04F9
     7E804411F04E8
@@ -5552,12 +5552,12 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.03922
+    SIENNAH_SOC: 58.03922
   response: |-
     7ED04411F05FA
     7DA04621F5B94
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.82353
+    SIENNAH_SOC: 58.82353
   response: |-
     7ED04411F1D26
     7E804411F1CC2
@@ -5565,7 +5565,7 @@ test_cases:
     7EE04411F1CFB
     7DA04621F5B96
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.09804
+    SIENNAH_SOC: 45.09804
   response: |-
     7EE03410D00
     7DA04621F5B73
@@ -5577,7 +5577,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.86275
+    SIENNAH_SOC: 56.86275
   response: |-
     7EE03410D00
     7DA04621F5B91
@@ -5587,7 +5587,7 @@ test_cases:
     7ED04411F0059
     7EE04411F0058
 - expected_values:
-    SIENNA_HYBRID_SOC: 65.09804
+    SIENNAH_SOC: 65.09804
   response: |-
     7EE03410D00
     7DA04621F5BA6
@@ -5599,7 +5599,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 68.62745
+    SIENNAH_SOC: 68.62745
   response: |-
     7EE03410D00
     7DA04621F5BAF
@@ -5611,7 +5611,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 69.41176
+    SIENNAH_SOC: 69.41176
   response: |-
     7EE03410D00
     7DA04621F5BB1
@@ -5621,7 +5621,7 @@ test_cases:
     7EA04411F004F
     7EE04411F004F
 - expected_values:
-    SIENNA_HYBRID_SOC: 67.05882
+    SIENNAH_SOC: 67.05882
   response: |-
     7EE03410D00
     7ED03410D01
@@ -5635,7 +5635,7 @@ test_cases:
     7DF020149
     7EA0341492C
 - expected_values:
-    SIENNA_HYBRID_SOC: 69.80392
+    SIENNAH_SOC: 69.80392
   response: |-
     7EE03410D03
     7DA04621F5BB2
@@ -5647,7 +5647,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 59.60784
+    SIENNAH_SOC: 59.60784
   response: |-
     7EE03410D05
     7E803410D05
@@ -5660,7 +5660,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.86275
+    SIENNAH_SOC: 56.86275
   response: |-
     7EE03410D0A
     7DA04621F5B91
@@ -5672,7 +5672,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.07843
+    SIENNAH_SOC: 56.07843
   response: |-
     7EE03410D1A
     7DA04621F5B8F
@@ -5684,12 +5684,12 @@ test_cases:
     7DF020149
     7EA03414938
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7EE03410D31
     7DA04621F5B89
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.47059
+    SIENNAH_SOC: 56.47059
   response: |-
     7EE03410D40
     7DA04621F5B90
@@ -5699,7 +5699,7 @@ test_cases:
     7E804411F0174
     7EE04411F0176
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.19608
+    SIENNAH_SOC: 50.19608
   response: |-
     7EE03410D50
     7DA04621F5B80
@@ -5711,7 +5711,7 @@ test_cases:
     7DF020149
     7EA03414966
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.76471
+    SIENNAH_SOC: 51.76471
   response: |-
     7EE03410D61
     7EA03410D61
@@ -5724,12 +5724,12 @@ test_cases:
     7DF020149
     7EA0341494B
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7EE03410D69
     7DA04621F5B89
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7EE03410D71
     7DA04621F5B72
@@ -5741,7 +5741,7 @@ test_cases:
     7DF020149
     7EA0341495F
 - expected_values:
-    SIENNA_HYBRID_SOC: 44.70588
+    SIENNAH_SOC: 44.70588
   response: |-
     7EE03410D79
     7DA04621F5B72
@@ -5753,7 +5753,7 @@ test_cases:
     7DF020149
     7EA03414945
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.45098
+    SIENNAH_SOC: 47.45098
   response: |-
     7EE03410D7A
     7E803410D7A
@@ -5767,7 +5767,7 @@ test_cases:
     7DF020149
     7EA0341494D
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.88235
+    SIENNAH_SOC: 45.88235
   response: |-
     7EE04410C0000
     7DA04621F5B75
@@ -5784,7 +5784,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.45098
+    SIENNAH_SOC: 47.45098
   response: |-
     7EE04410C0000
     7DA04621F5B79
@@ -5801,12 +5801,12 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 51.76471
+    SIENNAH_SOC: 51.76471
   response: |-
     7EE04410C0000
     7DA04621F5B84
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.15686
+    SIENNAH_SOC: 52.15686
   response: |-
     7EE04410C0000
     7DA04621F5B85
@@ -5816,7 +5816,7 @@ test_cases:
     7ED03410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.94118
+    SIENNAH_SOC: 52.94118
   response: |-
     7EE04410C0000
     7DA04621F5B87
@@ -5833,7 +5833,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 53.72549
+    SIENNAH_SOC: 53.72549
   response: |-
     7EE04410C0000
     7DA04621F5B89
@@ -5843,7 +5843,7 @@ test_cases:
     7EA03410D07
     7EE03410D07
 - expected_values:
-    SIENNA_HYBRID_SOC: 54.11765
+    SIENNAH_SOC: 54.11765
   response: |-
     7EE04410C0000
     7DA04621F5B8A
@@ -5858,7 +5858,7 @@ test_cases:
     7E804411F02D7
     7EE04411F02DD
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.82353
+    SIENNAH_SOC: 58.82353
   response: |-
     7EE04410C0000
     7DA04621F5B96
@@ -5873,7 +5873,7 @@ test_cases:
     7EE04411F05D2
     7EA04411F05C7
 - expected_values:
-    SIENNA_HYBRID_SOC: 59.60784
+    SIENNAH_SOC: 59.60784
   response: |-
     7EE04410C0000
     7DA04621F5B98
@@ -5890,7 +5890,7 @@ test_cases:
     7DF020149
     7EA03414940
 - expected_values:
-    SIENNA_HYBRID_SOC: 62.35294
+    SIENNAH_SOC: 62.35294
   response: |-
     7EE04410C0000
     7DA04621F5B9F
@@ -5907,7 +5907,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 64.31373
+    SIENNAH_SOC: 64.31373
   response: |-
     7EE04410C0000
     7DA04621F5BA4
@@ -5922,7 +5922,7 @@ test_cases:
     7E804411F0229
     7EE04411F022D
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.58824
+    SIENNAH_SOC: 50.58824
   response: |-
     7EE04410C0000
     7E804410C0000
@@ -5940,7 +5940,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 65.88235
+    SIENNAH_SOC: 65.88235
   response: |-
     7EE04410C0000
     7EA04410C0000
@@ -5959,7 +5959,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.03922
+    SIENNAH_SOC: 58.03922
   response: |-
     7EE04410C0F80
     7DA04621F5B94
@@ -5976,7 +5976,7 @@ test_cases:
     7DF020149
     7EA03414944
 - expected_values:
-    SIENNA_HYBRID_SOC: 67.45098
+    SIENNAH_SOC: 67.45098
   response: |-
     7EE04410C1380
     7DA04621F5BAC
@@ -5986,7 +5986,7 @@ test_cases:
     7E803410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_SOC: 59.21569
+    SIENNAH_SOC: 59.21569
   response: |-
     7EE04410C1480
     7DA04621F5B97
@@ -6003,7 +6003,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 49.41176
+    SIENNAH_SOC: 49.41176
   response: |-
     7EE04410C1600
     7DA04621F5B7E
@@ -6013,7 +6013,7 @@ test_cases:
     7EA03410D64
     7EE03410D64
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.19608
+    SIENNAH_SOC: 50.19608
   response: |-
     7EE04410C1600
     7DA04621F5B80
@@ -6030,7 +6030,7 @@ test_cases:
     7DF020149
     7EA0341493D
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.03922
+    SIENNAH_SOC: 58.03922
   response: |-
     7EE04410C1900
     7DA04621F5B94
@@ -6040,7 +6040,7 @@ test_cases:
     7E803410D1C
     7EE03410D1C
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.43137
+    SIENNAH_SOC: 58.43137
   response: |-
     7EE04410C1A00
     7DA04621F5B95
@@ -6055,7 +6055,7 @@ test_cases:
     7EE04411F0478
     7EA04411F046F
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.84314
+    SIENNAH_SOC: 47.84314
   response: |-
     7EE04410C1B00
     7DA04621F5B7A
@@ -6072,7 +6072,7 @@ test_cases:
     7DF020149
     7EA03414944
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.07843
+    SIENNAH_SOC: 56.07843
   response: |-
     7EE04410C1B80
     7DA04621F5B8F
@@ -6082,7 +6082,7 @@ test_cases:
     7EA03410D37
     7EE03410D37
 - expected_values:
-    SIENNA_HYBRID_SOC: 63.13725
+    SIENNAH_SOC: 63.13725
   response: |-
     7EE04410C2400
     7DA04621F5BA1
@@ -6099,7 +6099,7 @@ test_cases:
     7DF020149
     7EA03414959
 - expected_values:
-    SIENNA_HYBRID_SOC: 47.84314
+    SIENNAH_SOC: 47.84314
   response: |-
     7EE04410C2B80
     7EA04410C2B80
@@ -6117,7 +6117,7 @@ test_cases:
     7DF020149
     7EA03414955
 - expected_values:
-    SIENNA_HYBRID_SOC: 56.86275
+    SIENNAH_SOC: 56.86275
   response: |-
     7EE04410C3000
     7DA04621F5B91
@@ -6134,19 +6134,19 @@ test_cases:
     7DF020149
     7EA03414961
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.15686
+    SIENNAH_SOC: 52.15686
   response: |-
     7EE04411F0018
     7DA04621F5B85
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.98039
+    SIENNAH_SOC: 50.98039
   response: |-
     7EE04411F0027
     7DA04621F5B82
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.98039
+    SIENNAH_SOC: 50.98039
   response: |-
     7EE04411F002B
     7EA04411F002B
@@ -6155,7 +6155,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 43.92157
+    SIENNAH_SOC: 43.92157
   response: |-
     7EE04411F0070
     7E804411F006F
@@ -6163,35 +6163,35 @@ test_cases:
     7DF020149
     7EA03414929
 - expected_values:
-    SIENNA_HYBRID_SOC: 66.66667
+    SIENNAH_SOC: 66.66667
   response: |-
     7EE04411F01A2
     7DA04621F5BAA
     7DF020149
     7EA03414940
 - expected_values:
-    SIENNA_HYBRID_SOC: 62.7451
+    SIENNAH_SOC: 62.7451
   response: |-
     7EE04411F0258
     7DA04621F5BA0
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 58.82353
+    SIENNAH_SOC: 58.82353
   response: |-
     7EE04411F026E
     7DA04621F5B96
     7DF020149
     7EA0341494F
 - expected_values:
-    SIENNA_HYBRID_SOC: 38.03922
+    SIENNAH_SOC: 38.03922
   response: |-
     7EE04411F0434
     7DA04621F5B61
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_SOC: 50.19608
+    SIENNAH_SOC: 50.19608
   response: |-
     7EE04411F0721
     7E804411F0713
@@ -6200,7 +6200,7 @@ test_cases:
     7DF020149
     7EA0341494D
 - expected_values:
-    SIENNA_HYBRID_SOC: 45.4902
+    SIENNAH_SOC: 45.4902
   response: |-
     7EE04411F1050
     7ED04411F1068
@@ -6208,14 +6208,14 @@ test_cases:
     7E804411F1030
     7DA04621F5B74
 - expected_values:
-    SIENNA_HYBRID_SOC: 59.60784
+    SIENNAH_SOC: 59.60784
   response: |-
     7EE04411F18FD
     7DA04621F5B98
     7DF020149
     7EA0341493B
 - expected_values:
-    SIENNA_HYBRID_SOC: 52.94118
+    SIENNAH_SOC: 52.94118
   response: |-
     7EE04411F2B20
     7DA04621F5B87

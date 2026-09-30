@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.22106E|f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_AC_POWER_CONS: 0
+    SIENNAH_AC_POWER_CONS: 0
   response: 7DA0462106E00
 - expected_values:
-    SIENNA_HYBRID_AC_POWER_CONS: 2.05
+    SIENNAH_AC_POWER_CONS: 2.05
   response: 7DA0462106E29

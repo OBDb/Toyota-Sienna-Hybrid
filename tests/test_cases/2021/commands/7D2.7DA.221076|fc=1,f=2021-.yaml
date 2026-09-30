@@ -1,20 +1,20 @@
 command_id: 7D2.7DA.221076|fc=1,f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_READY: 0
+    SIENNAH_READY: 0
   response: 7DA056210760F00
 - expected_values:
-    SIENNA_HYBRID_READY: 0
+    SIENNAH_READY: 0
   response: 7DA056210760F02
 - expected_values:
-    SIENNA_HYBRID_READY: 1
+    SIENNAH_READY: 1
   response: 7DA056210760F03
 - expected_values:
-    SIENNA_HYBRID_READY: 1
+    SIENNAH_READY: 1
   response: 7DA056210760F07
 - expected_values:
-    SIENNA_HYBRID_READY: 1
+    SIENNAH_READY: 1
   response: 7DA056210760F0B
 - expected_values:
-    SIENNA_HYBRID_READY: 1
+    SIENNAH_READY: 1
   response: 7DA056210760F0F

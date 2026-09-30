@@ -1,10 +1,10 @@
 command_id: 7D2.7DA.221F46|f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: -13
+    SIENNAH_AAT_7D2: -13
   response: 7DA04621F461B
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 8
+    SIENNAH_AAT_7D2: 8
   response: |-
     7DA04621F4630
     7DF02010D
@@ -20,7 +20,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 9
+    SIENNAH_AAT_7D2: 9
   response: |-
     7DA04621F4631
     7DF02010C
@@ -41,7 +41,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 10
+    SIENNAH_AAT_7D2: 10
   response: |-
     7DA04621F4632
     7DF02010C
@@ -62,7 +62,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 10
+    SIENNAH_AAT_7D2: 10
   response: |-
     7DA04621F4632
     7DF02010C
@@ -83,7 +83,7 @@ test_cases:
     7DF020149
     7EA0341493C
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 10
+    SIENNAH_AAT_7D2: 10
   response: |-
     7DA04621F4632
     7DF02010C
@@ -97,7 +97,7 @@ test_cases:
     7EA03410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 11
+    SIENNAH_AAT_7D2: 11
   response: |-
     7DA04621F4633
     7DF02010C
@@ -118,7 +118,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 12
+    SIENNAH_AAT_7D2: 12
   response: |-
     7DA04621F4634
     7DF02010C
@@ -139,7 +139,7 @@ test_cases:
     7DF020149
     7EA0341493E
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 13
+    SIENNAH_AAT_7D2: 13
   response: |-
     7DA04621F4635
     7DF02010C
@@ -160,7 +160,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 15
+    SIENNAH_AAT_7D2: 15
   response: |-
     7DA04621F4637
     7DF02010C
@@ -181,7 +181,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 15
+    SIENNAH_AAT_7D2: 15
   response: |-
     7DA04621F4637
     7DF02010C
@@ -202,7 +202,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 16
+    SIENNAH_AAT_7D2: 16
   response: |-
     7DA04621F4638
     7DF02010D
@@ -216,7 +216,7 @@ test_cases:
     7EA04411F0023
     7EE04411F0024
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 17
+    SIENNAH_AAT_7D2: 17
   response: |-
     7DA04621F4639
     7DF02010C
@@ -237,7 +237,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 18
+    SIENNAH_AAT_7D2: 18
   response: |-
     7DA04621F463A
     7DF02011F
@@ -248,5 +248,5 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_AAT_7D2: 41
+    SIENNAH_AAT_7D2: 41
   response: 7DA04621F4651

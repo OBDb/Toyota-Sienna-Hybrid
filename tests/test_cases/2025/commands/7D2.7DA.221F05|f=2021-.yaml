@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.221F05|f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_COOL_T: 24
+    SIENNAH_COOL_T: 24
   response: 7DA04621F0540
 - expected_values:
-    SIENNA_HYBRID_COOL_T: 94
+    SIENNAH_COOL_T: 94
   response: 7DA04621F0586

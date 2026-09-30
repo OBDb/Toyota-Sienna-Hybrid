@@ -1,14 +1,14 @@
 command_id: 7C4.7CC.221001|fc=1
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_CABIN_T_V2: 17.43
+    SIENNAH_CABIN_T_V2: 17.43
   response: 7CC0562100106CF
 - expected_values:
-    SIENNA_HYBRID_CABIN_T_V2: 20.45
+    SIENNAH_CABIN_T_V2: 20.45
   response: 7CC0562100107FD
 - expected_values:
-    SIENNA_HYBRID_CABIN_T_V2: 23.07
+    SIENNAH_CABIN_T_V2: 23.07
   response: 7CC056210010903
 - expected_values:
-    SIENNA_HYBRID_CABIN_T_V2: 26
+    SIENNAH_CABIN_T_V2: 26
   response: 7CC056210010A28

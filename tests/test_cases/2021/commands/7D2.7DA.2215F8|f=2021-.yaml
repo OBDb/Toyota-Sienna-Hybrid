@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.2215F8|f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_12V_T: 14.4
+    SIENNAH_12V_T: 14.4
   response: 7DA056215F80220
 - expected_values:
-    SIENNA_HYBRID_12V_T: 23
+    SIENNAH_12V_T: 23
   response: 7DA056215F80276
