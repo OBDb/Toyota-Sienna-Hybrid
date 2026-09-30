@@ -1,10 +1,10 @@
 command_id: 7D2.7DA.221F49|f=2021-
 test_cases:
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 15.68627
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 15.68627
   response: 7DA04621F4928
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 15.68627
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 15.68627
   response: |-
     7DA04621F4928
     7DF02010C
@@ -18,7 +18,7 @@ test_cases:
     7EE03410D00
     7ED03410D00
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 15.68627
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 15.68627
   response: |-
     7DA04621F4928
     7DF02010C
@@ -39,7 +39,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 15.68627
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 15.68627
   response: |-
     7DA04621F4928
     7DF02010C
@@ -60,7 +60,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 15.68627
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 15.68627
   response: |-
     7DA04621F4928
     7DF02010C
@@ -81,7 +81,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 15.68627
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 15.68627
   response: |-
     7DA04621F4928
     7DF02010C
@@ -102,7 +102,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 15.68627
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 15.68627
   response: |-
     7DA04621F4928
     7DF02010C
@@ -123,7 +123,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 15.68627
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 15.68627
   response: |-
     7DA04621F4928
     7DF02010C
@@ -144,7 +144,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 15.68627
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 15.68627
   response: |-
     7DA04621F4928
     7DF02011F
@@ -155,13 +155,13 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 15.68627
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 15.68627
   response: |-
     7DA04621F4928
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 21.56863
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 21.56863
   response: |-
     7DA04621F4937
     7DF02010C
@@ -182,7 +182,7 @@ test_cases:
     7DF020149
     7EA03414937
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 25.88235
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 25.88235
   response: |-
     7DA04621F4942
     7DF02010C
@@ -203,10 +203,10 @@ test_cases:
     7DF020149
     7EA03414941
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 48.62745
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 48.62745
   response: 7DA04621F497C
 - expected_values:
-    SIENNA_ACC_PEDAL_POS_1: 17.2549
+    SIENNA_HYBRID_ACC_PEDAL_POS_1: 17.2549
   response: |-
     7ED04410C0000
     7EE04410C0000

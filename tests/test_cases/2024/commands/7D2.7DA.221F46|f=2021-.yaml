@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.221F46|f=2021-
 test_cases:
 - expected_values:
-    SIENNA_AAT_7D2: 7
+    SIENNA_HYBRID_AAT_7D2: 7
   response: 7DA04621F462F
 - expected_values:
-    SIENNA_AAT_7D2: 42
+    SIENNA_HYBRID_AAT_7D2: 42
   response: 7DA04621F4652

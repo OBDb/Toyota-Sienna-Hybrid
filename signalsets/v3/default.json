@@ -118,8 +118,8 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "108A"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
-    {"id": "SIENNA_VVT_IE_DUTY_RATIO_1",              "path": "ECU", "fmt": {           "len": 15, "max": -0.0531, "min": -200, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "VVT-ie duty ratio bank 1"},
-    {"id": "SIENNA_VVT_IE_MOTOR_DIRECTION_FORWARD_1", "path": "ECU", "fmt": {"bix": 15, "len": 1,  "max": 1,                                                             "unit": "offon"   }, "name": "VVT-ie motor direction: forward bank 1"}
+    {"id": "SIENNA_HYBRID_VVT_IE_DUTY_RATIO_1",              "path": "ECU", "fmt": {           "len": 15, "max": -0.0531, "min": -200, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "VVT-ie duty ratio bank 1"},
+    {"id": "SIENNA_HYBRID_VVT_IE_MOTOR_DIRECTION_FORWARD_1", "path": "ECU", "fmt": {"bix": 15, "len": 1,  "max": 1,                                                             "unit": "offon"   }, "name": "VVT-ie motor direction: forward bank 1"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "108D"}, "freq": 3600, "dbgfilter": { "years": [2022], "from": 2024 },
   "signals": [
@@ -164,18 +164,18 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1105"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_PM_ACCUMULATION_RAT_1", "path": "Engine", "fmt": { "len": 8, "max": 15, "mul": 2, "unit": "percent" }, "name": "PM accumulation ratio - bank 1"}
+    {"id": "SIENNA_HYBRID_PM_ACCUMULATION_RAT_1", "path": "Engine", "fmt": { "len": 8, "max": 15, "mul": 2, "unit": "percent" }, "name": "PM accumulation ratio - bank 1"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "112B"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_INJ_FEEDBACK_1", "path": "Engine", "fmt": {           "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 1"},
-    {"id": "SIENNA_INJ_FEEDBACK_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 2"},
-    {"id": "SIENNA_INJ_FEEDBACK_3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 3"},
-    {"id": "SIENNA_INJ_FEEDBACK_4", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 4"}
+    {"id": "SIENNA_HYBRID_INJ_FEEDBACK_1", "path": "Engine", "fmt": {           "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 1"},
+    {"id": "SIENNA_HYBRID_INJ_FEEDBACK_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 2"},
+    {"id": "SIENNA_HYBRID_INJ_FEEDBACK_3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 3"},
+    {"id": "SIENNA_HYBRID_INJ_FEEDBACK_4", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 15, "min": -20, "mul": 5, "div": 32, "add": -20, "unit": "unknown" }, "name": "Injection feedback value 4"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "112C"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_INJ_VOLUME_TGT", "path": "Engine", "fmt": { "len": 16, "max": 15, "mul": 19531, "div": 1000000, "unit": "unknown" }, "name": "Injection volume - target"}
+    {"id": "SIENNA_HYBRID_INJ_VOLUME_TGT", "path": "Engine", "fmt": { "len": 16, "max": 15, "mul": 19531, "div": 1000000, "unit": "unknown" }, "name": "Injection volume - target"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "112F"}, "freq": 1,
   "signals": [
@@ -183,36 +183,36 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1131"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_CYL_1_INJ_VOLUME", "path": "Engine", "fmt": {           "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 1 injection volume"},
-    {"id": "SIENNA_CYL_2_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 2 injection volume"},
-    {"id": "SIENNA_CYL_3_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 3 injection volume"},
-    {"id": "SIENNA_CYL_4_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 4 injection volume"}
+    {"id": "SIENNA_HYBRID_CYL_1_INJ_VOLUME", "path": "Engine", "fmt": {           "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 1 injection volume"},
+    {"id": "SIENNA_HYBRID_CYL_2_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 2 injection volume"},
+    {"id": "SIENNA_HYBRID_CYL_3_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 3 injection volume"},
+    {"id": "SIENNA_HYBRID_CYL_4_INJ_VOLUME", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 15, "min": -640, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Cylinder 4 injection volume"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "113C"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_FUEL_P_1", "path": "Fuel", "fmt": {           "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 1"},
-    {"id": "SIENNA_FUEL_P_2", "path": "Fuel", "fmt": {"bix": 16, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 2"},
-    {"id": "SIENNA_FUEL_P_3", "path": "Fuel", "fmt": {"bix": 32, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 3"},
-    {"id": "SIENNA_FUEL_P_4", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 4"}
+    {"id": "SIENNA_HYBRID_FUEL_P_1", "path": "Fuel", "fmt": {           "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 1"},
+    {"id": "SIENNA_HYBRID_FUEL_P_2", "path": "Fuel", "fmt": {"bix": 16, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 2"},
+    {"id": "SIENNA_HYBRID_FUEL_P_3", "path": "Fuel", "fmt": {"bix": 32, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 3"},
+    {"id": "SIENNA_HYBRID_FUEL_P_4", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "max": 50000, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 4"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "113E"}, "freq": 5,
   "signals": [
-    {"id": "SIENNA_FUEL_T_1", "path": "Fuel", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 1"},
-    {"id": "SIENNA_FUEL_T_2", "path": "Fuel", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 2"},
-    {"id": "SIENNA_FUEL_T_3", "path": "Fuel", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 3"},
-    {"id": "SIENNA_FUEL_T_4", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 4"}
+    {"id": "SIENNA_HYBRID_FUEL_T_1", "path": "Fuel", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 1"},
+    {"id": "SIENNA_HYBRID_FUEL_T_2", "path": "Fuel", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 2"},
+    {"id": "SIENNA_HYBRID_FUEL_T_3", "path": "Fuel", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 3"},
+    {"id": "SIENNA_HYBRID_FUEL_T_4", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 4"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1141"}, "freq": 5,
   "signals": [
-    {"id": "SIENNA_FUEL_RETURN_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel return temperature"}
+    {"id": "SIENNA_HYBRID_FUEL_RETURN_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel return temperature"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "118B"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_INJ_VOLUME_1", "path": "Engine", "fmt": {           "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 1"},
-    {"id": "SIENNA_INJ_VOLUME_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 2"},
-    {"id": "SIENNA_INJ_VOLUME_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 3"},
-    {"id": "SIENNA_INJ_VOLUME_5", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 5"},
-    {"id": "SIENNA_INJ_VOLUME_6", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 6"}
+    {"id": "SIENNA_HYBRID_INJ_VOLUME_1", "path": "Engine", "fmt": {           "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 1"},
+    {"id": "SIENNA_HYBRID_INJ_VOLUME_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 2"},
+    {"id": "SIENNA_HYBRID_INJ_VOLUME_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 3"},
+    {"id": "SIENNA_HYBRID_INJ_VOLUME_5", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 5"},
+    {"id": "SIENNA_HYBRID_INJ_VOLUME_6", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 300, "min": -40, "mul": 19531, "div": 1000000, "add": -640, "unit": "unknown" }, "name": "Injection volume 6"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "119C"}, "freq": 5,
   "signals": [
@@ -220,39 +220,39 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "11AF"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_2ND_TRUBOCHARGER_OUTLET_P", "path": "Battery", "fmt": { "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "2nd turbocharger outlet pressure"}
+    {"id": "SIENNA_HYBRID_2ND_TRUBOCHARGER_OUTLET_P", "path": "Battery", "fmt": { "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "2nd turbocharger outlet pressure"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "11B8"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_INJ_FEEDBACK_1_700", "path": "Engine", "fmt": {           "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 1"},
-    {"id": "SIENNA_INJ_FEEDBACK_2_700", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 2"},
-    {"id": "SIENNA_INJ_FEEDBACK_3_700", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 3"},
-    {"id": "SIENNA_INJ_FEEDBACK_4_700", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 4"},
-    {"id": "SIENNA_INJ_FEEDBACK_5",     "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 5"},
-    {"id": "SIENNA_INJ_FEEDBACK_6",     "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 6"}
+    {"id": "SIENNA_HYBRID_INJ_FEEDBACK_1_700", "path": "Engine", "fmt": {           "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 1"},
+    {"id": "SIENNA_HYBRID_INJ_FEEDBACK_2_700", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 2"},
+    {"id": "SIENNA_HYBRID_INJ_FEEDBACK_3_700", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 3"},
+    {"id": "SIENNA_HYBRID_INJ_FEEDBACK_4_700", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 4"},
+    {"id": "SIENNA_HYBRID_INJ_FEEDBACK_5",     "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 5"},
+    {"id": "SIENNA_HYBRID_INJ_FEEDBACK_6",     "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 19.8418, "min": -19.9981, "mul": 332, "div": 2125, "add": -19.9981176471, "unit": "unknown" }, "name": "Injection feedback value 6"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "11C4"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_FUEL_P_1_700", "path": "Fuel", "fmt": {           "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 1"},
-    {"id": "SIENNA_FUEL_P_2_700", "path": "Fuel", "fmt": {"bix": 16, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 2"},
-    {"id": "SIENNA_FUEL_P_3_700", "path": "Fuel", "fmt": {"bix": 32, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 3"},
-    {"id": "SIENNA_FUEL_P_4_700", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 4"},
-    {"id": "SIENNA_FUEL_P_5",     "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 5"},
-    {"id": "SIENNA_FUEL_P_6",     "path": "Fuel", "fmt": {"bix": 80, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 6"}
+    {"id": "SIENNA_HYBRID_FUEL_P_1_700", "path": "Fuel", "fmt": {           "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 1"},
+    {"id": "SIENNA_HYBRID_FUEL_P_2_700", "path": "Fuel", "fmt": {"bix": 16, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 2"},
+    {"id": "SIENNA_HYBRID_FUEL_P_3_700", "path": "Fuel", "fmt": {"bix": 32, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 3"},
+    {"id": "SIENNA_HYBRID_FUEL_P_4_700", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 4"},
+    {"id": "SIENNA_HYBRID_FUEL_P_5",     "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 5"},
+    {"id": "SIENNA_HYBRID_FUEL_P_6",     "path": "Fuel", "fmt": {"bix": 80, "len": 16, "max": 300, "mul": 10, "unit": "kilopascal" }, "name": "Fuel pressure 6"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "11C5"}, "freq": 5,
   "signals": [
-    {"id": "SIENNA_FUEL_T_1_700", "path": "Fuel", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 1"},
-    {"id": "SIENNA_FUEL_T_2_700", "path": "Fuel", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 2"},
-    {"id": "SIENNA_FUEL_T_3_700", "path": "Fuel", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 3"},
-    {"id": "SIENNA_FUEL_T_4_700", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 4"},
-    {"id": "SIENNA_FUEL_T_5",     "path": "Fuel", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 5"},
-    {"id": "SIENNA_FUEL_T_6",     "path": "Fuel", "fmt": {"bix": 40, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 6"}
+    {"id": "SIENNA_HYBRID_FUEL_T_1_700", "path": "Fuel", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 1"},
+    {"id": "SIENNA_HYBRID_FUEL_T_2_700", "path": "Fuel", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 2"},
+    {"id": "SIENNA_HYBRID_FUEL_T_3_700", "path": "Fuel", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 3"},
+    {"id": "SIENNA_HYBRID_FUEL_T_4_700", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 4"},
+    {"id": "SIENNA_HYBRID_FUEL_T_5",     "path": "Fuel", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 5"},
+    {"id": "SIENNA_HYBRID_FUEL_T_6",     "path": "Fuel", "fmt": {"bix": 40, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature 6"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "11CD"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_1ST_TRUBOCHARGER_P", "path": "Battery", "fmt": {           "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "1st turbocharger outlet pressure, control valve"},
-    {"id": "SIENNA_2ND_TRUBOCHARGER_P", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "2nd turbocharger outlet pressure, control valve"}
+    {"id": "SIENNA_HYBRID_1ST_TRUBOCHARGER_P", "path": "Battery", "fmt": {           "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "1st turbocharger outlet pressure, control valve"},
+    {"id": "SIENNA_HYBRID_2ND_TRUBOCHARGER_P", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "2nd turbocharger outlet pressure, control valve"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "15E5"}, "freq": 1,
   "signals": [
@@ -534,12 +534,12 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "48"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_FR_REGEN_REQUEST",   "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative request"},
-    {"id": "SIENNA_FR_REGEN_OPERATION", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative operation"}
+    {"id": "SIENNA_HYBRID_FR_REGEN_REQUEST",   "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative request"},
+    {"id": "SIENNA_HYBRID_FR_REGEN_OPERATION", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative operation"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "58"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_REGEN_COOPERATION", "path": "Battery", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Regenerative braking cooperation"}
+    {"id": "SIENNA_HYBRID_REGEN_COOPERATION", "path": "Battery", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Regenerative braking cooperation"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "5A"}, "freq": 1,
   "signals": [
@@ -568,12 +568,12 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "A3"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_SLA_SOLENOID_CURRENT", "path": "Battery", "fmt": {           "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay a, solenoid current"},
-    {"id": "SIENNA_SLR_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay r solenoid current"},
-    {"id": "SIENNA_SSC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Service contactor solenoid current"},
-    {"id": "SIENNA_SCC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Charge contactor current"},
-    {"id": "SIENNA_SMC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main connector solenoid current"},
-    {"id": "SIENNA_SRC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Relay control solenoid current"}
+    {"id": "SIENNA_HYBRID_SLA_SOLENOID_CURRENT", "path": "Battery", "fmt": {           "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay a, solenoid current"},
+    {"id": "SIENNA_HYBRID_SLR_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay r solenoid current"},
+    {"id": "SIENNA_HYBRID_SSC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Service contactor solenoid current"},
+    {"id": "SIENNA_HYBRID_SCC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Charge contactor current"},
+    {"id": "SIENNA_HYBRID_SMC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main connector solenoid current"},
+    {"id": "SIENNA_HYBRID_SRC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Relay control solenoid current"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "A6"}, "freq": 60,
   "signals": [
@@ -607,18 +607,18 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "fcm1": true, "cmd": {"22": "1045"}, "freq": 5, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_EPB", "path": "Brakes", "name": "Parking brake actuator status", "fmt": {"len": 8, "map": {
+    {"id": "SIENNA_HYBRID_EPB", "path": "Brakes", "name": "Parking brake actuator status", "fmt": {"len": 8, "map": {
           "0": { "description": "Applied", "value": "APPLIED" }
         }}
     }
   ]},
 { "hdr": "7B0", "rax": "7B8", "fcm1": true, "cmd": {"22": "104C"}, "freq": 1, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_BRAKE_STROKE", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "millimeters" }, "name": "Brake pedal stroke"}
+    {"id": "SIENNA_HYBRID_BRAKE_STROKE", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "millimeters" }, "name": "Brake pedal stroke"}
   ]},
 { "hdr": "7B3", "rax": "7BB", "cmd": {"22": "1004"}, "freq": 0.25, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_STEERING_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 410, "min": -410, "mul": 1.5, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
+    {"id": "SIENNA_HYBRID_STEERING_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 410, "min": -410, "mul": 1.5, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
   ]},
 { "hdr": "7C0", "rax": "7C8", "dbg": true, "cmd": {"21": "12"}, "freq": 1,
   "signals": [
@@ -703,8 +703,8 @@
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "41"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_AIR_MIX_SERVO_TARG_D", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo target pulse, driver"},
-    {"id": "SIENNA_AIR_MIX_SERVO_ACT_D",  "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo, actual pulse, d"}
+    {"id": "SIENNA_HYBRID_AIR_MIX_SERVO_TARG_D", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo target pulse, driver"},
+    {"id": "SIENNA_HYBRID_AIR_MIX_SERVO_ACT_D",  "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo, actual pulse, d"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "43"}, "freq": 1,
   "signals": [
@@ -718,11 +718,11 @@
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "49"}, "freq": 0.25,
   "signals": [
-    {"id": "SIENNA_COMP_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor speed"}
+    {"id": "SIENNA_HYBRID_COMP_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor speed"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "4A"}, "freq": 0.25,
   "signals": [
-    {"id": "SIENNA_COMP_TGT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor, target speed"}
+    {"id": "SIENNA_HYBRID_COMP_TGT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor, target speed"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "4B"}, "freq": 5,
   "signals": [
@@ -738,27 +738,27 @@
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "AF"}, "freq": 5,
   "signals": [
-    {"id": "SIENNA_GLASS_T", "path": "Engine", "fmt": { "len": 16, "max": 621, "min": -557, "mul": 9, "div": 500, "add": -557.8, "unit": "fahrenheit" }, "name": "Glass temperature"}
+    {"id": "SIENNA_HYBRID_GLASS_T", "path": "Engine", "fmt": { "len": 16, "max": 621, "min": -557, "mul": 9, "div": 500, "add": -557.8, "unit": "fahrenheit" }, "name": "Glass temperature"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "B1"}, "freq": 1,
   "signals": [
-    {"id": "SIENNA_GLASS_HUMIDITY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 20, "div": 13107, "unit": "percent" }, "name": "Glass humidity"}
+    {"id": "SIENNA_HYBRID_GLASS_HUMIDITY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 20, "div": 13107, "unit": "percent" }, "name": "Glass humidity"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "1001"}, "freq": 10, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_CABIN_T_V2", "path": "Climate", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
+    {"id": "SIENNA_HYBRID_CABIN_T_V2", "path": "Climate", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "1002"}, "freq": 10, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_AAT_7C4_V2", "path": "Climate", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "celsius" }, "name": "Ambient temperature, climate"}
+    {"id": "SIENNA_HYBRID_AAT_7C4_V2", "path": "Climate", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "celsius" }, "name": "Ambient temperature, climate"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "1036"}, "freq": 10, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_HVAC_SET_RAW", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Climate set point code"}
+    {"id": "SIENNA_HYBRID_HVAC_SET_RAW", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Climate set point code"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "fcm1": true, "cmd": {"22": "2801"}, "freq": 10, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_BLOWER", "path": "Climate", "fmt": { "len": 8, "max": 7, "unit": "scalar" }, "name": "Blower level"}
+    {"id": "SIENNA_HYBRID_BLOWER", "path": "Climate", "fmt": { "len": 8, "max": 7, "unit": "scalar" }, "name": "Blower level"}
   ]},
 { "hdr": "7D0", "rax": "7D8", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2025 },
   "signals": [
@@ -782,31 +782,31 @@
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "0102"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_KEY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Key cycle"}
+    {"id": "SIENNA_HYBRID_KEY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Key cycle"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "SIENNA_HYBRID_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1002"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_AUX_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 79.95, "mul": 61, "div": 50000, "unit": "volts" }, "name": "Aux battery voltage"}
+    {"id": "SIENNA_HYBRID_AUX_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 79.95, "mul": 61, "div": 50000, "unit": "volts" }, "name": "Aux battery voltage"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1039"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_FRONT_REAR_MOTOR_TQ", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Front/rear motor torque ratio"}
+    {"id": "SIENNA_HYBRID_FRONT_REAR_MOTOR_TQ", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Front/rear motor torque ratio"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1040"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_TRANSAXLE_OIL_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transaxle oil temperature"}
+    {"id": "SIENNA_HYBRID_TRANSAXLE_OIL_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transaxle oil temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1060"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_APP_V2", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
+    {"id": "SIENNA_HYBRID_APP_V2", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1061"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_SHIFT", "path": "Transmission", "name": "Shift position", "fmt": {"len": 8, "map": {
+    {"id": "SIENNA_HYBRID_SHIFT", "path": "Transmission", "name": "Shift position", "fmt": {"len": 8, "map": {
           "0": { "description": "Park",    "value": "P" },
           "2": { "description": "Reverse", "value": "R" },
           "4": { "description": "Neutral", "value": "N" },
@@ -816,133 +816,133 @@
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1069"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_MOTOR_REGENERATIVE",       "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque, requested"},
-    {"id": "SIENNA_MOTOR_REGENERATIVE_BREAK", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque"}
+    {"id": "SIENNA_HYBRID_MOTOR_REGENERATIVE",       "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque, requested"},
+    {"id": "SIENNA_HYBRID_MOTOR_REGENERATIVE_BREAK", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "106A"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_REAR_MOTOR",              "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Rear motor regenerative brake torque, requested"},
-    {"id": "SIENNA_REAR_MOTOR_REGENERATIVE", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Rear motor regenerative brake torque"}
+    {"id": "SIENNA_HYBRID_REAR_MOTOR",              "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Rear motor regenerative brake torque, requested"},
+    {"id": "SIENNA_HYBRID_REAR_MOTOR_REGENERATIVE", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Rear motor regenerative brake torque"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "106C"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, maximum"},
-    {"id": "SIENNA_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, minimum"}
+    {"id": "SIENNA_HYBRID_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, maximum"},
+    {"id": "SIENNA_HYBRID_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, minimum"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "106E"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_AC_POWER_CONS", "path": "Engine", "fmt": { "len": 8, "max": 12.75, "div": 20, "unit": "kilowatts" }, "name": "Air conditioning power consumption"}
+    {"id": "SIENNA_HYBRID_AC_POWER_CONS", "path": "Engine", "fmt": { "len": 8, "max": 12.75, "div": 20, "unit": "kilowatts" }, "name": "Air conditioning power consumption"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1075"}, "freq": 0.1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_FR_WHEEL_VSS", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "SIENNA_FL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "SIENNA_RR_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
-    {"id": "SIENNA_RL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+    {"id": "SIENNA_HYBRID_FR_WHEEL_VSS", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "SIENNA_HYBRID_FL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "SIENNA_HYBRID_RR_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
+    {"id": "SIENNA_HYBRID_RL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1076"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_READY", "path": "Drivetrain", "fmt": {"bix": 15, "len": 1, "max": 1, "unit": "noyes" }, "name": "Ready to drive"}
+    {"id": "SIENNA_HYBRID_READY", "path": "Drivetrain", "fmt": {"bix": 15, "len": 1, "max": 1, "unit": "noyes" }, "name": "Ready to drive"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "107E"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_12V_BAT_V_BEFORE_SMR", "path": "Battery", "fmt": { "len": 8, "max": 11.56, "mul": 61, "div": 50000, "add": 11.25, "unit": "volts" }, "name": "12V battery voltage before system main relay"}
+    {"id": "SIENNA_HYBRID_12V_BAT_V_BEFORE_SMR", "path": "Battery", "fmt": { "len": 8, "max": 11.56, "mul": 61, "div": 50000, "add": 11.25, "unit": "volts" }, "name": "12V battery voltage before system main relay"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A1"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_RPM", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "rpm"          }, "name": "Motor RPM"},
-    {"id": "SIENNA_TQ",  "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Motor torque"}
+    {"id": "SIENNA_HYBRID_RPM", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "rpm"          }, "name": "Motor RPM"},
+    {"id": "SIENNA_HYBRID_TQ",  "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Motor torque"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A2"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
-    {"id": "SIENNA_RM_TQ_REQ", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "rpm"          }, "name": "Rear motor speed"},
-    {"id": "SIENNA_RM_TQ",     "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Rear motor torque"}
+    {"id": "SIENNA_HYBRID_RM_TQ_REQ", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "rpm"          }, "name": "Rear motor speed"},
+    {"id": "SIENNA_HYBRID_RM_TQ",     "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Rear motor torque"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A4"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_GEN_INVERTER_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"}
+    {"id": "SIENNA_HYBRID_GEN_INVERTER_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A5"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_MOTOR_INVERTER_T",     "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature"},
-    {"id": "SIENNA_MOTOR_INVERTER_T_ON",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature after ignition on"},
-    {"id": "SIENNA_MAX_MOTOR_INVERTER_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum motor inverter temperature"}
+    {"id": "SIENNA_HYBRID_MOTOR_INVERTER_T",     "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature"},
+    {"id": "SIENNA_HYBRID_MOTOR_INVERTER_T_ON",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature after ignition on"},
+    {"id": "SIENNA_HYBRID_MAX_MOTOR_INVERTER_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum motor inverter temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A6"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
-    {"id": "SIENNA_RM_INVRT_COOL_T", "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear motor inverter, coolant temperature"},
-    {"id": "SIENNA_M_INVRT_MAX_T",   "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter, maximum temperature"}
+    {"id": "SIENNA_HYBRID_RM_INVRT_COOL_T", "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear motor inverter, coolant temperature"},
+    {"id": "SIENNA_HYBRID_M_INVRT_MAX_T",   "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter, maximum temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A7"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_BOOSTING_CONV_T_HI", "path": "Transmission", "fmt": {          "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, upper"},
-    {"id": "SIENNA_BOOSTING_CONV_T_LO", "path": "Transmission", "fmt": {"bix": 8, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, lower"}
+    {"id": "SIENNA_HYBRID_BOOSTING_CONV_T_HI", "path": "Transmission", "fmt": {          "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, upper"},
+    {"id": "SIENNA_HYBRID_BOOSTING_CONV_T_LO", "path": "Transmission", "fmt": {"bix": 8, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, lower"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A8"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_GEN_INVERTER_T_7D2",      "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"},
-    {"id": "SIENNA_GEN_INVERTER_T_AFTER_ON", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature after ignition on"},
-    {"id": "SIENNA_MAX_GEN_INVERTER_T",      "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum generator inverter temperature"}
+    {"id": "SIENNA_HYBRID_GEN_INVERTER_T_7D2",      "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"},
+    {"id": "SIENNA_HYBRID_GEN_INVERTER_T_AFTER_ON", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature after ignition on"},
+    {"id": "SIENNA_HYBRID_MAX_GEN_INVERTER_T",      "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum generator inverter temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10B0"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_VL_V_BEFORE_BOOSTING", "path": "Battery", "fmt": {           "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vl-voltage before boosting"},
-    {"id": "SIENNA_VH_V_AFTER_BOOSTING",  "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vh-voltage after boosting"}
+    {"id": "SIENNA_HYBRID_VL_V_BEFORE_BOOSTING", "path": "Battery", "fmt": {           "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vl-voltage before boosting"},
+    {"id": "SIENNA_HYBRID_VH_V_AFTER_BOOSTING",  "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vh-voltage after boosting"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10B2"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_INVRT_COOLANT_T", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -40, "unit": "celsius" }, "name": "Inverter coolant temperature"}
+    {"id": "SIENNA_HYBRID_INVRT_COOLANT_T", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -40, "unit": "celsius" }, "name": "Inverter coolant temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1112"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_INVERTER_WATER_PMP", "path": "Engine", "fmt": { "len": 16, "max": 199, "mul": 15259, "div": 5000000, "unit": "percent" }, "name": "Inverter water pump duty"}
+    {"id": "SIENNA_HYBRID_INVERTER_WATER_PMP", "path": "Engine", "fmt": { "len": 16, "max": 199, "mul": 15259, "div": 5000000, "unit": "percent" }, "name": "Inverter water pump duty"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "111C"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_DC_DC_CONV_OUTPUT", "path": "Transmission", "fmt": { "len": 8, "max": 199, "mul": 25, "div": 32, "unit": "amps" }, "name": "DC-DC converter output current"}
+    {"id": "SIENNA_HYBRID_DC_DC_CONV_OUTPUT", "path": "Transmission", "fmt": { "len": 8, "max": 199, "mul": 25, "div": 32, "unit": "amps" }, "name": "DC-DC converter output current"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "111D"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_DC_DC_CONV_LOW_SIDE_V", "path": "Battery", "fmt": { "len": 8, "max": 19.92, "mul": 1953, "div": 25000, "unit": "volts" }, "name": "DC-DC converter low side voltage"}
+    {"id": "SIENNA_HYBRID_DC_DC_CONV_LOW_SIDE_V", "path": "Battery", "fmt": { "len": 8, "max": 19.92, "mul": 1953, "div": 25000, "unit": "volts" }, "name": "DC-DC converter low side voltage"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "111E"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_DC_DC_CONV_HIGH_SIDE_V", "path": "Battery", "fmt": { "len": 16, "max": 7999, "mul": 1220703, "div": 10000000, "unit": "volts" }, "name": "DC-DC converter high side voltage"}
+    {"id": "SIENNA_HYBRID_DC_DC_CONV_HIGH_SIDE_V", "path": "Battery", "fmt": { "len": 16, "max": 7999, "mul": 1220703, "div": 10000000, "unit": "volts" }, "name": "DC-DC converter high side voltage"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "111F"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_DC_DC_CONV_TGT_V", "path": "Battery", "fmt": { "len": 16, "max": 7999, "mul": 1220703, "div": 10000000, "unit": "volts" }, "name": "DC-DC converter, target voltage before charging"}
+    {"id": "SIENNA_HYBRID_DC_DC_CONV_TGT_V", "path": "Battery", "fmt": { "len": 16, "max": 7999, "mul": 1220703, "div": 10000000, "unit": "volts" }, "name": "DC-DC converter, target voltage before charging"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "15E5"}, "freq": 60, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_12V_CAP", "path": "Electrical", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "ampereHours" }, "name": "12V battery full charge capacity"}
+    {"id": "SIENNA_HYBRID_12V_CAP", "path": "Electrical", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "ampereHours" }, "name": "12V battery full charge capacity"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "15E8"}, "freq": 60, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_12V_AH_IN",   "path": "Electrical", "fmt": {           "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "12V battery charge, total"},
-    {"id": "SIENNA_12V_AH_OUT",  "path": "Electrical", "fmt": {"bix": 32, "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "12V battery discharge, total"},
-    {"id": "SIENNA_READY_HOURS", "path": "Stats",      "fmt": {"bix": 80, "len": 16, "max": 65535,                  "unit": "hours"       }, "name": "Ready-on time, total"}
+    {"id": "SIENNA_HYBRID_12V_AH_IN",   "path": "Electrical", "fmt": {           "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "12V battery charge, total"},
+    {"id": "SIENNA_HYBRID_12V_AH_OUT",  "path": "Electrical", "fmt": {"bix": 32, "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "12V battery discharge, total"},
+    {"id": "SIENNA_HYBRID_READY_HOURS", "path": "Stats",      "fmt": {"bix": 80, "len": 16, "max": 65535,                  "unit": "hours"       }, "name": "Ready-on time, total"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "15EE"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_12V_V_V2", "path": "Battery", "fmt": { "len": 8, "max": 80.2, "mul": 0.31448, "add": 0.0125, "unit": "volts" }, "name": "12V battery voltage", "suggestedMetric": "starterBatteryVoltage"}
+    {"id": "SIENNA_HYBRID_12V_V_V2", "path": "Battery", "fmt": { "len": 8, "max": 80.2, "mul": 0.31448, "add": 0.0125, "unit": "volts" }, "name": "12V battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "15F7"}, "freq": 0.5, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_12V_C", "path": "Battery", "fmt": { "len": 16, "max": 124, "min": -125, "mul": 38.147, "div": 10000, "add": -125, "unit": "amps" }, "name": "12V battery current"}
+    {"id": "SIENNA_HYBRID_12V_C", "path": "Battery", "fmt": { "len": 16, "max": 124, "min": -125, "mul": 38.147, "div": 10000, "add": -125, "unit": "amps" }, "name": "12V battery current"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "15F8"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_12V_T", "path": "Battery", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "12V battery temperature"}
+    {"id": "SIENNA_HYBRID_12V_T", "path": "Battery", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "12V battery temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1609"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_HVBAT_CHRG_V", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "volts" }, "name": "HV battery charge voltage"}
+    {"id": "SIENNA_HYBRID_HVBAT_CHRG_V", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "volts" }, "name": "HV battery charge voltage"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1802"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_AUXILIARY_BAT",    "path": "Battery", "fmt": {           "len": 8, "max": -12451, "min": -12500, "mul": 2525, "div": 13107, "add": -12500, "unit": "amps"    }, "name": "Auxiliary battery current"},
-    {"id": "SIENNA_HYBRID_BAT_1_FAN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 127,                                "div": 2,                    "unit": "percent" }, "name": "Hybrid battery 1 fan"}
+    {"id": "SIENNA_HYBRID_AUXILIARY_BAT", "path": "Battery", "fmt": {           "len": 8, "max": -12451, "min": -12500, "mul": 2525, "div": 13107, "add": -12500, "unit": "amps"    }, "name": "Auxiliary battery current"},
+    {"id": "SIENNA_HYBRID_BAT_1_FAN",     "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 127,                                "div": 2,                    "unit": "percent" }, "name": "Hybrid battery 1 fan"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1814"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
@@ -952,48 +952,48 @@
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1829"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_HVBAT_MAX_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery maximum temperature"}
+    {"id": "SIENNA_HYBRID_HVBAT_MAX_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery maximum temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "182A"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_HVBAT_MIN_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery minimum temperature"}
+    {"id": "SIENNA_HYBRID_HVBAT_MIN_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery minimum temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F05"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_COOL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Coolant temperature"}
+    {"id": "SIENNA_HYBRID_COOL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F0D"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+    {"id": "SIENNA_HYBRID_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1F42"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
-    {"id": "SIENNA_12V_BAT_V_SMOOTHED", "path": "Battery", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "12V battery voltage smoothed"}
+    {"id": "SIENNA_HYBRID_12V_BAT_V_SMOOTHED", "path": "Battery", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "12V battery voltage smoothed"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F46"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_AAT_7D2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Ambient temperature"}
+    {"id": "SIENNA_HYBRID_AAT_7D2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F49"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_ACC_PEDAL_POS_1", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal, position 1"}
+    {"id": "SIENNA_HYBRID_ACC_PEDAL_POS_1", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal, position 1"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F4A"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_ACC_PEDAL_POS_2", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal, position 2"}
+    {"id": "SIENNA_HYBRID_ACC_PEDAL_POS_2", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal, position 2"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F5B"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "SIENNA_HYBRID_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F9A"}, "freq": 0.5, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
   "signals": [
-    {"id": "SIENNA_HVBAT_V", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 1023,                   "mul": 156.25, "div": 10000,               "unit": "volts" }, "name": "HV battery voltage", "suggestedMetric": "tractionBatteryVoltage"},
-    {"id": "SIENNA_HVBAT_C", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 3276.7, "min": -3276.8,                "div": 10,    "sign": true, "unit": "amps"  }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
+    {"id": "SIENNA_HYBRID_HVBAT_V", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 1023,                   "mul": 156.25, "div": 10000,               "unit": "volts" }, "name": "HV battery voltage", "suggestedMetric": "tractionBatteryVoltage"},
+    {"id": "SIENNA_HYBRID_HVBAT_C", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 3276.7, "min": -3276.8,                "div": 10,    "sign": true, "unit": "amps"  }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1FA6"}, "freq": 10, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "SIENNA_ODO_1FA6", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "SIENNA_HYBRID_ODO_1FA6", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]}
 ]
 }

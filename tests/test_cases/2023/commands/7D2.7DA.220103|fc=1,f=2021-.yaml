@@ -1,19 +1,19 @@
 command_id: 7D2.7DA.220103|fc=1,f=2021-
 test_cases:
 - expected_values:
-    SIENNA_ODO_V2_V2: 20644
+    SIENNA_HYBRID_ODO_V2_V2: 20644
   response: 7DA07620103020050A4
 - expected_values:
-    SIENNA_ODO_V2_V2: 21503
+    SIENNA_HYBRID_ODO_V2_V2: 21503
   response: 7DA07620103020053FF
 - expected_values:
-    SIENNA_ODO_V2_V2: 21504
+    SIENNA_HYBRID_ODO_V2_V2: 21504
   response: 7DA0762010302005400
 - expected_values:
-    SIENNA_ODO_V2_V2: 23211
+    SIENNA_HYBRID_ODO_V2_V2: 23211
   response: 7DA0762010302005AAB
 - expected_values:
-    SIENNA_ODO_V2_V2: 23211
+    SIENNA_HYBRID_ODO_V2_V2: 23211
   response: |-
     7DA0762010302005AAB
     7DF02010C
@@ -22,7 +22,7 @@ test_cases:
     7EA04410C1400
     7EE04410C1400
 - expected_values:
-    SIENNA_ODO_V2_V2: 23213
+    SIENNA_HYBRID_ODO_V2_V2: 23213
   response: |-
     7DA0762010302005AAD
     7DF02010C
@@ -43,7 +43,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 23216
+    SIENNA_HYBRID_ODO_V2_V2: 23216
   response: |-
     7DA0762010302005AB0
     7DF02010C
@@ -64,7 +64,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 23241
+    SIENNA_HYBRID_ODO_V2_V2: 23241
   response: |-
     7DA0762010302005AC9
     7DF02010C
@@ -85,7 +85,7 @@ test_cases:
     7DF020149
     7EA0341492D
 - expected_values:
-    SIENNA_ODO_V2_V2: 23243
+    SIENNA_HYBRID_ODO_V2_V2: 23243
   response: |-
     7DA0762010302005ACB
     7DF02010C
@@ -106,7 +106,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 23246
+    SIENNA_HYBRID_ODO_V2_V2: 23246
   response: |-
     7DA0762010302005ACE
     7DF02010C
@@ -127,13 +127,13 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 23253
+    SIENNA_HYBRID_ODO_V2_V2: 23253
   response: |-
     7DA0762010302005AD5
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 23269
+    SIENNA_HYBRID_ODO_V2_V2: 23269
   response: |-
     7DA0762010302005AE5
     7DF02010D
@@ -149,13 +149,13 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 23271
+    SIENNA_HYBRID_ODO_V2_V2: 23271
   response: |-
     7DA0762010302005AE7
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 23299
+    SIENNA_HYBRID_ODO_V2_V2: 23299
   response: |-
     7DA0762010302005B03
     7DF02010C
@@ -176,7 +176,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 23330
+    SIENNA_HYBRID_ODO_V2_V2: 23330
   response: |-
     7DA0762010302005B22
     7DF02011F
@@ -185,7 +185,7 @@ test_cases:
     7E804411F0020
     7EA04411F0020
 - expected_values:
-    SIENNA_ODO_V2_V2: 23355
+    SIENNA_HYBRID_ODO_V2_V2: 23355
   response: |-
     7DA0762010302005B3B
     7DF02010D
@@ -201,7 +201,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 23362
+    SIENNA_HYBRID_ODO_V2_V2: 23362
   response: |-
     7DA0762010302005B42
     7DF02010C
@@ -210,7 +210,7 @@ test_cases:
     7ED04410C1400
     7EE04410C1400
 - expected_values:
-    SIENNA_ODO_V2_V2: 23396
+    SIENNA_HYBRID_ODO_V2_V2: 23396
   response: |-
     7DA0762010302005B64
     7DF02010C
@@ -231,13 +231,13 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 23408
+    SIENNA_HYBRID_ODO_V2_V2: 23408
   response: |-
     7DA0762010302005B70
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 23496
+    SIENNA_HYBRID_ODO_V2_V2: 23496
   response: |-
     7DA0762010302005BC8
     7DF02010C
@@ -258,5 +258,5 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_ODO_V2_V2: 30488
+    SIENNA_HYBRID_ODO_V2_V2: 30488
   response: 7DA0762010302007718
