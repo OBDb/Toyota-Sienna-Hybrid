@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.221F5B|fc=1,f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_SOC: 33.72549
+    SIENNAH_SOC: 33.72549
   response: 7DA04621F5B56
 - expected_values:
-    SIENNA_HYBRID_SOC: 76.47059
+    SIENNAH_SOC: 76.47059
   response: 7DA04621F5BC3

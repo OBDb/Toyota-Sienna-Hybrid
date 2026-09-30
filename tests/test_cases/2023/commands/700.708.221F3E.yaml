@@ -1,14 +1,14 @@
 command_id: 700.708.221F3E
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_CAT_T_12: 5.1
+    SIENNAH_CAT_T_12: 5.1
   response: 70805621F3E01C3
 - expected_values:
-    SIENNA_HYBRID_CAT_T_12: 62.3
+    SIENNAH_CAT_T_12: 62.3
   response: 70805621F3E03FF
 - expected_values:
-    SIENNA_HYBRID_CAT_T_12: 216
+    SIENNAH_CAT_T_12: 216
   response: 70805621F3E0A00
 - expected_values:
-    SIENNA_HYBRID_CAT_T_12: 789.5
+    SIENNAH_CAT_T_12: 789.5
   response: 70805621F3E2067

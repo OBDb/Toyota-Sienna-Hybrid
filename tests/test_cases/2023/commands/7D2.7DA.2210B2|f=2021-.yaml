@@ -1,10 +1,10 @@
 command_id: 7D2.7DA.2210B2|f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 0
+    SIENNAH_INVRT_COOLANT_T: 0
   response: 7DA046210B21F
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 13
+    SIENNAH_INVRT_COOLANT_T: 13
   response: |-
     7DA046210B235
     7DF02010C
@@ -25,7 +25,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 14
+    SIENNAH_INVRT_COOLANT_T: 14
   response: |-
     7DA046210B236
     7DF02010C
@@ -44,7 +44,7 @@ test_cases:
     7ED04411F0027
     7EE04411F0027
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 15
+    SIENNAH_INVRT_COOLANT_T: 15
   response: |-
     7DA046210B237
     7DF02010C
@@ -65,7 +65,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 17
+    SIENNAH_INVRT_COOLANT_T: 17
   response: |-
     7DA046210B239
     7DF02010C
@@ -86,13 +86,13 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 17
+    SIENNAH_INVRT_COOLANT_T: 17
   response: |-
     7DA046210B239
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 18
+    SIENNAH_INVRT_COOLANT_T: 18
   response: |-
     7DA046210B23A
     7DF02010C
@@ -113,7 +113,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 18
+    SIENNAH_INVRT_COOLANT_T: 18
   response: |-
     7DA046210B23A
     7DF02010C
@@ -127,7 +127,7 @@ test_cases:
     7EA03410D00
     7EE03410D00
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 19
+    SIENNAH_INVRT_COOLANT_T: 19
   response: |-
     7DA046210B23B
     7DF02010C
@@ -148,7 +148,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 20
+    SIENNAH_INVRT_COOLANT_T: 20
   response: |-
     7DA046210B23C
     7DF02010C
@@ -169,5 +169,5 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_INVRT_COOLANT_T: 51
+    SIENNAH_INVRT_COOLANT_T: 51
   response: 7DA046210B25B

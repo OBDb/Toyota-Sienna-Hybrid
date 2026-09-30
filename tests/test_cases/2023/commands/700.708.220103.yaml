@@ -1,11 +1,20 @@
 command_id: 700.708.220103
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_ENG_ODO: 30628
+    SIENNAH_ENG_ODO: 30628
   response: 70807620103020077A4
 - expected_values:
-    SIENNA_HYBRID_ENG_ODO: 30629
+    SIENNAH_ENG_ODO: 30629
   response: 70807620103020077A5
 - expected_values:
-    SIENNA_HYBRID_ENG_ODO: 30630
+    SIENNAH_ENG_ODO: 30630
   response: 70807620103020077A6
+- expected_values:
+    SIENNAH_ENG_ODO: 30632
+  response: 70807620103020077A8
+- expected_values:
+    SIENNAH_ENG_ODO: 30633
+  response: 70807620103020077A9
+- expected_values:
+    SIENNAH_ENG_ODO: 30634
+  response: 70807620103020077AA

@@ -1,5 +1,5 @@
 command_id: 7C4.7CC.222801|fc=1
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_BLOWER: 7
+    SIENNAH_BLOWER: 7
   response: 7CC0462280107

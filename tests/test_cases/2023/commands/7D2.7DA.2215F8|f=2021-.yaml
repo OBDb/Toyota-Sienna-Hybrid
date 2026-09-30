@@ -1,16 +1,16 @@
 command_id: 7D2.7DA.2215F8|f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_12V_T: -15.5
+    SIENNAH_12V_T: -15.5
   response: 7DA056215F800F5
 - expected_values:
-    SIENNA_HYBRID_12V_T: -14.5
+    SIENNAH_12V_T: -14.5
   response: 7DA056215F800FF
 - expected_values:
-    SIENNA_HYBRID_12V_T: -14.4
+    SIENNAH_12V_T: -14.4
   response: 7DA056215F80100
 - expected_values:
-    SIENNA_HYBRID_12V_T: 3.1
+    SIENNAH_12V_T: 3.1
   response: |-
     7DA056215F801AF
     7DF02010C
@@ -24,7 +24,7 @@ test_cases:
     7EE03410D00
     7EA03410D00
 - expected_values:
-    SIENNA_HYBRID_12V_T: 4.5
+    SIENNAH_12V_T: 4.5
   response: |-
     7DA056215F801BD
     7DF02010C
@@ -45,7 +45,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_12V_T: 6.7
+    SIENNAH_12V_T: 6.7
   response: |-
     7DA056215F801D3
     7DF02010C
@@ -66,7 +66,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_12V_T: 6.8
+    SIENNAH_12V_T: 6.8
   response: |-
     7DA056215F801D4
     7DF02010C
@@ -85,7 +85,7 @@ test_cases:
     7EA04411F0028
     7EE04411F0028
 - expected_values:
-    SIENNA_HYBRID_12V_T: 9.3
+    SIENNAH_12V_T: 9.3
   response: |-
     7DA056215F801ED
     7DF02010C
@@ -94,7 +94,7 @@ test_cases:
     7EE04410C1400
     7E804410C141E
 - expected_values:
-    SIENNA_HYBRID_12V_T: 10.6
+    SIENNAH_12V_T: 10.6
   response: |-
     7DA056215F801FA
     7DF02010C
@@ -115,7 +115,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_12V_T: 11.4
+    SIENNAH_12V_T: 11.4
   response: |-
     7DA056215F80202
     7DF02010D
@@ -131,7 +131,7 @@ test_cases:
     7DF020149
     7EA0341493D
 - expected_values:
-    SIENNA_HYBRID_12V_T: 13.6
+    SIENNAH_12V_T: 13.6
   response: |-
     7DA056215F80218
     7DF02010C
@@ -152,7 +152,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_12V_T: 13.8
+    SIENNAH_12V_T: 13.8
   response: |-
     7DA056215F8021A
     7DF02010C
@@ -173,7 +173,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_12V_T: 14
+    SIENNAH_12V_T: 14
   response: |-
     7DA056215F8021C
     7DF02010C
@@ -194,7 +194,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_12V_T: 16.5
+    SIENNAH_12V_T: 16.5
   response: |-
     7DA056215F80235
     7DF02010C
@@ -215,7 +215,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_12V_T: 16.9
+    SIENNAH_12V_T: 16.9
   response: |-
     7DA056215F80239
     7DF02010C
@@ -236,10 +236,10 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_12V_T: 36.8
+    SIENNAH_12V_T: 36.8
   response: 7DA056215F80300
 - expected_values:
-    SIENNA_HYBRID_12V_T: 5.4
+    SIENNAH_12V_T: 5.4
   response: |-
     7DF02010C
     7DA056215F801C6
@@ -260,7 +260,7 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNA_HYBRID_12V_T: 2.7
+    SIENNAH_12V_T: 2.7
   response: |-
     7ED04411F0023
     7EE04411F0022

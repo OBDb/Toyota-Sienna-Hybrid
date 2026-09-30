@@ -1,5 +1,8 @@
 command_id: 7D2.7DA.221076|fc=1,f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_READY: 1
+    SIENNAH_READY: 1
   response: 7DA056210760F03
+- expected_values:
+    SIENNAH_READY: 1
+  response: 7DA056210760F0B

@@ -1,11 +1,11 @@
 command_id: 7C4.7CC.221002|fc=1
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_AAT_7C4_V2: 20.56
+    SIENNAH_AAT_7C4_V2: 20.56
   response: 7CC056210020808
 - expected_values:
-    SIENNA_HYBRID_AAT_7C4_V2: 20.8
-  response: 7CC056210020820
+    SIENNAH_AAT_7C4_V2: 22.98
+  response: 7CC0562100208FA
 - expected_values:
-    SIENNA_HYBRID_AAT_7C4_V2: 21.09
-  response: 7CC05621002083D
+    SIENNAH_AAT_7C4_V2: 25.92
+  response: 7CC056210020A20

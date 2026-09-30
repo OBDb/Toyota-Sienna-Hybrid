@@ -1,8 +1,8 @@
 command_id: 700.708.22105E
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_ECU_INTERNAL_T: 19
+    SIENNAH_ECU_INTERNAL_T: 19
   response: 7080462105E3B
 - expected_values:
-    SIENNA_HYBRID_ECU_INTERNAL_T: 54
+    SIENNAH_ECU_INTERNAL_T: 54
   response: 7080462105E5E

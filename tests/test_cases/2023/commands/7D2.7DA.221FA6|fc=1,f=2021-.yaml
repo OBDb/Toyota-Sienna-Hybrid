@@ -1,11 +1,8 @@
 command_id: 7D2.7DA.221FA6|fc=1,f=2021-
 test_cases:
 - expected_values:
-    SIENNA_HYBRID_ODO_1FA6: 49292.9
+    SIENNAH_ODO_1FA6: 49292.9
   response: 7DA07621FA600078581
 - expected_values:
-    SIENNA_HYBRID_ODO_1FA6: 49294.2
-  response: 7DA07621FA60007858E
-- expected_values:
-    SIENNA_HYBRID_ODO_1FA6: 49295.4
-  response: 7DA07621FA60007859A
+    SIENNAH_ODO_1FA6: 49302.3
+  response: 7DA07621FA6000785DF
