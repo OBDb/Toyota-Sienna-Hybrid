@@ -1,11 +1,11 @@
 command_id: 7D0.7D8.2162
 test_cases:
 - expected_values:
-    SIENNAH_PARKING_BRAKE: 'OFF'
-  response: 7D8056162010000
+    SIENNAH_PARKING_BRAKE: 0
+  response: 7D8056162000000
 - expected_values:
-    SIENNAH_PARKING_BRAKE: 'OFF'
+    SIENNAH_PARKING_BRAKE: 0
   response: 7D8056162018082
 - expected_values:
-    SIENNAH_PARKING_BRAKE: 'ON'
-  response: 7D80561621B0000
+    SIENNAH_PARKING_BRAKE: 0
+  response: 7D80561621D0000
