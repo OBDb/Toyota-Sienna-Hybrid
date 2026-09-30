@@ -1,11 +1,11 @@
 command_id: 700.708.220103
 test_cases:
 - expected_values:
-    TOYOTA_ENG_ODO: 33585060
+    SIENNA_HYBRID_ENG_ODO: 30628
   response: 70807620103020077A4
 - expected_values:
-    TOYOTA_ENG_ODO: 33585061
+    SIENNA_HYBRID_ENG_ODO: 30629
   response: 70807620103020077A5
 - expected_values:
-    TOYOTA_ENG_ODO: 33585062
+    SIENNA_HYBRID_ENG_ODO: 30630
   response: 70807620103020077A6

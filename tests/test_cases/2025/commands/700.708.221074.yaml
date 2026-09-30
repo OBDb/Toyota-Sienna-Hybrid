@@ -1,14 +1,11 @@
 command_id: 700.708.221074
 test_cases:
 - expected_values:
-    TOYOTA_ENG_OIL_PRESS: 0
-    TOYOTA_EOP: 0
+    SIENNA_HYBRID_EOP: 0
   response: '708056210740000'
 - expected_values:
-    TOYOTA_ENG_OIL_PRESS: 99.92188
-    TOYOTA_EOP: 1279
+    SIENNA_HYBRID_EOP: 99.92188
   response: 7080562107404FF
 - expected_values:
-    TOYOTA_ENG_OIL_PRESS: 282.65625
-    TOYOTA_EOP: 3618
+    SIENNA_HYBRID_EOP: 282.65625
   response: '708056210740E22'
