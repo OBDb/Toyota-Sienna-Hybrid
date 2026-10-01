@@ -10,5 +10,5 @@ test_cases:
     SIENNAH_FUEL_LEVEL: 17.92
   response: 7C8056210220700
 - expected_values:
-    SIENNAH_FUEL_LEVEL: 66.56
-  response: 7C8056210221A00
+    SIENNAH_FUEL_LEVEL: null
+  response: 7C805621022FFFF

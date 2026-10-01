@@ -747,9 +747,6 @@ test_cases:
     7DF020149
     7EA03414928
 - expected_values:
-    SIENNAH_FUEL_LEVEL: 66.66
-  response: 7C8056210221A0A
-- expected_values:
     SIENNAH_FUEL_LEVEL: 67.2
   response: |-
     7C8056210221A40
@@ -770,6 +767,9 @@ test_cases:
     7EE04411F0024
     7DF020149
     7EA03414928
+- expected_values:
+    SIENNAH_FUEL_LEVEL: null
+  response: 7C805621022FFFF
 - expected_values:
     SIENNAH_FUEL_LEVEL: 52.01
   response: |-
