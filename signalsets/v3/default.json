@@ -764,7 +764,7 @@
   "signals": [
     {"id": "SIENNAH_PARKING_BRAKE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "0102"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "0102"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_KEY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Key cycle"}
   ]},
@@ -772,11 +772,11 @@
   "signals": [
     {"id": "SIENNAH_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1002"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1002"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_AUX_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 79.95, "mul": 61, "div": 50000, "unit": "volts" }, "name": "Aux battery voltage"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1039"}, "freq": 0.25, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1039"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_FRONT_REAR_MOTOR_TQ", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Front/rear motor torque ratio"}
   ]},
@@ -798,7 +798,7 @@
         }}
     }
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1069"}, "freq": 0.25, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1069"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_MOTOR_REGENERATIVE",       "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque, requested"},
     {"id": "SIENNAH_MOTOR_REGENERATIVE_BREAK", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque"}
@@ -828,7 +828,7 @@
   "signals": [
     {"id": "SIENNAH_READY", "path": "Drivetrain", "fmt": {"bix": 15, "len": 1, "max": 1, "unit": "noyes" }, "name": "Ready to drive"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "107E"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "107E"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_12V_BAT_V_BEFORE_SMR", "path": "Battery", "fmt": { "len": 8, "max": 11.56, "mul": 61, "div": 50000, "add": 11.25, "unit": "volts" }, "name": "12V battery voltage before system main relay"}
   ]},
@@ -846,7 +846,7 @@
   "signals": [
     {"id": "SIENNAH_GEN_INVERTER_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A5"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A5"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_MOTOR_INVERTER_T",     "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature"},
     {"id": "SIENNAH_MOTOR_INVERTER_T_ON",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature after ignition on"},
@@ -857,18 +857,18 @@
     {"id": "SIENNAH_RM_INVRT_COOL_T", "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear motor inverter, coolant temperature"},
     {"id": "SIENNAH_M_INVRT_MAX_T",   "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter, maximum temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A7"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A7"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_BOOSTING_CONV_T_HI", "path": "Transmission", "fmt": {          "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, upper"},
     {"id": "SIENNAH_BOOSTING_CONV_T_LO", "path": "Transmission", "fmt": {"bix": 8, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, lower"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A8"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A8"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_GEN_INVERTER_T_7D2",      "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"},
     {"id": "SIENNAH_GEN_INVERTER_T_AFTER_ON", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature after ignition on"},
     {"id": "SIENNAH_MAX_GEN_INVERTER_T",      "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum generator inverter temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10B0"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10B0"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_VL_V_BEFORE_BOOSTING", "path": "Battery", "fmt": {           "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vl-voltage before boosting"},
     {"id": "SIENNAH_VH_V_AFTER_BOOSTING",  "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vh-voltage after boosting"}
@@ -923,12 +923,12 @@
   "signals": [
     {"id": "SIENNAH_HVBAT_CHRG_V", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "volts" }, "name": "HV battery charge voltage"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1802"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1802"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_AUXILIARY_BAT", "path": "Battery", "fmt": {           "len": 8, "max": -12451, "min": -12500, "mul": 2525, "div": 13107, "add": -12500, "unit": "amps"    }, "name": "Auxiliary battery current"},
     {"id": "SIENNAH_BAT_1_FAN",     "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 127,                                "div": 2,                    "unit": "percent" }, "name": "Hybrid battery 1 fan"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1814"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1814"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_BAT_T_1", "path": "Battery", "fmt": {           "len": 16, "max": 400, "min": -58, "mul": 458, "div": 65535, "add": -58, "unit": "fahrenheit" }, "name": "Hybrid battery temperature 1"},
     {"id": "SIENNAH_BAT_T_2", "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 401, "min": -58, "mul": 9,   "div": 5,     "add": -58, "unit": "fahrenheit" }, "name": "Hybrid battery temperature 2"},
@@ -950,7 +950,7 @@
   "signals": [
     {"id": "SIENNAH_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1F42"}, "freq": 5, "filter": { "from": 2021 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F42"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
   "signals": [
     {"id": "SIENNAH_12V_BAT_V_SMOOTHED", "path": "Battery", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "12V battery voltage smoothed"}
   ]},

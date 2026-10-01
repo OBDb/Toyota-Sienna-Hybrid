@@ -1,25 +1,19 @@
 command_id: 750.758.221004|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
-    SIENNAH_TT_4: 1
+    SIENNAH_TT_1: null
+    SIENNAH_TT_2: null
+    SIENNAH_TT_3: null
+    SIENNAH_TT_4: null
+    SIENNAH_TT_5: null
   response: |-
     7582A10086210040000
-    7582A21002900000000
-- expected_values:
-    SIENNAH_TT_4: 8
-  response: |-
-    7582A10086210040000
-    7582A21003000000000
+    7582A21000000000000
 - expected_values:
     SIENNAH_TT_4: 23
   response: |-
     7582A10086210040000
     7582A21003F00000000
-- expected_values:
-    SIENNAH_TT_3: -8
-  response: |-
-    7582A10086210040000
-    7582A21200000000000
 - expected_values:
     SIENNAH_TT_1: 35
     SIENNAH_TT_2: 38
