@@ -13,5 +13,8 @@ test_cases:
     SIENNAH_FRONT_REAR_MOTOR_TQ: -28.669
   response: 7DA0762103925C31003
 - expected_values:
+    SIENNAH_FRONT_REAR_MOTOR_TQ: -28.812
+  response: 7DA07621039270A0F74
+- expected_values:
     SIENNAH_FRONT_REAR_MOTOR_TQ: -28.67
   response: 7DA07621039270A1002
