@@ -4,5 +4,5 @@ test_cases:
     SIENNAH_12V_T: 14.4
   response: 7DA056215F80220
 - expected_values:
-    SIENNAH_12V_T: 23
-  response: 7DA056215F80276
+    SIENNAH_12V_T: 23.3
+  response: 7DA056215F80279
