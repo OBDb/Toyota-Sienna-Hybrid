@@ -7,5 +7,5 @@ test_cases:
     SIENNAH_SOC: 38.43137
   response: 7DA04621F5B62
 - expected_values:
-    SIENNAH_SOC: 70.58824
-  response: 7DA04621F5BB4
+    SIENNAH_SOC: 70.98039
+  response: 7DA04621F5BB5
