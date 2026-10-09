@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.221022
 test_cases:
 - expected_values:
-    SIENNAH_FUEL_LEVEL: 12.09
-  response: 7C80562102204B9
+    SIENNAH_FUEL_LEVEL: 11.61
+  response: 7C8056210220489
 - expected_values:
     SIENNAH_FUEL_LEVEL: 28.16
   response: 7C8056210220B00
