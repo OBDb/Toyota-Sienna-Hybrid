@@ -4,5 +4,8 @@ test_cases:
     SIENNAH_AAT_7D2: null
   response: 7DA04621F4600
 - expected_values:
+    SIENNAH_AAT_7D2: 7
+  response: 7DA04621F462F
+- expected_values:
     SIENNAH_AAT_7D2: 42
   response: 7DA04621F4652

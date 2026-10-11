@@ -11,6 +11,12 @@ test_cases:
     7582A21000000000000
     7582A22000000000000
 - expected_values:
+    SIENNAH_TP_4: 36
+  response: |-
+    7582A100D6210050000
+    7582A210000000000AC
+    7582A22000000000000
+- expected_values:
     SIENNAH_TP_4: 40.84848
   response: |-
     7582A100D6210050000
@@ -22,6 +28,12 @@ test_cases:
   response: |-
     7582A100D6210050000
     7582A21000000AF00AC
+    7582A22000000000000
+- expected_values:
+    SIENNAH_TP_3: 37.21212
+  response: |-
+    7582A100D6210050000
+    7582A21000000B10000
     7582A22000000000000
 - expected_values:
     SIENNAH_TP_3: 41.57576
