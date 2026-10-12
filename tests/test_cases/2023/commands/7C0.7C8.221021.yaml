@@ -1,8 +1,11 @@
 command_id: 7C0.7C8.221021
 test_cases:
 - expected_values:
-    SIENNAH_BATTERY_VOLTAGE_7C0: 0
+    SIENNAH_BATTERY_VOLTAGE_7C0: null
   response: 7C80462102100
+- expected_values:
+    SIENNAH_BATTERY_VOLTAGE_7C0: 7.2
+  response: 7C80462102148
 - expected_values:
     SIENNAH_BATTERY_VOLTAGE_7C0: 12.7
   response: |-
