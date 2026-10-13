@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     SIENNAH_ODO_1FA6: 163814.4
   response: 7DA07621FA60018FF00
+- expected_values:
+    SIENNAH_ODO_1FA6: 163841.8
+  response: 7DA07621FA600190012
