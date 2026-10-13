@@ -1,6 +1,12 @@
 command_id: 7D2.7DA.221F9A|f=2021-
 test_cases:
 - expected_values:
+    SIENNAH_HVBAT_C: 49.9
+    SIENNAH_HVBAT_V: 268
+  response: |-
+    7DA1009621F9A0E0043
+    7DA210001F300000000
+- expected_values:
     SIENNAH_HVBAT_C: 66.5
     SIENNAH_HVBAT_V: 271
   response: |-
@@ -12,12 +18,6 @@ test_cases:
   response: |-
     7DA1009621F9A0E0043
     7DA21C0058000000000
-- expected_values:
-    SIENNAH_HVBAT_C: 84.6
-    SIENNAH_HVBAT_V: 272
-  response: |-
-    7DA1009621F9A0E0044
-    7DA2100034E00000000
 - expected_values:
     SIENNAH_HVBAT_C: 52.7
     SIENNAH_HVBAT_V: 280
