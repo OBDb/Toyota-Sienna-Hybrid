@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     SIENNAH_ENG_ODO: 101913
   response: '7080762010302018E19'
+- expected_values:
+    SIENNAH_ENG_ODO: 102508
+  response: 708076201030201906C
