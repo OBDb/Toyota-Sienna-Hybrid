@@ -1,0 +1,26 @@
+command_id: 700.708.22106C
+test_cases:
+- expected_values:
+    SIENNAH_DIST_SINCE_BAT_DISC: 16226
+  response: 7080562106C3F62
+- expected_values:
+    SIENNAH_DIST_SINCE_BAT_DISC: 16228
+  response: 7080562106C3F64
+- expected_values:
+    SIENNAH_DIST_SINCE_BAT_DISC: 16229
+  response: 7080562106C3F65
+- expected_values:
+    SIENNAH_DIST_SINCE_BAT_DISC: 16230
+  response: 7080562106C3F66
+- expected_values:
+    SIENNAH_DIST_SINCE_BAT_DISC: 16232
+  response: 7080562106C3F68
+- expected_values:
+    SIENNAH_DIST_SINCE_BAT_DISC: 16235
+  response: 7080562106C3F6B
+- expected_values:
+    SIENNAH_DIST_SINCE_BAT_DISC: 16236
+  response: 7080562106C3F6C
+- expected_values:
+    SIENNAH_DIST_SINCE_BAT_DISC: 16237
+  response: 7080562106C3F6D

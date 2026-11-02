@@ -1,0 +1,20 @@
+command_id: 700.708.221018
+test_cases:
+- expected_values:
+    SIENNAH_INJECTOR_PORT: 0
+  response: '708056210180000'
+- expected_values:
+    SIENNAH_INJECTOR_PORT: 2.402
+  response: '708056210180962'
+- expected_values:
+    SIENNAH_INJECTOR_PORT: 3.404
+  response: 708056210180D4C
+- expected_values:
+    SIENNAH_INJECTOR_PORT: 3.449
+  response: 708056210180D79
+- expected_values:
+    SIENNAH_INJECTOR_PORT: 5.151
+  response: 70805621018141F
+- expected_values:
+    SIENNAH_INJECTOR_PORT: 6.412
+  response: 70805621018190C
