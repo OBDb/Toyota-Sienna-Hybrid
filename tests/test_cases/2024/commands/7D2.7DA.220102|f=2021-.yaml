@@ -29,9 +29,9 @@ test_cases:
     SIENNAH_KEY_CYCLE: 3518
   response: |-
     7DA100A6201020DBE00
-    7DA2100E61401000000
-- expected_values:
-    SIENNAH_KEY_CYCLE: 3518
-  response: |-
-    7DA100A6201020DBE00
     7DA2101DFEF01000000
+- expected_values:
+    SIENNAH_KEY_CYCLE: 3520
+  response: |-
+    7DA100A6201020DC000
+    7DA2100ECFD01000000

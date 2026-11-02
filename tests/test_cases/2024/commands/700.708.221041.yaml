@@ -1,37 +1,13 @@
 command_id: 700.708.221041
 test_cases:
 - expected_values:
-    SIENNAH_ECT_IGN: 50
-    SIENNAH_ECT_INIT: 80.625
-  response: 7080562104190C1
+    SIENNAH_ECT_IGN: 43.125
+    SIENNAH_ECT_INIT: 43.75
+  response: '708056210418586'
 - expected_values:
-    SIENNAH_ECT_IGN: 50
-    SIENNAH_ECT_INIT: 86.25
-  response: 7080562104190CA
-- expected_values:
-    SIENNAH_ECT_IGN: 75.625
-    SIENNAH_ECT_INIT: 75.625
-  response: 70805621041B9B9
-- expected_values:
-    SIENNAH_ECT_IGN: 75.625
-    SIENNAH_ECT_INIT: 86.875
-  response: 70805621041B9CB
-- expected_values:
-    SIENNAH_ECT_IGN: 75.625
-    SIENNAH_ECT_INIT: 91.25
-  response: 70805621041B9D2
-- expected_values:
-    SIENNAH_ECT_IGN: 75.625
+    SIENNAH_ECT_IGN: 43.125
     SIENNAH_ECT_INIT: 92.5
-  response: 70805621041B9D4
-- expected_values:
-    SIENNAH_ECT_IGN: 82.5
-    SIENNAH_ECT_INIT: 82.5
-  response: 70805621041C4C4
-- expected_values:
-    SIENNAH_ECT_IGN: 82.5
-    SIENNAH_ECT_INIT: 84.375
-  response: 70805621041C4C7
+  response: 7080562104185D4
 - expected_values:
     SIENNAH_ECT_IGN: 83.125
     SIENNAH_ECT_INIT: 85

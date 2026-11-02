@@ -7,14 +7,26 @@ test_cases:
     SIENNAH_INJECTOR_PORT: 2.402
   response: '708056210180962'
 - expected_values:
+    SIENNAH_INJECTOR_PORT: 2.476
+  response: 7080562101809AC
+- expected_values:
     SIENNAH_INJECTOR_PORT: 3.404
   response: 708056210180D4C
 - expected_values:
     SIENNAH_INJECTOR_PORT: 3.449
   response: 708056210180D79
 - expected_values:
+    SIENNAH_INJECTOR_PORT: 3.665
+  response: '708056210180E51'
+- expected_values:
     SIENNAH_INJECTOR_PORT: 5.151
   response: 70805621018141F
+- expected_values:
+    SIENNAH_INJECTOR_PORT: 5.161
+  response: '708056210181429'
+- expected_values:
+    SIENNAH_INJECTOR_PORT: 5.695
+  response: 70805621018163F
 - expected_values:
     SIENNAH_INJECTOR_PORT: 6.412
   response: 70805621018190C

@@ -4,23 +4,11 @@ test_cases:
     SIENNAH_12V_V: 12.34372
   response: '708056210022780'
 - expected_values:
-    SIENNAH_12V_V: 12.8613
-  response: '708056210022928'
+    SIENNAH_12V_V: 12.81735
+  response: '708056210022904'
 - expected_values:
-    SIENNAH_12V_V: 12.87106
-  response: '708056210022930'
-- expected_values:
-    SIENNAH_12V_V: 12.91989
-  response: '708056210022958'
-- expected_values:
-    SIENNAH_12V_V: 12.92477
-  response: 70805621002295C
-- expected_values:
-    SIENNAH_12V_V: 14.27731
-  response: 708056210022DB0
-- expected_values:
-    SIENNAH_12V_V: 14.34567
-  response: 708056210022DE8
+    SIENNAH_12V_V: 14.35543
+  response: 708056210022DF0
 - expected_values:
     SIENNAH_12V_V: 14.42379
   response: '708056210022E28'

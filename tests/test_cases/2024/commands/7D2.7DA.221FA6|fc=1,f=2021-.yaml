@@ -4,23 +4,8 @@ test_cases:
     SIENNAH_ODO_1FA6: 46072.1
   response: 7DA07621FA6000707B1
 - expected_values:
-    SIENNAH_ODO_1FA6: 46074.5
-  response: 7DA07621FA6000707C9
-- expected_values:
-    SIENNAH_ODO_1FA6: 46075.3
-  response: 7DA07621FA6000707D1
-- expected_values:
-    SIENNAH_ODO_1FA6: 46075.8
-  response: 7DA07621FA6000707D6
-- expected_values:
     SIENNAH_ODO_1FA6: 46078.6
   response: 7DA07621FA6000707F2
 - expected_values:
     SIENNAH_ODO_1FA6: 46081.2
   response: 7DA07621FA60007080C
-- expected_values:
-    SIENNAH_ODO_1FA6: 46082.2
-  response: 7DA07621FA600070816
-- expected_values:
-    SIENNAH_ODO_1FA6: 46083.1
-  response: 7DA07621FA60007081F

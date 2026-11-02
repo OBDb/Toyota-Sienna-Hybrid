@@ -4,8 +4,8 @@ test_cases:
     SIENNAH_AUX_BAT_V: 11.956
   response: 7DA056210022648
 - expected_values:
-    SIENNAH_AUX_BAT_V: 12.79536
-  response: 7DA0562100228F8
+    SIENNAH_AUX_BAT_V: 12.80024
+  response: 7DA0562100228FC
 - expected_values:
     SIENNAH_AUX_BAT_V: 12.80512
   response: 7DA056210022900
