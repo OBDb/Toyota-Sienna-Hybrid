@@ -1,0 +1,14 @@
+command_id: 700.708.221089
+test_cases:
+- expected_values:
+    SIENNAH_EXHAUST_VVT_HOLD_LEARN_B1: 46.39414
+  response: 708056210891DB3
+- expected_values:
+    SIENNAH_EXHAUST_VVT_HOLD_LEARN_B1: 46.93722
+  response: 708056210891E0C
+- expected_values:
+    SIENNAH_EXHAUST_VVT_HOLD_LEARN_B1: 47.72439
+  response: 708056210891E8D
+- expected_values:
+    SIENNAH_EXHAUST_VVT_HOLD_LEARN_B1: 47.85253
+  response: 708056210891EA2

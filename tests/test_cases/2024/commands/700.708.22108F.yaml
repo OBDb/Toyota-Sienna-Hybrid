@@ -1,0 +1,14 @@
+command_id: 700.708.22108F
+test_cases:
+- expected_values:
+    SIENNAH_EXHAUST_VVT_OVER_ADV_LEARN_B1: 92.60739
+  response: 7080562108F250B
+- expected_values:
+    SIENNAH_EXHAUST_VVT_OVER_ADV_LEARN_B1: 92.75387
+  response: 7080562108F251A
+- expected_values:
+    SIENNAH_EXHAUST_VVT_OVER_ADV_LEARN_B1: 93.1152
+  response: 7080562108F253F
+- expected_values:
+    SIENNAH_EXHAUST_VVT_OVER_ADV_LEARN_B1: 93.29098
+  response: 7080562108F2551

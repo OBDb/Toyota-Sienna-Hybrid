@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.2215E5|fc=1,f=2021-
+test_cases:
+- expected_values:
+    SIENNAH_12V_CAP: 20.5
+  response: 7DA046215E529
+- expected_values:
+    SIENNAH_12V_CAP: 21
+  response: 7DA046215E52A
+- expected_values:
+    SIENNAH_12V_CAP: 21.5
+  response: 7DA046215E52B
+- expected_values:
+    SIENNAH_12V_CAP: 24.5
+  response: 7DA046215E531

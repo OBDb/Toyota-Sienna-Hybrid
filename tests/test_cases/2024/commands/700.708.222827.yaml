@@ -1,0 +1,23 @@
+command_id: 700.708.222827
+test_cases:
+- expected_values:
+    SIENNAH_ELECTRIC_WATER_PUMP: 160
+  response: '7080462282704'
+- expected_values:
+    SIENNAH_ELECTRIC_WATER_PUMP: 1200
+  response: 708046228271E
+- expected_values:
+    SIENNAH_ELECTRIC_WATER_PUMP: 1440
+  response: '7080462282724'
+- expected_values:
+    SIENNAH_ELECTRIC_WATER_PUMP: 1760
+  response: 708046228272C
+- expected_values:
+    SIENNAH_ELECTRIC_WATER_PUMP: 2320
+  response: 708046228273A
+- expected_values:
+    SIENNAH_ELECTRIC_WATER_PUMP: 4160
+  response: '7080462282768'
+- expected_values:
+    SIENNAH_ELECTRIC_WATER_PUMP: 4200
+  response: '7080462282769'

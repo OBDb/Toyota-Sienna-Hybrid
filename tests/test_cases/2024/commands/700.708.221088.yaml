@@ -1,0 +1,17 @@
+command_id: 700.708.221088
+test_cases:
+- expected_values:
+    SIENNAH_EXHAUST_VVT_ANGLE_B1: 0
+  response: '708056210880000'
+- expected_values:
+    SIENNAH_EXHAUST_VVT_ANGLE_B1: 7.43059
+  response: 7080562108802F9
+- expected_values:
+    SIENNAH_EXHAUST_VVT_ANGLE_B1: 10.60397
+  response: 70805621088043E
+- expected_values:
+    SIENNAH_EXHAUST_VVT_ANGLE_B1: 11.48276
+  response: '708056210880498'
+- expected_values:
+    SIENNAH_EXHAUST_VVT_ANGLE_B1: 32.20249
+  response: 708056210880CE2

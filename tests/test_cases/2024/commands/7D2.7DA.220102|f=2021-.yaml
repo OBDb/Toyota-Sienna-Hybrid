@@ -1,0 +1,37 @@
+command_id: 7D2.7DA.220102|f=2021-
+test_cases:
+- expected_values:
+    SIENNAH_KEY_CYCLE: 3515
+  response: |-
+    7DA100A6201020DBB00
+    7DA210A439501000000
+- expected_values:
+    SIENNAH_KEY_CYCLE: 3515
+  response: |-
+    7DA100A6201020DBB00
+    7DA210DAB1201000000
+- expected_values:
+    SIENNAH_KEY_CYCLE: 3516
+  response: |-
+    7DA100A6201020DBC00
+    7DA21022D7001000000
+- expected_values:
+    SIENNAH_KEY_CYCLE: 3516
+  response: |-
+    7DA100A6201020DBC00
+    7DA210417DF01000000
+- expected_values:
+    SIENNAH_KEY_CYCLE: 3517
+  response: |-
+    7DA100A6201020DBD00
+    7DA2100009301000000
+- expected_values:
+    SIENNAH_KEY_CYCLE: 3518
+  response: |-
+    7DA100A6201020DBE00
+    7DA2100E61401000000
+- expected_values:
+    SIENNAH_KEY_CYCLE: 3518
+  response: |-
+    7DA100A6201020DBE00
+    7DA2101DFEF01000000

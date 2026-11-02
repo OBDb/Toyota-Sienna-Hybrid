@@ -1,0 +1,17 @@
+command_id: 7D2.7DA.221060|fc=1,f=2021-
+test_cases:
+- expected_values:
+    SIENNAH_APP_V2: 0
+  response: 7DA0462106000
+- expected_values:
+    SIENNAH_APP_V2: 4.5
+  response: 7DA0462106009
+- expected_values:
+    SIENNAH_APP_V2: 9
+  response: 7DA0462106012
+- expected_values:
+    SIENNAH_APP_V2: 10.5
+  response: 7DA0462106015
+- expected_values:
+    SIENNAH_APP_V2: 17
+  response: 7DA0462106022
