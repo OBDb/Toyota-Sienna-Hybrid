@@ -4,8 +4,11 @@ test_cases:
     SIENNAH_12V_BAT_V_SMOOTHED: 12.333
   response: 7DA05621F42302D
 - expected_values:
-    SIENNAH_12V_BAT_V_SMOOTHED: 12.792
-  response: 7DA05621F4231F8
+    SIENNAH_12V_BAT_V_SMOOTHED: 14.077
+  response: 7DA05621F4236FD
 - expected_values:
     SIENNAH_12V_BAT_V_SMOOTHED: 14.082
   response: 7DA05621F423702
+- expected_values:
+    SIENNAH_12V_BAT_V_SMOOTHED: 14.379
+  response: 7DA05621F42382B

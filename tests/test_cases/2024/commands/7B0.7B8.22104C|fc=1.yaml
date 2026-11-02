@@ -10,5 +10,11 @@ test_cases:
     SIENNAH_BRAKE_STROKE: 15
   response: 7B80462104C0F
 - expected_values:
+    SIENNAH_BRAKE_STROKE: 21
+  response: 7B80462104C15
+- expected_values:
     SIENNAH_BRAKE_STROKE: 25
   response: 7B80462104C19
+- expected_values:
+    SIENNAH_BRAKE_STROKE: 35
+  response: 7B80462104C23

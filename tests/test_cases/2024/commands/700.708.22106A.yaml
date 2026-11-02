@@ -10,6 +10,18 @@ test_cases:
     SIENNAH_FUEL_PUMP_DUTY_RATIO: 225.18293
   response: 7080562106A0E6D
 - expected_values:
+    SIENNAH_FUEL_PUMP_DUTY_RATIO: 228.90244
+  response: 7080562106A0EAA
+- expected_values:
+    SIENNAH_FUEL_PUMP_DUTY_RATIO: 234.14634
+  response: 7080562106A0F00
+- expected_values:
+    SIENNAH_FUEL_PUMP_DUTY_RATIO: 236.34146
+  response: 7080562106A0F24
+- expected_values:
+    SIENNAH_FUEL_PUMP_DUTY_RATIO: 239.26829
+  response: 7080562106A0F54
+- expected_values:
     SIENNAH_FUEL_PUMP_DUTY_RATIO: 239.81707
   response: 7080562106A0F5D
 - expected_values:

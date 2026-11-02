@@ -7,6 +7,9 @@ test_cases:
     SIENNAH_APP_V2: 4.5
   response: 7DA0462106009
 - expected_values:
+    SIENNAH_APP_V2: 8.5
+  response: 7DA0462106011
+- expected_values:
     SIENNAH_APP_V2: 9
   response: 7DA0462106012
 - expected_values:
