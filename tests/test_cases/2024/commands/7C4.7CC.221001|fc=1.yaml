@@ -4,8 +4,8 @@ test_cases:
     SIENNAH_CABIN_T_V2: 26.15
   response: 7CC056210010A37
 - expected_values:
-    SIENNAH_CABIN_T_V2: 28.04
-  response: 7CC056210010AF4
+    SIENNAH_CABIN_T_V2: 28.1
+  response: 7CC056210010AFA
 - expected_values:
     SIENNAH_CABIN_T_V2: 28.21
   response: 7CC056210010B05

@@ -10,6 +10,9 @@ test_cases:
     SIENNAH_EXHAUST_VVT_OVER_ADV_LEARN_B1: 92.75387
   response: 7080562108F251A
 - expected_values:
+    SIENNAH_EXHAUST_VVT_OVER_ADV_LEARN_B1: 92.832
+  response: 7080562108F2522
+- expected_values:
     SIENNAH_EXHAUST_VVT_OVER_ADV_LEARN_B1: 93.1152
   response: 7080562108F253F
 - expected_values:

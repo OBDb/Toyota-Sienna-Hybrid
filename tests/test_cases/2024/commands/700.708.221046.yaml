@@ -4,6 +4,9 @@ test_cases:
     SIENNAH_COOLING_FAN_DUTY_RATIO: 0
   response: '7080462104600'
 - expected_values:
+    SIENNAH_COOLING_FAN_DUTY_RATIO: 30
+  response: 708046210463C
+- expected_values:
     SIENNAH_COOLING_FAN_DUTY_RATIO: 34
   response: '7080462104644'
 - expected_values:

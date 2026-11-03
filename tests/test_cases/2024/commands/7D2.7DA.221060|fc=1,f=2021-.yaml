@@ -18,3 +18,9 @@ test_cases:
 - expected_values:
     SIENNAH_APP_V2: 17
   response: 7DA0462106022
+- expected_values:
+    SIENNAH_APP_V2: 31
+  response: 7DA046210603E
+- expected_values:
+    SIENNAH_APP_V2: 49
+  response: 7DA0462106062
