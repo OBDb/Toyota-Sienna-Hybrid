@@ -4,8 +4,11 @@ test_cases:
     SIENNAH_AAT_7C4_V2: 27.23
   response: 7CC056210020AA3
 - expected_values:
-    SIENNAH_AAT_7C4_V2: 28.39
-  response: 7CC056210020B17
+    SIENNAH_AAT_7C4_V2: 28.26
+  response: 7CC056210020B0A
 - expected_values:
-    SIENNAH_AAT_7C4_V2: 30.46
-  response: 7CC056210020BE6
+    SIENNAH_AAT_7C4_V2: 30.53
+  response: 7CC056210020BED
+- expected_values:
+    SIENNAH_AAT_7C4_V2: 34.13
+  response: 7CC056210020D55

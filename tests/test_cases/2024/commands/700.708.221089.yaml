@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     SIENNAH_EXHAUST_VVT_HOLD_LEARN_B1: 47.85253
   response: 708056210891EA2
+- expected_values:
+    SIENNAH_EXHAUST_VVT_HOLD_LEARN_B1: 48.99973
+  response: 708056210891F5E

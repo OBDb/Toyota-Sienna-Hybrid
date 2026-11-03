@@ -10,6 +10,9 @@ test_cases:
     SIENNAH_EXHAUST_VVT_ANGLE_B1: 8.95382
   response: '708056210880395'
 - expected_values:
+    SIENNAH_EXHAUST_VVT_ANGLE_B1: 9.40297
+  response: 7080562108803C3
+- expected_values:
     SIENNAH_EXHAUST_VVT_ANGLE_B1: 10.60397
   response: 70805621088043E
 - expected_values:

@@ -4,5 +4,5 @@ test_cases:
     SIENNAH_AC_POWER_CONS: 0
   response: 7DA0462106E00
 - expected_values:
-    SIENNAH_AC_POWER_CONS: 1.35
-  response: 7DA0462106E1B
+    SIENNAH_AC_POWER_CONS: 1.6
+  response: 7DA0462106E20
