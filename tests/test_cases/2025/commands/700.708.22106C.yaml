@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     SIENNAH_DIST_SINCE_BAT_DISC: 5052
   response: 7080562106C13BC
+- expected_values:
+    SIENNAH_DIST_SINCE_BAT_DISC: 5053
+  response: 7080562106C13BD
