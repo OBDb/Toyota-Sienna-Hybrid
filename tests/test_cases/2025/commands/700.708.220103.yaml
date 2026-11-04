@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     SIENNAH_ENG_ODO: 8513
   response: '7080762010302002141'
+- expected_values:
+    SIENNAH_ENG_ODO: 8515
+  response: '7080762010302002143'
