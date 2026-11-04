@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221039|f=2021-
+test_cases:
+- expected_values:
+    SIENNAH_FRONT_REAR_MOTOR_TQ: -28.731
+  response: 7DA0762103925C30FC5
+- expected_values:
+    SIENNAH_FRONT_REAR_MOTOR_TQ: -28.693
+  response: 7DA0762103925C30FEB
+- expected_values:
+    SIENNAH_FRONT_REAR_MOTOR_TQ: -28.672
+  response: 7DA0762103925C31000
+- expected_values:
+    SIENNAH_FRONT_REAR_MOTOR_TQ: -28.593
+  response: 7DA07621039270A104F

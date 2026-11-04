@@ -1,0 +1,8 @@
+command_id: 700.708.22106C
+test_cases:
+- expected_values:
+    SIENNAH_DIST_SINCE_BAT_DISC: 5051
+  response: 7080562106C13BB
+- expected_values:
+    SIENNAH_DIST_SINCE_BAT_DISC: 5052
+  response: 7080562106C13BC

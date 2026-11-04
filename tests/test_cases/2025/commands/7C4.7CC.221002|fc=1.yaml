@@ -1,0 +1,14 @@
+command_id: 7C4.7CC.221002|fc=1
+test_cases:
+- expected_values:
+    SIENNAH_AAT_7C4_V2: 21.41
+  response: 7CC05621002085D
+- expected_values:
+    SIENNAH_AAT_7C4_V2: 23.06
+  response: 7CC056210020902
+- expected_values:
+    SIENNAH_AAT_7C4_V2: 25.59
+  response: 7CC0562100209FF
+- expected_values:
+    SIENNAH_AAT_7C4_V2: 25.68
+  response: 7CC056210020A08

@@ -1,0 +1,10 @@
+command_id: 700.708.221041
+test_cases:
+- expected_values:
+    SIENNAH_ECT_IGN: 23.125
+    SIENNAH_ECT_INIT: 23.75
+  response: '708056210416566'
+- expected_values:
+    SIENNAH_ECT_IGN: 23.125
+    SIENNAH_ECT_INIT: 65
+  response: 7080562104165A8

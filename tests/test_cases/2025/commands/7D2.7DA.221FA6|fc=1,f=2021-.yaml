@@ -1,0 +1,26 @@
+command_id: 7D2.7DA.221FA6|fc=1,f=2021-
+test_cases:
+- expected_values:
+    SIENNAH_ODO_1FA6: 13695.1
+  response: 7DA07621FA6000216F7
+- expected_values:
+    SIENNAH_ODO_1FA6: 13695.7
+  response: 7DA07621FA6000216FD
+- expected_values:
+    SIENNAH_ODO_1FA6: 13696.4
+  response: 7DA07621FA600021704
+- expected_values:
+    SIENNAH_ODO_1FA6: 13696.6
+  response: 7DA07621FA600021706
+- expected_values:
+    SIENNAH_ODO_1FA6: 13696.7
+  response: 7DA07621FA600021707
+- expected_values:
+    SIENNAH_ODO_1FA6: 13696.8
+  response: 7DA07621FA600021708
+- expected_values:
+    SIENNAH_ODO_1FA6: 13696.9
+  response: 7DA07621FA600021709
+- expected_values:
+    SIENNAH_ODO_1FA6: 13697
+  response: 7DA07621FA60002170A

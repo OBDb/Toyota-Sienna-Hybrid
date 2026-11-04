@@ -1,0 +1,10 @@
+command_id: 7D2.7DA.22106A|f=2021-
+test_cases:
+- expected_values:
+    SIENNAH_REAR_MOTOR: -2.25
+    SIENNAH_REAR_MOTOR_REGENERATIVE: -2.125
+  response: 7DA0762106A7FEE7FEF
+- expected_values:
+    SIENNAH_REAR_MOTOR: 0
+    SIENNAH_REAR_MOTOR_REGENERATIVE: 0
+  response: 7DA0762106A80008000

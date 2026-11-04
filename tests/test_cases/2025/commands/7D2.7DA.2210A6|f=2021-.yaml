@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.2210A6|f=2021-
+test_cases:
+- expected_values:
+    SIENNAH_M_INVRT_MAX_T: 25
+    SIENNAH_RM_INVRT_COOL_T: 21
+  response: 7DA066210A63D3C41
+- expected_values:
+    SIENNAH_M_INVRT_MAX_T: 34
+    SIENNAH_RM_INVRT_COOL_T: 23
+  response: 7DA066210A63F3C4A
+- expected_values:
+    SIENNAH_M_INVRT_MAX_T: 32
+    SIENNAH_RM_INVRT_COOL_T: 27
+  response: 7DA066210A6433C48

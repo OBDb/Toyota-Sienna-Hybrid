@@ -1,0 +1,50 @@
+command_id: 7D2.7DA.2210A2|f=2021-
+test_cases:
+- expected_values:
+    SIENNAH_RM_TQ: 0
+    SIENNAH_RM_TQ_REQ: -3
+  response: |-
+    7DA100C6210A27FFD80
+    7DA2100040080000000
+- expected_values:
+    SIENNAH_RM_TQ: -0.125
+    SIENNAH_RM_TQ_REQ: -2
+  response: |-
+    7DA100C6210A27FFE80
+    7DA210004007FFF0000
+- expected_values:
+    SIENNAH_RM_TQ: -0.125
+    SIENNAH_RM_TQ_REQ: -1
+  response: |-
+    7DA100C6210A27FFF80
+    7DA210004007FFF0000
+- expected_values:
+    SIENNAH_RM_TQ: 0
+    SIENNAH_RM_TQ_REQ: -1
+  response: |-
+    7DA100C6210A27FFF80
+    7DA2100040080000400
+- expected_values:
+    SIENNAH_RM_TQ: -0.125
+    SIENNAH_RM_TQ_REQ: 0
+  response: |-
+    7DA100C6210A2800080
+    7DA210004007FFF0000
+- expected_values:
+    SIENNAH_RM_TQ: 1.5
+    SIENNAH_RM_TQ_REQ: 278
+  response: |-
+    7DA100C6210A2811680
+    7DA210D0400800C0400
+- expected_values:
+    SIENNAH_RM_TQ: -2.875
+    SIENNAH_RM_TQ_REQ: 1114
+  response: |-
+    7DA100C6210A2845A7F
+    7DA21E904007FE90400
+- expected_values:
+    SIENNAH_RM_TQ: 0.125
+    SIENNAH_RM_TQ_REQ: 4587
+  response: |-
+    7DA100C6210A291EB80
+    7DA2100040080010400
