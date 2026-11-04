@@ -1,0 +1,10 @@
+command_id: 7D2.7DA.2215E8|fc=1,f=2021-
+test_cases:
+- expected_values:
+    SIENNAH_12V_AH_IN: 1798.4
+    SIENNAH_12V_AH_OUT: 78
+    SIENNAH_READY_HOURS: 69
+  response: |-
+    7DA10146215E8000046
+    7DA21400000030C8080
+    7DA22004500000DD090

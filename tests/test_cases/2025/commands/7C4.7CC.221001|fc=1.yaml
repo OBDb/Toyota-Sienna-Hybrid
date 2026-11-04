@@ -1,0 +1,11 @@
+command_id: 7C4.7CC.221001|fc=1
+test_cases:
+- expected_values:
+    SIENNAH_CABIN_T_V2: 21.76
+  response: 7CC056210010880
+- expected_values:
+    SIENNAH_CABIN_T_V2: 23.02
+  response: 7CC0562100108FE
+- expected_values:
+    SIENNAH_CABIN_T_V2: 23.05
+  response: 7CC056210010901

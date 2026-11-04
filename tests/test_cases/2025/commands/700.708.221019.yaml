@@ -1,0 +1,11 @@
+command_id: 700.708.221019
+test_cases:
+- expected_values:
+    SIENNAH_INJECTION: BOTH
+  response: 70807621019027A8A8C
+- expected_values:
+    SIENNAH_INJECTION: BOTH
+  response: 7080762101902A98000
+- expected_values:
+    SIENNAH_INJECTION: BOTH
+  response: 7080762101902AF8000
