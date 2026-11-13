@@ -13,6 +13,12 @@ test_cases:
     7DA1009621F9A0E0043
     7DA2100043D00000000
 - expected_values:
+    SIENNAH_HVBAT_C: 106.2
+    SIENNAH_HVBAT_V: 271
+  response: |-
+    7DA1009621F9A0E0043
+    7DA21C0042600000000
+- expected_values:
     SIENNAH_HVBAT_C: 51.2
     SIENNAH_HVBAT_V: 275
   response: |-
