@@ -4,5 +4,5 @@ test_cases:
     SIENNAH_ENG_ODO: 8509
   response: 708076201030200213D
 - expected_values:
-    SIENNAH_ENG_ODO: 8667
-  response: 70807620103020021DB
+    SIENNAH_ENG_ODO: 8674
+  response: '70807620103020021E2'
