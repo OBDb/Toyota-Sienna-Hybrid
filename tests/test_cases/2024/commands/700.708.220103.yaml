@@ -1,8 +1,10 @@
 command_id: 700.708.220103
 test_cases:
 - expected_values:
-    SIENNAH_ENG_ODO: 28627
+    SIENNAH_ENG_ODO_RAW: 28627
+    SIENNAH_ENG_ODO_UNIT: MI
   response: 7080762010302006FD3
 - expected_values:
-    SIENNAH_ENG_ODO: 28649
+    SIENNAH_ENG_ODO_RAW: 28649
+    SIENNAH_ENG_ODO_UNIT: MI
   response: 7080762010302006FE9
