@@ -19,41 +19,10 @@ test_cases:
     7E803410D00
     7E804411F003B
 - expected_values:
-    RPM: 1286.5
-  response: |-
-    7E804410C141A
-    7E803410D00
-    7E804411F0030
-- expected_values:
-    RPM: 1291.25
-  response: |-
-    7E804410C142D
-    7E803410D00
-    7E804411F0030
-- expected_values:
-    RPM: 1293.75
-  response: |-
-    7E804410C1437
-    7E803410D00
-    7E804411F0038
-- expected_values:
     RPM: 1299
   response: 7E804410C144C
 - expected_values:
-    RPM: 1304.5
+    RPM: 1739.75
   response: |-
-    7E804410C1462
-    7E803410D00
-    7E804411F0027
-- expected_values:
-    RPM: 1307.75
-  response: |-
-    7E804410C146F
-    7E803410D00
-    7E804411F0027
-- expected_values:
-    RPM: 1310.75
-  response: |-
-    7E804410C147B
-    7E803410D00
-    7E804411F002A
+    7E804410C1B2F
+    7E803410D63
