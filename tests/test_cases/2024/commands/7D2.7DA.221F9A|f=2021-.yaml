@@ -37,17 +37,17 @@ test_cases:
     7DA1009621F9A0E0049
     7DA21C0FFCF00000000
 - expected_values:
+    SIENNAH_HVBAT_C: -0.8
+    SIENNAH_HVBAT_V: 296
+  response: |-
+    7DA1009621F9A0E004A
+    7DA2100FFF800000000
+- expected_values:
     SIENNAH_HVBAT_C: 0
     SIENNAH_HVBAT_V: 297
   response: |-
     7DA1009621F9A0E004A
     7DA2140000000000000
-- expected_values:
-    SIENNAH_HVBAT_C: -0.3
-    SIENNAH_HVBAT_V: 298
-  response: |-
-    7DA1009621F9A0E004A
-    7DA2180FFFD00000000
 - expected_values:
     SIENNAH_HVBAT_C: -95.2
     SIENNAH_HVBAT_V: 389
